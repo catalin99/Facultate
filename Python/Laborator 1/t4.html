@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<title>Test 4</title>
+</head>
+
+<body>
+	<form>
+		<input type="text" id="txt">
+		<input type="submit" id="btn" value="Adauga la lista">
+	</form>
+	<ul id="list">
+	</ul>
+
+	<input type="submit" onclick="myFunction()" id="edit" value="&#x267B">
+	<input type="submit" id="delete" value="&#x274C">
+	<p id="demo"></p>
+</body>
+
+<script src="test.js"></script>
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+}
+</script>
+
+</html>
