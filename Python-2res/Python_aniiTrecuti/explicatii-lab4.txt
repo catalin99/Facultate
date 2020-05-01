@@ -1,0 +1,72 @@
+import nume_modul as nm -- pentru a putea accesa 
+modulul din interiorul scriptului
+
+nm.nume_functie() -- pentru a apela
+
+\\
+
+from nume_modul import obiect1, functie2 as f2 -- pentru a nu importa 
+tot modulul
+
+obiect1.nume_functie()
+f2.nume_functie()
+
+\\
+
+import os
+print(dir(os)) -- afiseaza tot ce am disponibil in cadrul modulului respectiv
+print(help(os)) -- printeaza tot help-ul pt os
+
+os.path (submodulul path - cel mai des utilizat)
+
+\\
+
+import sys
+print(sys.argv) -- face o lista cu argumentele pe care le primeste pentru a rula scriptul
+
+\\
+
+import os 
+print(os.path.abspath(sys.argv[0])) -- afiseaza tot path-ul
+
+\\
+
+import os 
+import sys
+
+print(os.listdir(sys.argv[1])) -- rulez scriptul cu calea catre un director si imi listeaza continutul directorului
+
+os.path.abpath -- returneaza calea absoluta a unui f/d
+os.path.join -- face join intre un director si un subdirector sau subdirector si file
+os.path.exists -- verifica daca exista 
+os.path.isdir -- verifica daca e director
+os.path.idfile -- verifica daca e fisier
+
+\\
+
+import os
+import sys
+
+print(os.listdir(sys.argv[1]))
+for(root, dirs, files) in os.walk(director_cautat):
+	for file in files:
+		path_complet=os.path.join(root, file)
+
+Obs: pot evita in recursie directoarele care incep cu z de exemplu direct din for
+
+\\
+
+f = open(nume_fisier, 'rb') -- deschidere fisier; open de mai multe ori pentru ce am nevoie
+f.read() - tot contentul fisierului
+f.readline() - linie cu linie
+f.readlines()
+
+with open(r'D:\test.test', 'w') as f:
+	f.write('ceva') ---> afiseaza f.closed (se inchide singur fisierul)
+
+obiectul nu se distruge chiar daca apare ca fiind inchis
+
+os.remove(f.name) -- pentru a-l sterge
+
+f.mode -- modul prin care l-am deschis
+ 

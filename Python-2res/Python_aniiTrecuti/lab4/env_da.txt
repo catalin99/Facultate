@@ -1,0 +1,45 @@
+ALLUSERSPROFILE	C:\ProgramData
+APPDATA	C:\Users\Theodora\AppData\Roaming
+COMMONPROGRAMFILES	C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES(X86)	C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432	C:\Program Files\Common Files
+COMPUTERNAME	DESKTOP-MHRSEBE
+COMSPEC	C:\WINDOWS\system32\cmd.exe
+HOMEDRIVE	C:
+HOMEPATH	\Users\Theodora
+IPYTHONENABLE	True
+LOCALAPPDATA	C:\Users\Theodora\AppData\Local
+LOGONSERVER	\\DESKTOP-MHRSEBE
+NUMBER_OF_PROCESSORS	4
+ONEDRIVE	C:\Users\Theodora\OneDrive
+OS	Windows_NT
+PATH	C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\instantclient_12_2;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\instantclient_12_2;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\Theodora\AppData\Local\Microsoft\WindowsApps;;C:\Users\Theodora\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6\Scripts
+PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE	x86
+PROCESSOR_ARCHITEW6432	AMD64
+PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+PROCESSOR_LEVEL	6
+PROCESSOR_REVISION	3d04
+PROGRAMDATA	C:\ProgramData
+PROGRAMFILES	C:\Program Files (x86)
+PROGRAMFILES(X86)	C:\Program Files (x86)
+PROGRAMW6432	C:\Program Files
+PSMODULEPATH	C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC	C:\Users\Public
+PYCHARM_HOSTED	1
+PYTHONDONTWRITEBYTECODE	1
+PYTHONIOENCODING	UTF-8
+PYTHONPATH	C:\Program Files (x86)\PyCharm Community Edition 2017.2.3\helpers\pydev
+PYTHONUNBUFFERED	1
+SESSIONNAME	Console
+SYSTEMDRIVE	C:
+SYSTEMROOT	C:\WINDOWS
+TEMP	C:\Users\Theodora\AppData\Local\Temp
+TMP	C:\Users\Theodora\AppData\Local\Temp
+USERDOMAIN	DESKTOP-MHRSEBE
+USERDOMAIN_ROAMINGPROFILE	DESKTOP-MHRSEBE
+USERNAME	Theodora
+USERPROFILE	C:\Users\Theodora
+VBOX_MSI_INSTALL_PATH	C:\Program Files\Oracle\VirtualBox\
+VS120COMNTOOLS	C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+WINDIR	C:\WINDOWS
