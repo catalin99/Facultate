@@ -1,0 +1,124 @@
+
+W apartine L((e1|e2|e3|...|en)*)
+        w=u1 u2 u3 u4... um    ui apartine L(e_i)
+
+
+token (nume_unitate,lexem) lexem - un element din nume_unitate
+
+Ex.
+
+ int                 X23Y5           +=                3              X             ;     ++
+ (Tip,int)   (identif,X23Y5)    (operator,+=)    (const.num,3)    (identif,X)  (PV,;)   (INC,++)
+ analizorul lexical incearca sa considere unitate cat mai lunga ca identificator)
+ w in L(G)?
+
+ Lex fis.l->lex=>lex.yy.c=>gcc=>a.out<-(input)FILE* yyin
+                  eelex()
+
+
+
+
+
+Structura unui fisier lex
+
+
+
+
+I sectiune
+
+%{
+cod c
+incluziuni de biblioteci,declaratii de variabile,lalala	
+}%
+
+nume reg_exp
+.
+.
+.
+def stari(conditii) de start
+%%
+
+
+
+
+II sectiune
+
+e1 {cod c}            <----"rule"
+e2 {cod c}
+.
+.
+.
+en {cod c}
+%%
+
+
+
+
+III sectiune
+
+int main(){
+	yylex();
+}
+
+
+
+ECHO cv de genu fprintf pentru yytext in yyout
+
+w=(------)
+u_i apartine L(e_i)
+   char * yytext
+
+   daca exista cuvinte nedefinite de reguli,acestea se plaseaza in FILE *yyout
+
+
+
+
+
+operatori |    ab(concatenarea nu are reprezentare explicita)  *(iteratia si nula) +(iteratia doar nenula)  ab{numar_1,numar_2}(b trebuie sa apara de cel putin numar_1 ori,si de cel mult numar_2 ori.daca numar_2 nu este,inseamna nu are nici o restrictie la maxim,si invers cu numar_1)
+[abc05] a|b|c|0|5 [a-z] sau b sau c sau... sau z [a-z]+ multimea tuturor cuv peste a-z cu lung cel putin 1  [a-dz0-9] a|b|c|d|z|0|1...|9  [^a-z0-9] orice simbol in afara de acelea de dupa caciula [a+b] a|+|b [a b c]+ orice cuvant de lung cel putin 1 format din a,b,c,spatiu
+caciula isi pierde semnificatia daca nu sta la inceput,iar minus daca nu sta intre 2 simboluri
+
+a\+b sau a"+"b daca vrem "+" sa fie luat ca simbol si nu iteratie nenula
+. orice simbol in afara de newline
+? - face ca gruparea simbolurilor din fata lui sa fie optionale(a+b?c+<=>aa*(b|eps)cc*    ? face ca ab sa fie optional)
+e1/e2 e1 conditionat de e2
+aaccaabb se recunosc doar ultimele doua a,ca a urmate de b
+
+
+Ex. de definitii
+litera [a-z]
+cuvant {litera}+
+
+
+Exemplu
+
+int ECHO;
+integer ECHO;
+
+Xintegeryintz
+baga x in yyout,afiseara integer,y in yyout,afiseaza int,baga z
+
+[a-z]+ {printf("cuvant");}
+int {printf("int");}
+
+daca sunt mai multe expresii care descriu un cuvant,se ia prima expresie care defineste cuvantul
+
+pentru codul de mai sus va da eroare,pentru ca nu se va ajunge la regula cu int,inversam ordinea liniilor si tot va fi ok
+
+REJECT - plasarea sirului recunoscute de simboluri inapoi in input
+
+BEGIN nume_stare;
+
+<nume_stare> expr
+
+%%
+
+%s A
+
+%%
+a   {printf("a");BEGIN A;}
+
+<A>b {printf ("b dupa a");BEGIN 0;}
+b    {printf ("b obisnuit");}
+c    {printf ("c");}
+

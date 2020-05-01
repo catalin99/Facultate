@@ -1,0 +1,46 @@
+Subiect 6:
+
+class Video
+{
+    string nume;
+    int lungime;
+public:
+    Video(string, int);
+    friend ostream& operator<<(ostream& out, Video v);
+};
+
+class EditorVideo
+{
+    vector<Video> continut;
+public:
+    EditorVideo();
+    EditorVideo(initializer_list<Video>);
+    void afiseaza_invervale_video();
+};
+
+Completati clasele astfel incat urmatoarea functie main sa compileze:
+int main()
+{
+    Video video1("Skateboarding", 24);
+    Video video2("Driving", 10);
+    Video video3("Biking", 19);
+    EditorVideo editor = {video1, video2};
+    editor += video3;
+    editor.afiseaza_invervale_video();
+    editor = ((video1 | video3) | video2);
+    for (auto vid : editor)
+    {
+        cout << vid << endl; //Output: Film: SkateboardingDrivingBiking (53)
+    }
+    return 0;
+}
+Operatorul | concateneaza 2 video-uri (si numele si lungimea). Functia afiseaza_intervale_video afiseaza toate video-urile din editor, in ordine in care au fost adaugate iar apoi lungimea totala a video-ului. Puteti folosi containere stl pentru a asigura functionalitatea din clasa.
+
+Barem:
+a)[4 pct] Cod organizat (un fisier .h, un fisier .cpp cu implementarea și un fișier main.cpp pentru codul din main)
+b)[6 pct] Constructorii
+c)[4 pct] clasa EditorVideo - Operatorii += si =
+d)[6 pct] clasa EditorVideo - Suport pentru foreach si functia de afisare
+e)[4 pct] clasa Video - operatorul <<
+f)[6 pct] clasa Video - operatorul | de concatenare
+g)[5 pct] Codul compileaza si afiseaza ce trebuie

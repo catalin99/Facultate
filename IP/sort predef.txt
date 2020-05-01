@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+typedef int dim;
+#define MaxElem 100000
+
+bool sortare(int vect[], int nr)
+
+
+int main()
+{
+    int vect[MaxElem];
+    int NrElem;
+    cout<<"Introduceti numarul de elemente: ";
+    cin>>NrElem;
+    unsigned int i;
+    cout<<"Introduceti elementele! \n";
+    for(i=1; i<=NrElem; i++)
+        cin>>vect[i];
+    if(!(sortareperechi(vect, NrElem)))
+        cout<<"Vectorul nu are elemente";
+    else
+    {
+        cout<<"Elementele sortate crescator: ";
+        for(i=1; i<=NrElem; i++)
+            cout<<vect[i]<<" ";
+    }
+    return 0;
+}

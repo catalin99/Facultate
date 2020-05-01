@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1509972792 source:c:\users\matei\desktop\do not enter\ag\tema1\main.cpp
+	<iostream>
+	<cmath>
+	<ctime>
+	<cstdlib>
+

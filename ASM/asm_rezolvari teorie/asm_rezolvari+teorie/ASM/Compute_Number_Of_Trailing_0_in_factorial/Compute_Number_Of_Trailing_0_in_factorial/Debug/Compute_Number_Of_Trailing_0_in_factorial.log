@@ -1,0 +1,16 @@
+﻿Build started 25.11.2014 10:26:32.
+     1>Project "F:\0Arl\Scoala\Visual\ASM\Compute_Number_Of_Trailing_0_in_factorial\Compute_Number_Of_Trailing_0_in_factorial\Compute_Number_Of_Trailing_0_in_factorial.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Compute_Number_Of_Trailing_0_in_factorial.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Compute_Number_Of_Trailing_0_in_factorial.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Compute_Number_Of_Trailing_0_in_factorial.cpp
+         Compute_Number_Of_Trailing_0_in_factorial.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\0Arl\Scoala\Visual\ASM\Compute_Number_Of_Trailing_0_in_factorial\Debug\Compute_Number_Of_Trailing_0_in_factorial.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\0Arl\Scoala\Visual\ASM\Compute_Number_Of_Trailing_0_in_factorial\Debug\Compute_Number_Of_Trailing_0_in_factorial.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\0Arl\Scoala\Visual\ASM\Compute_Number_Of_Trailing_0_in_factorial\Debug\Compute_Number_Of_Trailing_0_in_factorial.lib" /MACHINE:X86 Debug\Compute_Number_Of_Trailing_0_in_factorial.obj
+         Debug\stdafx.obj
+         Compute_Number_Of_Trailing_0_in_factorial.vcxproj -> F:\0Arl\Scoala\Visual\ASM\Compute_Number_Of_Trailing_0_in_factorial\Debug\Compute_Number_Of_Trailing_0_in_factorial.exe
+     1>Done Building Project "F:\0Arl\Scoala\Visual\ASM\Compute_Number_Of_Trailing_0_in_factorial\Compute_Number_Of_Trailing_0_in_factorial\Compute_Number_Of_Trailing_0_in_factorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.76

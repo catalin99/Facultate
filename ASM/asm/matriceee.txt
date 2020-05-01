@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+int M[10][10],s;
+
+int main()
+{
+
+_asm{
+		mov eax, 0
+		mov ebx, 0
+		mov edi, 0
+bucla1:
+		cmp ebx,10
+		jge afara1
+		mov ecx, ebx
+		inc ecx
+
+bucla2:
+		cmp ecx,10
+		jge afara2
+		add eax, M[edi+ecx*4]
+		mov s,eax
+		inc ecx
+		jmp bucla2
+afara2:
+		add edi,40
+		inc ebx
+		jmp bucla1
+afara1:
+	}
+
+	cout<<s;
+}

@@ -1,0 +1,44 @@
+﻿  Main.cpp
+c:\users\gabig\source\repos\project2\project2\main.cpp(15): error C2734: 'x': 'const' object must be initialized if not 'extern'
+  Generating Code...
+  Compiling...
+  Cumparaturi.cpp
+c:\users\gabig\source\repos\project2\project2\cumparaturi.cpp(6): error C2789: 'Cumparaturi::x': an object of const-qualified type must be initialized
+  c:\users\gabig\source\repos\project2\project2\cumparaturi.h(13): note: see declaration of 'Cumparaturi::x'
+c:\users\gabig\source\repos\project2\project2\cumparaturi.cpp(11): error C2789: 'Cumparaturi::x': an object of const-qualified type must be initialized
+  c:\users\gabig\source\repos\project2\project2\cumparaturi.h(13): note: see declaration of 'Cumparaturi::x'
+  Generating Code...
+  Compiling...
+  ListaCumparaturi.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\xutility(2700): error C2280: 'Cumparaturi &Cumparaturi::operator =(const Cumparaturi &)': attempting to reference a deleted function
+  c:\users\gabig\source\repos\project2\project2\cumparaturi.h(19): note: compiler has generated 'Cumparaturi::operator =' here
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\xutility(2719): note: see reference to function template instantiation '_OutIt std::_Move_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=Cumparaturi *,
+              _InIt=Cumparaturi *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\vector(1618): note: see reference to function template instantiation '_OutIt *std::_Move_unchecked<Cumparaturi*,Cumparaturi*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=Cumparaturi *,
+              _InIt=Cumparaturi *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\vector(1606): note: while compiling class template member function 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=Cumparaturi
+          ]
+  c:\users\gabig\source\repos\project2\project2\listacumparaturi.cpp(25): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)' being compiled
+          with
+          [
+              _Ty=Cumparaturi
+          ]
+  c:\users\gabig\source\repos\project2\project2\listacumparaturi.h(7): note: see reference to class template instantiation 'std::vector<Cumparaturi,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Cumparaturi
+          ]
+  c:\users\gabig\source\repos\project2\project2\cumparaturi.h(19): note: 'Cumparaturi &Cumparaturi::operator =(const Cumparaturi &)': function was implicitly deleted because 'Cumparaturi' has a data member 'Cumparaturi::x' of const-qualified non-class type
+  c:\users\gabig\source\repos\project2\project2\cumparaturi.h(13): note: see declaration of 'Cumparaturi::x'
+  Generating Code...

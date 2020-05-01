@@ -1,0 +1,121 @@
+pachet @iostream!
+pachet @stdio25!
+
+clasa @unu
+inceput clasa->
+	privat!
+		intreg @a,@b=76770,@a="efa9u0uc0e,@c=4,983,@rtt='5',@oiijijfe[5]="effewf";
+		rational @popok= nou rational ("33553ewf") ;
+	    constanta sir caractere @jj3ok="iejf8yewf";
+	    intreg @a=445.523;
+	    intreg @iejfe (constanta rational @a,sir caractere @id[4][5],caracter @a="",intreg @a=-767,intreg @functia(sir caractere @id[4][5]))
+	    inceput functie:
+	    	daca(@caa)
+	    	atunci:
+	    		@das=@das+@asda;
+	    		@asd=2+3;
+	    		@sadasd=@adsda*@Dasda/@dasda;
+	    	:icnuta
+	    	altfel
+	    		@asdasd=@dasdas;
+	    	leftla
+	    :sfarsit functie
+	protejat?
+		rational @oije(intreg @a,rational @a=5,sir caractere @a="ffefwe")
+		inceput functie:
+			pentru @i<-1,@n:@i incrementat;
+			inceput:
+				@asdasd=@dasdas;
+			:sfarsit
+			intreg @a=7;
+		:sfarsit functie
+    public:)
+	    caracter @a='a',@ajie=3,@ejfkje[1][3]=32849832, @sfe=nou intreg (123);
+	    rational @skjjv=nou rational (-45.4343),@oidsijv=-324.234;
+	    intreg @iejfe (constanta rational @a,sir caractere @id[4][5],caracter @a="",intreg @a=-767,intreg @functia(sir caractere @id[4][5]))
+		inceput functie:
+			@a=@functia(sir caractere @id[4][5]);
+			@b=@oiosdjoskdnd(intreg @a);
+			pentru @i<-1,@n:@i incrementat;
+			inceput:
+				@asdasd=@dasdas;
+				daca(@caa>=@saAddas)
+	    		atunci:
+		    		@das=@das+@asda;
+		    		@asd=2+3;
+		    		@sadasd=@adsda*@Dasda/@dasda;
+		    	:icnuta
+		    	altfel
+		    		daca(@caa<=@saAddas)
+		    		atunci:
+			    		@das=@das+@asda;
+			    		@asd=2+3;
+			    		@sadasd=@adsda*@Dasda/@dasda;
+			    	:icnuta
+			    	altfel
+			    		daca(@caa>=@saAddas)
+			    		atunci:
+				    		@das=@das+@asda;
+				    		@asd=2+3+@r;
+				    		@sadasd=@adsda*@Dasda/@dasda;
+				    	:icnuta
+				    	altfel
+				    		@dsaasdsad=@sadasd;
+				    	leftla
+			    	leftla
+		    	leftla
+			:sfarsit
+			cat timp(@sdjhv(@a=3,@b=4)sau @b=3+4;)
+			inceput:
+			@sdkvj @spdvj=nou @spdpdj();
+			@a=4+4sau5+@a(@r);
+			:sfarsit
+		:sfarsit functie
+<-sfarsit clasa
+
+com:rsgrgf
+
+com:wfewefewffewfwef
+
+
+clasa @doi
+inceput clasa->
+	privat!
+	public:)
+    intreg @a=@b;
+    rational @oije(intreg @a,rational @a=5,sir caractere @a="ffefwe",@a=4+3;,intreg @f)
+		inceput functie:
+			intreg @a=@sijvh[4],@a=34875,@oi=@skv[3][5];
+			pentru @i<-1,@n:@i incrementat;
+			inceput:
+				@asdasd=@dasdas;
+				daca(@caa>=@saAddas)
+	    		atunci:
+		    		@das=@das+@asda;
+		    		@asd=2+3;
+		    		@sadasd=@adsda*@Dasda/@dasda;
+		    	:icnuta
+		    	altfel
+		    		daca(@caa<=@saAddas)
+		    		atunci:
+			    		@das=@das+@asda;
+			    		@asd=2+3;
+			    		@sadasd=@adsda*@Dasda/@dasda;
+			    	:icnuta
+			    	altfel
+			    		daca(@caa>=@saAddas)
+			    		atunci:
+				    		@das=@das+@asda;
+				    		@asd=2+3;
+				    		@sadasd=@adsda*@Dasda/@dasda;
+				    	:icnuta
+				    	altfel
+				    		@dsaasdsad=@sadasd;
+				    	leftla
+			    	leftla
+		    	leftla
+			:sfarsit
+			intreg @a=7;
+		:sfarsit functie
+
+<-sfarsit clasa

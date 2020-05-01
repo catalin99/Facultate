@@ -1,0 +1,1866 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 4cm
+\headsep 4cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\paragraph_spacing other 4
+
+\family sans
+\series bold
+\size larger
+TEMA 2 ALGORITMICA GRAFURILOR
+\end_layout
+
+\begin_layout Author
+\paragraph_spacing other 3
+
+\size large
+\emph on
+Dorneanu Anca Țuțuianu Corneliu grupa A7 ,an II
+\end_layout
+
+\begin_layout Date
+\paragraph_spacing other 2
+
+\family sans
+\size small
+11/30/2014
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 3
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Problema 1 
+\end_layout
+
+\begin_layout Standard
+Demonstrati ca daca G este un graf bipartit atunci 
+\begin_inset Formula $χ(\overline{G})=ω(\overline{G})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un graf bipartit este un graf 
+\begin_inset Formula $G$
+\end_inset
+
+ cu proprietatea ca 
+\begin_inset Formula $V(G)$
+\end_inset
+
+ se poate partitiona ın doua multimi independente in 
+\begin_inset Formula $G$
+\end_inset
+
+.
+ Daca 
+\begin_inset Formula $S$
+\end_inset
+
+ si 
+\begin_inset Formula $T$
+\end_inset
+
+ satisfac 
+\begin_inset Formula $S∪T=V(G)$
+\end_inset
+
+, 
+\begin_inset Formula $S∩T=\mathbb{∅}$
+\end_inset
+
+ si 
+\begin_inset Formula $S$
+\end_inset
+
+, 
+\begin_inset Formula $T$
+\end_inset
+
+ sunt independente si nevide in 
+\begin_inset Formula $G$
+\end_inset
+
+, atunci graful bipartit 
+\begin_inset Formula $G$
+\end_inset
+
+ se noteaza 
+\begin_inset Formula $G=(S,T;E(G))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Deci, daca 
+\begin_inset Formula $G=(S,T;E(G))$
+\end_inset
+
+ este un graf bipartit, atunci
+\begin_inset Formula $∀e∈E(G)$
+\end_inset
+
+ are o extremitate in 
+\begin_inset Formula $S$
+\end_inset
+
+ si cealalta in 
+\begin_inset Formula $T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Exemplu
+\series default
+: Fie 
+\begin_inset Formula $G$
+\end_inset
+
+ un graf bipartit, 
+\begin_inset Formula $S={\left\{ 1,2,3,4\right\} },T={\left\{ 5,6\right\} },E(G)=\left\{ (1,5),(2,6),(3,6),(4,6)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pasted1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Daca 
+\begin_inset Formula $G=(V(G),E(G))$
+\end_inset
+
+ este un graf, atunci complementarul sau este graful 
+\begin_inset Formula $\overline{G}$
+\end_inset
+
+ cu 
+\begin_inset Formula $V(\overline{G})=V(G)$
+\end_inset
+
+ ¸si 
+\begin_inset Formula $E(\overline{G})=\mathcal{P}_{2}(V(G))\setminus E(G)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In cazul nostru 
+\begin_inset Formula $\overline{G}=(V^{'}(\overline{G}),E^{'}(\overline{G}))$
+\end_inset
+
+, cu 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E^{'}(\overline{G})={\left\{ (1,2),(1,3),(1,4),(1,6),(2,3),(2,4),(2,5),(3,4),(3,5),(4,5)\right\} }$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pasted2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Numarul cromatic al grafului 
+\begin_inset Formula $G$
+\end_inset
+
+, notat 
+\begin_inset Formula $χ(G)$
+\end_inset
+
+, este cea mai mica valoare a lui 
+\begin_inset Formula $p∈\mathscr{\mathfrak{\mathbb{N}}}^{*}$
+\end_inset
+
+ pentru care 
+\begin_inset Formula $G$
+\end_inset
+
+ admite o 
+\begin_inset Formula $p$
+\end_inset
+
+-colorare.
+\end_layout
+
+\begin_layout Standard
+Daca 
+\begin_inset Formula $G=(V(G),E(G))$
+\end_inset
+
+ este un graf si 
+\begin_inset Formula $p∈\text{𝐍}^{∗}$
+\end_inset
+
+, se numeste 
+\begin_inset Formula $p$
+\end_inset
+
+−colorare a (varfurilor) lui 
+\begin_inset Formula $G$
+\end_inset
+
+ o aplicatie 
+\begin_inset Formula $c:V(G)→{1,...,p}$
+\end_inset
+
+ cu proprietatea ca 
+\begin_inset Formula $c^{−1}(i)$
+\end_inset
+
+ este o multime stabila in 
+\begin_inset Formula $G$
+\end_inset
+
+, 
+\begin_inset Formula $∀i∈{1,...,p}$
+\end_inset
+
+ (remarcam ca, din definitia multimilor stabile, 
+\begin_inset Formula $\mathbb{∅}$
+\end_inset
+
+ este o multime stabila ).
+\end_layout
+
+\begin_layout Standard
+O 
+\begin_inset Formula $p$
+\end_inset
+
+−colorare a muchiilor lui 
+\begin_inset Formula $G$
+\end_inset
+
+ este o aplicatie 
+\begin_inset Formula $c:E(G)→{1,...,p}$
+\end_inset
+
+ cu proprietatea ca 
+\begin_inset Formula $c^{−1}(i)$
+\end_inset
+
+ este un cuplaj al lui 
+\begin_inset Formula $G$
+\end_inset
+
+, 
+\begin_inset Formula $∀i∈{1,...,p}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Un cuplaj in
+\begin_inset Formula $G$
+\end_inset
+
+ este o multime de muchii 
+\begin_inset Formula $M$
+\end_inset
+
+ in care nici o pereche de muchii nu are un nod comun.
+ Nodurile adiacente la muchiile din 
+\begin_inset Formula $M$
+\end_inset
+
+ se numesc noduri saturate de 
+\begin_inset Formula $M$
+\end_inset
+
+ (sau 
+\begin_inset Formula $M$
+\end_inset
+
+-saturate).
+ Celelalte noduri se numesc 
+\begin_inset Formula $M$
+\end_inset
+
+-nesaturate.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Pentru problema noastra
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+:
+\begin_inset Formula $χ(\overline{G})$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+este cea mai mica valoare a lui 
+\begin_inset Formula $p\text{∈}\mathscr{\mathfrak{\mathbb{N}}}^{*}$
+\end_inset
+
+ pentru care 
+\begin_inset Formula $\overline{G}$
+\end_inset
+
+ admite o 
+\begin_inset Formula $p$
+\end_inset
+
+-colorare.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pasted3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se poate observa ca din cauza faptului ca multimea
+\begin_inset Formula $S>T$
+\end_inset
+
+ din 
+\begin_inset Formula $G$
+\end_inset
+
+, si din aceasta cauza nodurile din 
+\begin_inset Formula $S$
+\end_inset
+
+ formeaza un subgraf complet in 
+\begin_inset Formula $G$
+\end_inset
+
+(si numarul cromatic pentru un graf complet este 
+\begin_inset Formula $n$
+\end_inset
+
+,
+\begin_inset Formula $n=|V(G)|$
+\end_inset
+
+) ,astfel incat 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $χ(\overline{G})=|S|$
+\end_inset
+
+ in cazul nostru 
+\begin_inset Formula $χ(\overline{G})=4$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+In alta ordine de cuvinte pentru complementul 
+\begin_inset Formula $\overline{G}$
+\end_inset
+
+ al unui graf bipartit 
+\begin_inset Formula $G$
+\end_inset
+
+ cu
+\begin_inset Formula $nr=max(cardinal(S),cardinal(T))$
+\end_inset
+
+, 
+\begin_inset Formula $χ(\overline{G})=nr$
+\end_inset
+
+.
+ Numarul cromatic maximum dintre cardinalele multimilor ce formeaza graful
+ bipartit 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Caz genereal
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pasted4.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Multimile de noduri 
+\begin_inset Formula $S$
+\end_inset
+
+ si 
+\begin_inset Formula $T$
+\end_inset
+
+ in 
+\begin_inset Formula $\overline{G}$
+\end_inset
+
+ vor deveni 2 subgrafuri complete ce vor avea n-colorare si respectiv m-colorare.
+ Evident pentru a putea colora graful 
+\begin_inset Formula $\overline{G}$
+\end_inset
+
+ vom avea nevoie de 
+\begin_inset Formula $max(n,m)$
+\end_inset
+
+ - colorare.
+\end_layout
+
+\begin_layout Standard
+Un subgraf complet (de ordin 
+\begin_inset Formula $q$
+\end_inset
+
+) al unui graf 
+\begin_inset Formula $G$
+\end_inset
+
+ se numeste clica ( 
+\begin_inset Formula $q$
+\end_inset
+
+-clica) a lui 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Cardinalul maxim al unei clici a lui 
+\begin_inset Formula $G$
+\end_inset
+
+ se numeste numarul de clica sau numarul de densitate al lui 
+\begin_inset Formula $G$
+\end_inset
+
+ ¸si se noteaza 
+\begin_inset Formula $ω(G)$
+\end_inset
+
+.
+ Cum, evident 
+\begin_inset Formula $ω(G)=α(\overline{G})$
+\end_inset
+
+, rezulta ca determinarea numarului de clica al unui graf si a unei clici
+ de cardinal maxim este problema P1 cu intrarea 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O multime independenta de varfuri (sau multime stabila) in 
+\begin_inset Formula $G$
+\end_inset
+
+ este o multime 
+\begin_inset Formula $S⊆V(G)$
+\end_inset
+
+ de varfuri cu proprietatea ca 
+\begin_inset Formula $P_{2}(S)∩E(G)=∅$
+\end_inset
+
+ (adica o multime de varfuri neadiacente doua cate doua).
+ Cardinalul maxim al unei multimi stabile se numeste numarul de stabilitate
+ sau numarul de independenta al grafului 
+\begin_inset Formula $G$
+\end_inset
+
+ si se noteaza cu 
+\begin_inset Formula $α(G)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Exemplu: in exemplul nostru pentru a afla numarul de densitate 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $ω$
+\end_inset
+
+ pentru 
+\begin_inset Formula $\overline{G}$
+\end_inset
+
+ trebuie sa aflam numarul de stabilitate pentru 
+\begin_inset Formula $G$
+\end_inset
+
+,deoarece 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $ω(\overline{G})=α(G)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Varfurile neadiacente 2 cate 2 din 
+\begin_inset Formula $G$
+\end_inset
+
+: 
+\begin_inset Formula $(1,2),(1,3),(1,4),(1,6),(2,3)$
+\end_inset
+
+
+\begin_inset Formula $(2,4),(2,5),(3,4),(3,5),(4,5)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S={\left\{ 1,2,3,4\right\} }sau\{\left\{ 2,3,4,5\right\} \}$
+\end_inset
+
+inlocuid varful 1 cu 5 (daca am adauga in plus nodul 6 ,am pierde 2,3,4)
+ deci astea sunt toate combinatiile; 
+\begin_inset Formula $|S|=4$
+\end_inset
+
+=
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $α(G)$
+\end_inset
+
+
+\begin_inset Formula $\Longrightarrowω(\overline{G})=α(G)\Longrightarrowχ(\overline{G})=ω(\overline{G})$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+Cardinalul maxim al unei multimi stabile pentru un graf bipartit 
+\begin_inset Formula $G$
+\end_inset
+
+ este maximum dintre cardinalele multimilor ce formeaza graful bipartit
+ 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Caz general.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pasted4.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se poate observa ca numarul de stabilitate va fi cardinalul cel mai mare
+ dintre cele 2 multimi, deoarece in oricare din cele 2 multimi toate nodurile
+ care formeaza multimea sunt neadiacente doua cate doua si daca vom adauga
+ oricare nod din cealalta multime vom pierde aceasta proprietate.
+\end_layout
+
+\begin_layout Subsection*
+Problema 2
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $n∈\mathcal{\mathtt{\mathbb{N}}},n≥3$
+\end_inset
+
+.
+ Demonstrati ca numarul arborilor partiali ai grafului complet 
+\begin_inset Formula $K_{n}$
+\end_inset
+
+, care nu contin o muchie fixata 
+\begin_inset Formula $e∈E(Kn)$
+\end_inset
+
+, este
+\begin_inset Formula $(n-2)n^{n-3}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Fie graful complet 
+\begin_inset Formula $K_{n}$
+\end_inset
+
+ cu 
+\begin_inset Formula $n\text{∈}\mathcal{\mathtt{\mathbb{N}}},n\text{≥}3$
+\end_inset
+
+
+\begin_inset Formula $|V(K_{n})|=n$
+\end_inset
+
+ si 
+\begin_inset Formula $E(Kn)=P2(V(Kn))$
+\end_inset
+
+ 
+\begin_inset Formula $\Longrightarrow\forall v_{i},v_{j}\in V(K_{n}),\exists m,m\in E(K_{n})m=(v_{i},v_{j})$
+\end_inset
+
+ (muchia 
+\begin_inset Formula $m$
+\end_inset
+
+ uneste virfurile 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+ si 
+\begin_inset Formula $v_{j}$
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Standard
+Un arbore este un graf conex si fara circuite.
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $G=(V,E)$
+\end_inset
+
+ un (multi)graf.
+ Se numeste arbore partial al lui 
+\begin_inset Formula $G$
+\end_inset
+
+, un graf partial 
+\begin_inset Formula $T=(V,E′)(E′⊆E)$
+\end_inset
+
+ care este arbore.
+ Vom nota cu 
+\begin_inset Formula $\mathbb{\mathcal{T}}_{G}$
+\end_inset
+
+ multimea arborilor partiali ai lui 
+\begin_inset Formula $G$
+\end_inset
+
+.
+ Obs.
+ 
+\begin_inset Formula $\mathbb{\mathcal{T}}_{G}\neq\emptyset$
+\end_inset
+
+ daca si numai daca 
+\begin_inset Formula $G$
+\end_inset
+
+ este conex.
+\end_layout
+
+\begin_layout Standard
+Kirchoff-Trent: (Matrix Tree Theorem) Daca 
+\begin_inset Formula $G$
+\end_inset
+
+ este un multigraf cu multimea de virfuri 
+\begin_inset Formula ${\{1,...,n\}}$
+\end_inset
+
+ ¸si 
+\begin_inset Formula $L[G]$
+\end_inset
+
+ matricea 
+\shape italic
+Laplace,
+\shape default
+ atunci 
+\begin_inset Formula $|\mathbb{\mathcal{T}}_{G}|=det(L[G]_{ii})∀i∈{\{1,...,n\}}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $L[G]_{ij}$
+\end_inset
+
+ noteaza minorul lui 
+\begin_inset Formula $L[G]$
+\end_inset
+
+ obtinut prin indepartarea liniei 
+\begin_inset Formula $i$
+\end_inset
+
+ ¸si coloanei 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Teorema lui Cayley: Pentru un graf complet 
+\begin_inset Formula $K_{n}$
+\end_inset
+
+,
+\begin_inset Formula $|\mathcal{T}_{K_{n}}|=n^{n\text{-}2}$
+\end_inset
+
+.
+ In adevar :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L(K_{n})=(\begin{array}{cccc}
+n-1 & -1 & ... & -1\\
+-1 & ... & ... & ...\\
+... & ... & ... & -1\\
+-1 & ... & -1 & n-1
+\end{array})$
+\end_inset
+
+ si dupa un calcul 
+\begin_inset Formula $det(L[K_{n}]_{11})=|\begin{array}{cccc}
+n-1 & -1 & ... & -1\\
+-1 & ... & ... & ...\\
+... & ... & ... & -1\\
+-1 & ... & -1 & n-1
+\end{array}|=n^{n-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In continuare vom afla numarul arborilor partiali ai grafului complet 
+\begin_inset Formula $K_{n}$
+\end_inset
+
+ care contin o muchie fixata 
+\begin_inset Formula $e∈E(Kn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Fiecare muchie din 
+\begin_inset Formula $K_{n}$
+\end_inset
+
+ pe {
+\begin_inset Formula $1,2,...,n$
+\end_inset
+
+} este formata peste acelasi numar de varfuri.
+ Avand in vedere ca un arbore partial contine 
+\begin_inset Formula $n-1$
+\end_inset
+
+ muchii, numarul de perechi 
+\begin_inset Formula $(T,e)$
+\end_inset
+
+ cu 
+\begin_inset Formula $T$
+\end_inset
+
+ un arbore partial si e o muchie din 
+\begin_inset Formula $T$
+\end_inset
+
+ este, dupa formula lui Cayley , 
+\begin_inset Formula $n^{n-2}(n-1)$
+\end_inset
+
+.
+ Si stiind ca sunt 
+\begin_inset Formula $n(n-1)/2$
+\end_inset
+
+ muchii in 
+\begin_inset Formula $K_{n}$
+\end_inset
+
+,numarul de arbori partiali care contine o anumita muchie este 
+\begin_inset Formula $\frac{n^{n-2}(n\text{-}1)}{n(n-1)/2}=2n^{n-3}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Final: din numarul total de arbori partiali scadem numarul de arbori partiali
+ care contine o anumita muchie(au o muchie fixata)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{n\text{-}2}-2n^{n\text{-}3}=nn^{n-2}-2n^{n-3}=n^{n-3}(n-2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Problema 3
+\end_layout
+
+\begin_layout Standard
+Ana si Barbu se joaca pe un graf 
+\begin_inset Formula $G$
+\end_inset
+
+, alegand alternativ varfuri distincte 
+\begin_inset Formula $v_{0},v_{1}$
+\end_inset
+
+, .
+ .
+ .
+ astfel incat, pentru 
+\begin_inset Formula $∀i>0$
+\end_inset
+
+, 
+\begin_inset Formula $v_{i}$
+\end_inset
+
+ este adiacent cu 
+\begin_inset Formula $v_{i−1}$
+\end_inset
+
+.
+ Pierde jucatorul care nu mai poate alege un varf.
+ Demonstrati ca daca Ana incepe jocul, atunci ea are o strategie castigatoare
+ (adica indiferent de cat de bine joaca Barbu, ea ca¸stiga) daca si numai
+ daca graful 
+\begin_inset Formula $G$
+\end_inset
+
+ nu are un cuplaj perfect.
+ Argumentati ca, pentru un graf dat, problema de a decide daca Ana are o
+ strategie castigatoare (atunci cand ea incepe jocul) este din NP.
+\end_layout
+
+\begin_layout Standard
+Fie graful 
+\begin_inset Formula $G$
+\end_inset
+
+.
+ Un cuplaj perfect este un cuplaj care satureaza toate nodurile lui 
+\begin_inset Formula $G$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Daca 
+\begin_inset Formula $G$
+\end_inset
+
+ nu este conex 
+\begin_inset Formula $\Longrightarrow$
+\end_inset
+
+vom lua componenta conexa care are cel mai mare nr de noduri si vom lucra
+ pe ea.
+\end_layout
+
+\begin_layout Standard
+Fie
+\begin_inset Formula $G$
+\end_inset
+
+ este conex(sau componenta sa conexa).
+ Ana are o strategie castigatoare 
+\begin_inset Formula $\Longleftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $G$
+\end_inset
+
+ nu are un cuplaj perfect.
+\end_layout
+
+\begin_layout Standard
+Caz 1 :Presupunem ca 
+\begin_inset Formula $G$
+\end_inset
+
+ are un cuplaj perfect 
+\begin_inset Formula $\Longrightarrow$
+\end_inset
+
+
+\begin_inset Formula $G$
+\end_inset
+
+ are un numar par de varfuri care sunt impartiti de-alungul muchiilor potrivite.
+\end_layout
+
+\begin_layout Standard
+Acum, Ana va alege un varf (care este coincident cu un varf al formei geometrice
+ formate din muchiile potrivite factorizarii-1 a grafului) ;apoi Barbu va
+ alege urmatorul varf.
+ Evident ca in acest caz Ana va pierde ,deoarece in graf sunt un nr par
+ de varfuri si ea fiind jucatorul care incepe va alege doar nodurile care
+ in enumerare sunt cu etichete cu numere impare; si in ultima instanta cand
+ Barbu va alege ultimul nod din graf cu eticheta para n, ea nu va mai avea
+ ce sa aleaga deci va pierde.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pasted5.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+-cuplaj perfect pentru un graf cu 20 noduri-
+\end_layout
+
+\begin_layout Standard
+Si din exemplu se poate observa ca in urma alegerilor, Ana ramane fara optiune
+ in final.
+\end_layout
+
+\begin_layout Standard
+Caz 2:
+\end_layout
+
+\begin_layout Standard
+Presupunem ca 
+\begin_inset Formula $G$
+\end_inset
+
+ nu are cuplaj perfect.
+ Aratam prin contradictie ca Ana are o strategie castigatoare.
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $M$
+\end_inset
+
+ un cuplaj maxim din 
+\begin_inset Formula $G$
+\end_inset
+
+.
+ Fie 
+\begin_inset Formula $v_{0}\notin M$
+\end_inset
+
+ primul varf ales de Ana.
+ Deoarece 
+\begin_inset Formula $M$
+\end_inset
+
+ este un cuplaj maxim, 
+\begin_inset Formula $v_{0}$
+\end_inset
+
+ este adiacent cu un alt varf din 
+\begin_inset Formula $M$
+\end_inset
+
+.
+ Deci Barbu va alege un astfel de varf din 
+\begin_inset Formula $M$
+\end_inset
+
+.
+ Apoi Ana alege varful adiacent din M.
+ Tot procesul continua, dandu-i sansa mereu Anei sa aleaga un varf,sa se
+ miste.
+ Prin presupunere ,Barbu castiga, si astfel alege ultimul varf .
+ Insa, aceasta secventa ar defini un drum augmentar pentru 
+\begin_inset Formula $M$
+\end_inset
+
+ (nr impar de noduri) care este o contradictie pentru M maxim.
+\end_layout
+
+\begin_layout Standard
+Ca sa aratam ca problema este in NP,trebuie sa verificam secventa de varfuri
+ din perechea 
+\begin_inset Formula $(G,S)$
+\end_inset
+
+ unde 
+\begin_inset Formula $G$
+\end_inset
+
+ este graful nostru si 
+\begin_inset Formula $S$
+\end_inset
+
+ este tuplul strategiilor Anei.
+ Asta poate fi facut in timp polinomial fiind o cautare.
+\end_layout
+
+\begin_layout Subsection*
+Problema4
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $H=(V,E)$
+\end_inset
+
+ un graf.
+ Daca 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ si 
+\begin_inset Formula $r\in\mathbb{N}$
+\end_inset
+
+, notam cu 
+\begin_inset Formula $S_{H}(v,r)$
+\end_inset
+
+ sfera de raza 
+\begin_inset Formula $r$
+\end_inset
+
+ cu centrul in 
+\begin_inset Formula $v$
+\end_inset
+
+: 
+\begin_inset Formula $S_{H}(v,r)$
+\end_inset
+
+ 
+\begin_inset Formula $={\{u\in V:dist_{H}(u,v)≤r\}}$
+\end_inset
+
+.
+ Consideram urmatorul algoritm de partitionare a unui graf 
+\begin_inset Formula $G$
+\end_inset
+
+ dat in ”clustere” sferice.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Algorithm 1 
+\end_layout
+
+\begin_layout Standard
+Partitionarea in clustere a unui graf 
+\begin_inset Formula $G$
+\end_inset
+
+ dat.
+\begin_inset Formula $\rho>2$
+\end_inset
+
+ este un parametru real dat.
+ 
+\end_layout
+
+\begin_layout Standard
+1: 
+\series bold
+while
+\series default
+ 
+\begin_inset Formula $V(G)\neq\textrm{Ø}$
+\end_inset
+
+ 
+\series bold
+do
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+2: fie 
+\begin_inset Formula $v∈V(G)$
+\end_inset
+
+; 
+\end_layout
+
+\begin_layout Standard
+3: 
+\begin_inset Formula $r\coloneqq0$
+\end_inset
+
+; 
+\end_layout
+
+\begin_layout Standard
+4: 
+\series bold
+while
+\begin_inset Formula $|S_{G}(v,r+1)|>\rho|S_{G}(v,r)|$
+\end_inset
+
+do
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+5: 
+\begin_inset Formula $r\coloneqq r+1$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+6: 
+\series bold
+end while
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+7: makeCluster
+\begin_inset Formula $(S_{G}(v,r))$
+\end_inset
+
+ // 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $S_{G}(v,r)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+este noul cluster 
+\end_layout
+
+\begin_layout Standard
+8: 
+\begin_inset Formula $G\coloneqq G−S_{G}(v,r)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+9:
+\series bold
+ end while 
+\end_layout
+
+\begin_layout Standard
+a)Aratati ca Algoritmul 1 construieste clustere de raza cel mult 
+\begin_inset Formula $log_{\rho}n$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+b) In procedura makeCluster
+\begin_inset Formula $(S_{G}(v,r))$
+\end_inset
+
+, pentru fiecare varf 
+\begin_inset Formula $u\in V(G)−S_{G}(v,r)$
+\end_inset
+
+ cu proprietatea ca exista 
+\begin_inset Formula $w\in S_{G}(v,r)$
+\end_inset
+
+ astfel incat 
+\begin_inset Formula $wu\in E(G)$
+\end_inset
+
+, se memoreaza exact o astfel de muchie si se numeste ”muchie intercluster”.
+ Demonstrati ca numarul muchiilor intercluster este cel mult 
+\begin_inset Formula $(\rho-1)n$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+c) Pentru 
+\begin_inset Formula $k\in{\{1,...,\left\lceil logn\right\rceil \}}$
+\end_inset
+
+, sa se determine o alegere corespunzatoare a lui 
+\begin_inset Formula $ρ(k)$
+\end_inset
+
+ astfel ca sa avem 
+\begin_inset Formula $O(n^{1+\frac{1}{k}})$
+\end_inset
+
+ muchii intercluster.
+\end_layout
+
+\begin_layout Standard
+a)Explicatie algoritm:
+\end_layout
+
+\begin_layout Standard
+1: 
+\series bold
+while
+\series default
+ 
+\begin_inset Formula $V(G)\neq\textrm{Ø}$
+\end_inset
+
+ 
+\series bold
+do
+\series default
+ //cat timp mai exista un nod in multimea de varfuri din G
+\end_layout
+
+\begin_layout Standard
+2: fie 
+\begin_inset Formula $v∈V(G)$
+\end_inset
+
+; //alege un varf din V(G)
+\end_layout
+
+\begin_layout Standard
+3: 
+\begin_inset Formula $r\coloneqq0$
+\end_inset
+
+; //initializam lungimea razei sferei cu 0
+\end_layout
+
+\begin_layout Standard
+4: 
+\series bold
+while
+\begin_inset Formula $|S_{G}(v,r+1)|>\rho|S_{G}(v,r)|$
+\end_inset
+
+do
+\series default
+ //cat timp cardinalul lui 
+\begin_inset Formula $S_{G}(v,r+1)$
+\end_inset
+
+ este mai mare decat cardinalul lui 
+\begin_inset Formula $S_{G}(v,r)$
+\end_inset
+
+ inmultit cu 
+\begin_inset Formula $\rho$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5: 
+\begin_inset Formula $r\coloneqq r+1$
+\end_inset
+
+ //creste lungimea razei
+\end_layout
+
+\begin_layout Standard
+6: 
+\series bold
+end while
+\series default
+ //avem un 
+\begin_inset Formula $S_{G}(v,r)<\rho|S_{G}(v,r-1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+7: makeCluster
+\begin_inset Formula $(S_{G}(v,r))$
+\end_inset
+
+ // 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $S_{G}(v,r)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+este noul cluster 
+\end_layout
+
+\begin_layout Standard
+8: 
+\begin_inset Formula $G\coloneqq G−S_{G}(v,r)$
+\end_inset
+
+ //eliminam din G toate nodurile pe care le gasim in 
+\begin_inset Formula $S_{G}(v,r)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+9:
+\series bold
+ end while 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{G}(v,r)$
+\end_inset
+
+este multimea formata din toate nodurile 
+\begin_inset Formula $u$
+\end_inset
+
+ din 
+\begin_inset Formula $V(G)$
+\end_inset
+
+ in care lungimea drumului raportat la graful 
+\begin_inset Formula $G$
+\end_inset
+
+ de la 
+\begin_inset Formula $v$
+\end_inset
+
+ la 
+\begin_inset Formula $u$
+\end_inset
+
+ e cel mult 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ 
+\begin_inset Formula $S_{G}$
+\end_inset
+
+poate fi privita ca o sfera care in care nodurile apartin interiorului sau
+ sau pe suprafata sa.
+ 
+\end_layout
+
+\begin_layout Standard
+In urma algoritmului se vor forma clustere care vor avea raza 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Raza maxima pe care o poate avea un cluster este in cazul in care in urma
+ executiei algoritmului se va forma un singur cluster ce va contine toate
+ nodurile, deci lungimea sa va fi 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Insa numarul de noduri intr-un cluster creste exponential in functie de
+ 
+\begin_inset Formula $\rho$
+\end_inset
+
+ care este 
+\begin_inset Formula $>2$
+\end_inset
+
+.
+ Pe linia 4 multimea nodurilor din 
+\begin_inset Formula $S_{G}$
+\end_inset
+
+trebuie sa creasca exponential cu 
+\begin_inset Formula $\rho$
+\end_inset
+
+ altfel va iesi din 
+\series bold
+while
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Din cele enuntate mai sus rezulta faptul raza maxima va fi 
+\begin_inset Formula $=log_{\rho}n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/cornelius/Downloads/leukemia3_vor_pidr.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+exemplu de clusterizare pt un graf
+\end_layout
+
+\begin_layout Standard
+b)muchie intercluster=muchie(care 
+\begin_inset Formula $\in E(G)$
+\end_inset
+
+) ce face legatura dintr un nod din cluster si unul din afara sa.
+\end_layout
+
+\begin_layout Standard
+Fie graful G si nr real 
+\begin_inset Formula $\rho$
+\end_inset
+
+.Se vor afla clusterele pentru G in functie de 
+\begin_inset Formula $\rho$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Initial, raza unui cluster este 
+\begin_inset Formula $0$
+\end_inset
+
+,si va creste doar daca clusterul va creste cu un factor mai mare decat
+ 
+\begin_inset Formula $\rho$
+\end_inset
+
+.
+ Asta se poate intampla doar de maxim
+\begin_inset Formula $log_{\rho}n$
+\end_inset
+
+ ori deoarece sunt doar 
+\begin_inset Formula $n$
+\end_inset
+
+ noduri in graf(demonstrat si la punctul a).
+\end_layout
+
+\begin_layout Standard
+Observam ca pentru a numara muchiile intercluster pentru un cluster dat,vom
+ lua in considerare nodurile care se afla pe marginea clusterului deoarece
+ numai ele pot deveni muchii intercluster (putand conecta noduri care se
+ afla in cluster exteriorul clusterului).
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $C$
+\end_inset
+
+ un cluster de marimea 
+\begin_inset Formula $|C|$
+\end_inset
+
+.
+ Stim ca 
+\begin_inset Formula $C=S_{G}(v,r)$
+\end_inset
+
+ pentru un 
+\begin_inset Formula $v\in V$
+\end_inset
+
+si
+\begin_inset Formula $r\geq0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In continuare stim ca 
+\begin_inset Formula $|S_{G}(v,r+1)|\leq\rho|S_{G}(v,r)|$
+\end_inset
+
+.
+ Deci numarul de noduri adiacente clusterului 
+\begin_inset Formula $C$
+\end_inset
+
+ este cel mult 
+\begin_inset Formula $|\frac{S_{G}(v,r+1)}{S_{G}(v,r)}|\leq\rho\text{·}|C|\text{-}|C|$
+\end_inset
+
+.
+ Astfel, numarul de muchii intercluster adiacente cu 
+\begin_inset Formula $C$
+\end_inset
+
+ este maxim 
+\begin_inset Formula $(\rho-1)|C|$
+\end_inset
+
+.
+ Insumand pentru toate clusterele vom avea ca numarul totat de muchii interclust
+er este maxim 
+\begin_inset Formula $(\rho-1)n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+c)
+\end_layout
+
+\begin_layout Standard
+Daca 
+\begin_inset Formula $\rho=2$
+\end_inset
+
+,Algoritmul1va calcula o clusterizare a grafului cu raza maxim 
+\begin_inset Formula $\log_{2}n$
+\end_inset
+
+ si cu 
+\begin_inset Formula $n$
+\end_inset
+
+ muchii intercluster.
+\end_layout
+
+\begin_layout Standard
+Daca 
+\begin_inset Formula $\rho=n^{\frac{1}{k}}$
+\end_inset
+
+,Algoritmul1 va calcula o clusterizare a grafului cu raza maxim 
+\begin_inset Formula $k$
+\end_inset
+
+ si cu maxim 
+\begin_inset Formula $O(n^{1+\frac{1}{k}})$
+\end_inset
+
+muchii intercluster.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\rho(k)-1)n=n^{1+\frac{1}{k}}\Rightarrow\rho(k)-1=n^{\frac{1}{k}}\Rightarrow\rho(k)=n^{\frac{1}{k}}+1$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

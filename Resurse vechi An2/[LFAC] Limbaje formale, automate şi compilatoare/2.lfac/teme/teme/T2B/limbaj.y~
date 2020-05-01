@@ -1,0 +1,142 @@
+%{
+#include <stdio.h>
+extern FILE* yyin;
+extern char* yytext;
+extern int yylineno;
+%}
+%token ID TYPE INIT END ASSIGN NO FLOAT_NO INT_NO UNSGN_INT_NO VOID_TYPE INIT_FCN END_FCN RET TYPE_CLASS INIT_CLASS END_CLASS OP_COMP OP_INEG VAL_BOOL IF THEN END_THEN ELSE END_ELSE EXEC WHILE END_WHILE FOR END_FOR CHAR STRING_CHAR BOOL
+%start progr
+%%
+progr: inits bloc {printf("PROGRAM CORECT!\n");}
+     ;
+inits : declaratie ';'
+	   | inits declaratie ';'
+	   ;
+declaratie : declarare_variabila
+	   | functie corp_functie
+           | declarare_clasa
+	   ;
+declarare_clasa : TYPE_CLASS ID INIT_CLASS inits END_CLASS
+	        ;
+declarare_variabila : TYPE ID 
+	  	    | TYPE ID ASSIGN asignare_valoare
+		    | TYPE ID declarare_vector
+		    | TYPE_CLASS ID ID
+		    ;
+asignare_valoare: UNSGN_INT_NO 
+		| INT_NO 
+		| FLOAT_NO 
+		| CHAR 
+		| STRING_CHAR
+ 	        | ID '(' lista_apel ')'
+      	 	| ID '.' ID '(' lista_apel ')'
+		;
+functie : TYPE ID '(' lista_param ')' //declar functii
+       | TYPE ID '(' ')'
+       | VOID_TYPE ID '(' lista_param ')'
+       | VOID_TYPE ID '(' ')'
+       ;
+corp_functie: INIT_FCN list_functie END_FCN
+	    ;
+list_functie : RET expresie ';'
+	     | list_functie RET expresie ';'
+	     | statement ';' 
+     	     | list_functie statement ';'
+	     | bloc_logic_functie
+    	     | list bloc_logic_functie
+             ;
+bloc_logic_functie: IF expresie_logica 
+				THEN list_functie END_THEN
+			   	ELSE list_functie END_ELSE
+	  	  | WHILE expresie_logica
+				list_functie 
+	    	    END_WHILE
+          	  | FOR statement WHILE expresie_logica EXEC statement
+				list_functie
+	    	     END_FOR
+	  	  ;
+declarare_vector : '[' UNSGN_INT_NO ']' //declararea tablourilor multidimensionale
+    	         | declarare_vector '[' UNSGN_INT_NO ']'
+       ;
+vector : '[' expresie ']'
+       | vector '[' expresie ']'
+       ;
+lista_param : param
+            | lista_param ','  param 
+            ;
+param : TYPE ID      
+      ; 
+bloc : INIT list END  
+     ;   
+list : bloc_logic /* lista instructiuni */
+     | list bloc_logic
+     | statement ';' 
+     | list statement ';'	
+     ;
+bloc_logic: IF expresie_logica 
+		THEN list END_THEN
+	        ELSE list END_ELSE
+	  | WHILE expresie_logica
+		list 
+	    END_WHILE
+          | FOR statement WHILE expresie_logica EXEC statement
+		list
+	    END_FOR
+	  ;
+statement: declarare_variabila /* instructiune */
+	 | ID ASSIGN ID
+         | ID ASSIGN UNSGN_INT_NO
+         | ID ASSIGN INT_NO
+         | ID ASSIGN FLOAT_NO 
+         | ID ASSIGN expresie 
+	 | ID vector ASSIGN expresie
+         | ID '(' lista_apel ')'
+	 | ID '.' ID '(' lista_apel ')'
+         ;
+expresie: simbol
+	| expresie '+' expresie
+	| '('expresie '+' expresie ')'
+	| expresie '-' expresie
+	| '('expresie '-' expresie ')'
+	| expresie '*' expresie
+	| '('expresie '*' expresie ')'
+	| expresie ':' expresie
+	| '('expresie ':' expresie ')'
+	;
+simbol: ID
+      | '-' ID
+      | '-' ID vector
+      | ID vector
+      | UNSGN_INT_NO
+      | INT_NO
+      | FLOAT_NO
+      | ID '(' lista_apel ')'
+      | ID '.' ID '(' lista_apel ')'
+      ;
+expresie_logica : conditie_logica
+		| '(' conditie_logica ')'
+		| expresie_logica BOOL expresie_logica
+		| '(' expresie_logica BOOL expresie_logica ')'
+		;
+conditie_logica : VAL_BOOL OP_INEG VAL_BOOL
+		| VAL_BOOL OP_INEG expresie
+ 		| expresie OP_COMP expresie  
+		| expresie OP_INEG expresie 
+		| expresie OP_INEG VAL_BOOL
+		;
+lista_apel : expresie
+           | lista_apel ',' expresie
+           | STRING_CHAR
+ 	   | lista_apel ',' STRING_CHAR
+           | CHAR
+ 	   | lista_apel ',' CHAR
+	   |  /*empty*/
+           ;
+%%
+int yyerror(char * s){
+printf("eroare: %s la linia:%d\n",s,yylineno);
+}
+int main(int argc, char** argv){
+yyin=fopen(argv[1],"r");
+yyparse();
+} 

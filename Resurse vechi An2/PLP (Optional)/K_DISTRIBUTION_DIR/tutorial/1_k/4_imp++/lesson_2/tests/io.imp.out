@@ -1,0 +1,1 @@
+<T> <k> print ( "Input two numbers: " , .AExps ) ; ~> int x , ( y , .AExps ) ; ~> ( x = read ( ) ; ) ~> ( y = read ( ) ; ) ~> print ( "Their sum is: " , ( ( x + y ) , ( "\n" , .AExps ) ) ) ; </k> <env> .Map </env> <store> .Map </store> </T>

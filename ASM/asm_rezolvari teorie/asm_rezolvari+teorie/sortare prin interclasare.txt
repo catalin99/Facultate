@@ -1,0 +1,168 @@
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+
+#define MAX_DIM (100)
+
+int ic_C(int *src1, int n1, int *src2, int n2, int *dest)
+{
+	int j, i1 = 0, i2 = 0, k = 0;
+
+	while(i1 < n1 && i2 < n2)
+	{
+		if(src1[i1] <= src2[i2])
+		{
+			dest[k] = src1[i1];
+			++i1;
+			++k;
+		}
+		else
+		{
+			dest[k] = src2[i2];
+			++i2;
+			++k;
+		}
+	}
+
+	if(i1 < n1) // Nu s-a terminat primul vector
+	{
+		for(j = i1; j < n1; ++j)
+		{
+			dest[k] = src1[j];
+			++k;
+		}
+	}
+
+	if(i2 < n2) // Nu s-a terminat al doilea vector
+	{
+		for(j = i2; j < n2; ++j)
+		{
+			dest[k] = src2[j];
+			++k;
+		}
+	}
+
+	return 1;
+}
+
+int ic(int *, int, int *, int, int *)
+{
+	_asm
+	{
+		xor ECX, ECX; // i1 = 0
+		xor EDX, EDX; // i2 = 0
+		xor EDI, EDI; // k = 0;	
+
+_while:
+		cmp ECX, [EBP + 12];
+		jge next;
+		cmp EDX, [EBP + 20]; 
+		jge next;
+
+		mov ESI, [EBP + 8];  // *src1
+		lea EAX, [ESI + ECX * 4]; // &src1 + i1 * 4
+		mov EAX, [EAX]; // src1[i1]
+
+		mov ESI, [EBP + 16]; // *src2
+		lea EBX, [ESI + EDX * 4]; // &src2 + i2 * 4
+		mov EBX, [EBX]; // src2[i2]
+
+		cmp EAX, EBX;
+		mov ESI, [EBP + 24]; // &dest
+		jle first_if; // src[i1] <= src[i2]
+
+		// second_if				
+		//lea EAX, [ESI + EDI * 4]; // &dest + k * 4 (dest[k])
+
+		mov [ESI + EDI * 4], EBX; // dest[k] = src2[i2];
+
+		inc EDX;
+		inc EDI;
+		jmp _while;
+
+first_if: // src[i1] <= src[i2]
+		//lea EBX, [ESI + EDI * 4]; // &dest + k * 4 ( dest[k] )
+
+		mov [ESI + EDI * 4], EAX; // dest[k] = src1[i1]
+
+		inc ECX; // ++i1
+		inc EDI; // ++k
+		jmp _while;
+
+next:
+		cmp ECX, [EBP + 12];
+		mov ESI, [EBP + 24]; // &dest
+
+		jge next2;
+
+		// i1 < n1
+		mov EBX, ECX; // j = i1
+
+for_next:
+		cmp EBX, [EBP + 12];
+		jge next2; // j < n1
+
+		mov ESI, [EBP + 8]; // &src1
+
+		push EDX;
+		lea EDX, [ESI + EBX * 4]; // src1[j]		
+		
+		mov EAX, [EDX];
+		mov ESI, [EBP + 24];
+		mov [ESI + EDI * 4], EAX; // dest[k] = src1[j]
+		pop EDX;
+		
+		inc EBX; // ++j
+		inc EDI; // ++k
+		jmp for_next;
+
+next2:
+		cmp EDX, [EBP + 20];
+		mov ESI, [EBP + 24]; // &dest
+
+		jge finish; // if(i2 >= n2) goto finish;
+
+		mov EBX, EDX; // j = i2
+
+for_next2:
+		cmp EBX, [EBP + 20]; 
+		jge finish;
+
+		mov ESI, [EBP + 16]; // &src2
+
+		push EDX;
+		lea EDX, [ESI + EBX * 4]; // src2[j]		
+		
+		mov EAX, [EDX];
+		mov ESI, [EBP + 24];
+		mov [ESI + EDI * 4], EAX; // dest[k] = src2[j]
+		pop EDX;
+
+		inc EBX; // ++j
+		inc EDI; // ++k
+		jmp for_next2;
+
+finish:
+		mov EAX, [EBP + 12]; // n1
+		add EAX, [EBP + 20]; // EAX = n1 + n2
+	}
+}
+
+int main()
+{
+	int i;
+	int src1[] = {5, 6}, src2[] = {3, 3, 4, 7, 10}, dest[MAX_DIM * 2];
+	int n1 = 2, n2 = 5;
+
+	void *pSrc1 = &src1,
+		 *pSrc2 = &src2,
+		 *pDest = &dest;
+
+	int dim = ic(src1, n1, src2, n2, dest);
+
+	for(i = 0; i < dim; ++i)
+		printf("%d ", dest[i]);
+
+	system("pause>nul");
+	return EXIT_SUCCESS;
+}

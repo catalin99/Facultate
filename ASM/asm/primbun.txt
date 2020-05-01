@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int val;
+
+void prim(int n)
+{
+	_asm
+	{	
+		mov ecx,0
+		mov ebx,1
+bucla:
+		cmp ebx,n 
+		ja EXIT
+		mov edx,0
+		mov eax,n
+		div ebx
+		cmp edx,0
+		jne E1
+		inc ecx
+		mov val,ecx
+		inc ebx
+		jmp bucla
+		
+
+E1:inc ebx
+   jmp bucla
+EXIT:
+  }
+
+	cout<<val;
+}
+
+int main()
+{
+	prim(8);
+}

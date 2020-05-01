@@ -1,0 +1,197 @@
+Algoritmica Grafurilor Tema 1 
+
+Iordache Iustin-Ionut Grupa B2\\Vascan Dumitru Grupa B2 
+
+3 Decembrie 2014
+
+Problema 1
+
+Daca G are varfuri izolate, atunci in $\bar{G}$ acestea maresc numarul de subgrafuri complete, si deci putem sa le coloram in culori adaugatoare.
+
+In continuare, presupunem ca G nu are varfuri izolate.
+
+Stiind ca fiecare multime independenta induce un subgraf complet in complementul sau($\bar{G}$) si vice versa, avem \omega(\ensuremath{\bar{G}})
+ = \alpha(G)
+ .Pentru orice graf dat avem egalitatea \alpha(G)=n-nr_{min}(V(G))
+ (unde nr_{min}(V(G))
+  reprezinta numarul de varfuri din acoperirea minima a grafului G).Deci, \omega(\ensuremath{\bar{G}})=n-nr_{min}(V(G))
+  (1). 
+
+De asemenea stim ca \chi(
+ $\bar{G}$) este numarul de subgrafuri complete in G necesar pentru a acoperi V(G).Daca G este bipartit, atunci aceste subgrafuri complete trebuie sa fie muchii.Putem colora $\bar{G}$ utilizand o culoare de 1 sau 2 ori, odata ce \alpha
+ ($\bar{G}$)=2. Daca k culori sunt folosite de 2 ori, atunci sunt folosite k+(n-2k)=n-k culori.Culorile folosite de doua ori se utilizeaza la colorarea muchiilor a multimii de muchii independente in G, deci \chi(
+ $\bar{G}$)=nr_{max}(E(G))
+ (unde nr_{max}(E(G))
+  este numarul maxim de muchii din acoperirea minima a grafului G ) (2).
+
+Din teorema lui König, avem nr_{min}(V(G))
+ =nr_{max}(E(G))\Rightarrow n-nr_{min}(V(G))=n-nr_{max}(E(G))
+ (3).
+
+Din (1),(2) si (3) \Rightarrow
+ \chi(
+ $\bar{G}$)=\omega(\ensuremath{\bar{G}})
+ \\
+
+Problema 2
+
+Fiecare muchie din graf complet face parte dintr-un numar concret de arbori de acoperire.Folosind principiul simetriei, putem afirma ca pentru fiecare muchie dintr-un graf complet dat, numarul de arbori de acoperire, notat in prealabil cu k, este acelasi, ceea ne ajuta in continuare sa aflam numarul total de muchii din toti arbori de acoperire a grafului complet analizat.
+
+La primul pas al demonstratiei stim ca graful este impartit in n^{n-2}
+  arbori de acoperire, fiecare din acestia, la randul sau, continand n-1 muchii. Din informatia cunoscuta la pasul dat rezulta ca toti arbori contin, in total, (n-1)n^{n-2}
+ (1)
+
+In al doilea pas evidentiem faptul ca in graful complet analizat de noi exista $C_n^2$ = \frac{n(n-1)}{2}
+  muchii, fiecare din acestea, cum am si enuntat initial, fiind continuta in k arbori de acoperire, ceea ce, spre urmare \Rightarrow
+ in total avem \frac{n(n-1)}{2}k
+  muchii.(2)
+
+Din (1) si (2) \Rightarrow
+  (n-1)n^{n-2}=\frac{n(n-1)}{2}k
+ \Rightarrow k=2n^{n-3}
+  .
+
+Daca eliminam un varf, atunci eliminam si multimea tuturor arborilor de acoperire ce contin acel varf.Deoarece am presupus anterior ca acest numar este k \Rightarrow
+ in total vor fi n^{n-2}-k=n^{n-2}-2n^{n-3}=n^{n-3}(n-2)
+  arbori de acoperire.\\
+
+Problema 3
+
+Pentru prima parte, avem de demonstrat ca : 
+
+Ana castiga \Longleftrightarrow
+  G nu are cuplaj perfect.
+
+Fara a restrange generalitatea, putem presupune ca graful G este conex. Pentru cazul in care G nu este conex, jocul va avea loc pe o singura componenta conexa. \\\\
+
+“\Rightarrow
+ ”
+
+Presupunem prin reducere la absurd ca Ana castiga chiar daca G are cuplaj perfect.
+
+Cum G are cuplaj perfect\Rightarrow
+  G formeaza perechi de varfuri de-a lungul muchiilor corespunzatoare. Strategia lui Barbu este de a alege din cuplaj perechea varfului ales de Ana. Astfel, Barbu castiga(absurd).\\Deci, daca Ana castiga, atunci G nu are cuplaj perfect.
+
+“\Leftarrow
+ ”
+
+Presupunem prin reducere la absurd ca Barbu castiga chiar daca G nu are cuplaj perfect.
+
+G nu are cuplaj perfect\Rightarrow
+ G are un lant impar, sau un ciclu care tot ar putea fi parcurs ca un lant impar.Strategie folosita de Barbu, pentru a fi castigator, este de a alege permanent nodul pereche a nodului ales de Ana. Astfel, la intalnirea lantului(sau ciclului) impar, strategia Anei va fi de a parcurge acesta, asa incat ea va alege ultimul nod din lantul parcurs \Rightarrow
+  Ana castiga(absurd).\\
+
+Deci, daca G nu are cuplaj perfect, atunci Ana castiga.\\
+
+Spre urmare, Ana castiga daca si numai daca G nu are cuplaj perfect.\\\\
+
+In cel mai nefavorabil caz, numarul strategiilor posibile este : 
+
+pasul 1: Ana poate alege primul varf in n moduri;
+
+pasul 2: Barbu poate alege al doilea varf in n-1 moduri
+
+.
+
+.
+
+.
+
+pasul n: Ana sau Barbu fac ultima alegere posibila.\\
+
+Numarul total de strategii este n!.Deci, complexitatea unui algoritm determinist care verifica daca Ana are o strategie castigatoare este cel putin O(n!).
+
+Pentru a rezolva aceasta problema in timp polinomial, trebuie folosit un algoritm nedeterminist: \\
+
+function e_cuplaj_perfect(G(E(M),V(M)))
+
+{
+
+$\hspace{5pt}$folosim algoritmul Blossom pentru a afla cuplajul maxim pentru subgraful 
+
+$\hspace{6pt}$indus de M in G;
+
+if (|M|==|cuplaj maxim returnat de Blossom|)
+
+$\hspace{5pt}$return 1;
+
+else 
+
+$\hspace{5pt}$return 0;
+
+}\\
+
+procedure castigator(G(V,E))
+
+{
+
+$\hspace{5pt}$M=$\emptyset$;
+
+$\hspace{5pt}$alegem un v_{0}\in V(G)
+ ;
+
+$\hspace{5pt}$M=M\cup\{v_{0}\}
+ ;
+
+$\hspace{5pt}$while(exista un v_{i}\in V(G)
+  pentru care jocul continua)
+
+$\hspace{5pt}${
+
+$\hspace{10pt}$M=M\cup\{v_{i}\}
+ ;
+
+$\hspace{10pt}$ G=G - ({v_{i-1}
+ }\cup N_{G}(v_{i-1})
+ );
+
+$\hspace{5pt}$}
+
+$\hspace{5pt}$if(e_cuplaj_perfect(G(E(M),V(M)))==1)
+
+$\hspace{10pt}$print ”Ana castiga”;
+
+$\hspace{5pt}$else
+
+$\hspace{10pt}$print ”Barbu castiga”;
+
+}\\
+
+Algoritmul castigator alege in timp liniar o strategie pe baza conditiilor jocului si, folosind algoritmul e_cuplaj_perfect, care foloseste algoritmul Blossom ce se executa in timp polinomial, determina jucatorul pentru care strategia aleasa va fi castigatoare.Timpul total de executie este polinomial, iar algoritmul este nedeterminist \Rightarrow
+  algoritmul care decide daca Ana are o strategie castigatoare este din NP.\\\\
+
+Problema 4
+
+a)
+
+Pasul initial v\in V(G)
+ 
+
+r=0
+
+|S{}_{G}(v,0)|=1
+ 
+
+|S{}_{G}(v,1)|>\rho|S_{G}(v,0)|=\rho
+ 
+
+|S{}_{G}(v,2)|>\rho|S_{G}(v,1)|=\rho*\rho=\rho^{2}
+ 
+
+.
+
+.
+
+.
+
+|S{}_{G}(v,k)|>\rho|S_{G}(v,k-1)|=\rho*\rho^{k-1}=\rho^{k}
+ \\
+
+\begin{cases}
+|S{}_{G}(v,k)|>\rho^{k}\\
+|S{}_{G}(v,k)|\leq n
+\end{cases}
+ \Rightarrow\rho^{k}\leq n\Rightarrow k\leq log_{\rho}n
+ 
+
+b)

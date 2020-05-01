@@ -1,0 +1,13 @@
+﻿Build started 1/16/2014 4:51:23 PM.
+     1>Project "C:\Users\camius\Desktop\cursuri\acso\implementare\16Ian\16Ian\16Ian.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\16Ian.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 16Ian.cpp
+         16Ian.cpp
+     1>c:\users\camius\desktop\cursuri\acso\implementare\16ian\16ian\16ian.cpp(12): error C2244: 'std::begin' : unable to match function definition to an existing declaration
+     1>c:\users\camius\desktop\cursuri\acso\implementare\16ian\16ian\16ian.cpp(12): error C2415: improper operand type
+     1>c:\users\camius\desktop\cursuri\acso\implementare\16ian\16ian\16ian.cpp(14): error C2415: improper operand type
+     1>Done Building Project "C:\Users\camius\Desktop\cursuri\acso\implementare\16Ian\16Ian\16Ian.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.11

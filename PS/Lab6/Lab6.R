@@ -1,0 +1,255 @@
+#I.1
+z_test=function(n,m0,xn,a,disp,tip)
+{
+  z_score=(xn-m0)/(sqrt(disp)/sqrt(n))
+  OK=0
+  if(tip==0)
+  {
+    #ipoteza simetrica
+    z_critical=qnorm(1-a/2,0,1)
+    if(abs(z_score)<abs(z_critical))
+      OK=1;
+  }
+  else
+  {
+    if(tip==1)
+    {
+      #ipoteza asimetrica la stanga
+      z_critical=qnorm(a,0,1)
+      if(z_score>z_critical)
+        OK=1;
+    }
+    else
+    {
+      #ipoteza asimetrica la dreapta
+      z_critical=qnorm(1-a,0,1)
+      if(z_score<z_critical)
+        OK=1;
+    }
+  }
+  if(OK==1)
+    print("Ipoteza nula se accepta!")
+  else
+    print("Ipoteza nula se respinge!")
+  rezultat=vector()
+  rezultat[1]=z_score
+  rezultat[2]=z_critical
+  return (rezultat)
+}
+#I.2
+z_test(49,90,88,0.01,144,1)
+#1.3
+z_test(36,75,85,0.01,17,0)
+
+#II.1
+t_test=function(n,m0,xn,a,s,tip)
+{
+  t_score=(xn-m0)/(s/sqrt(n))
+  OK=0
+  if(tip==0)
+  {
+    #ipoteza simetrica
+    t_critical=qt(1-a/2,n-1)
+    if(abs(t_score)<abs(t_critical))
+      OK=1;
+  }
+  else
+  {
+    if(tip==1)
+    {
+      #ipoteza asimetrica la stanga
+      t_critical=qt(a,n-1)
+      if(t_score>t_critical)
+        OK=1;
+    }
+    else
+    {
+      #ipoteza asimetrica la dreapta
+      t_critical=qt(1-a,n-1)
+      if(t_score<t_critical)
+        OK=1;
+    }
+  }
+  if(OK==1)
+    print("Ipoteza initiala se accepta!")
+  else
+    print("Ipoteza initiala se respinge!")
+  rezultat=vector()
+  rezultat[1]=t_score
+  rezultat[2]=t_critical
+  return (rezultat)
+}
+#II.3
+print("Pentru nivelul de semnificatie 0.01")
+t_test(100,11.4,11.9,0.01,0.25,2)
+print("Pentru nivelul de semnificatie 0.05")
+t_test(100,11.4,11.9,0.05,0.25,2)
+
+#II.6
+t_test(40,30,29,0.05,sqrt(5),1)
+
+#III.1
+z_test_means=function(a,n1,n2,x1,x2,s1,s2, m0,tip)
+{
+  z_score=(x1-x2)/(sqrt(s1^2/n1)+sqrt(s2^2/n2))
+  OK=0
+  if(tip==0)
+  {
+    #ipoteza simetrica
+    z_critical=qnorm(1-a/2,0,1)
+    if(abs(z_score)<abs(z_critical))
+      OK=1;
+  }
+  else
+  {
+    if(tip==1)
+    {
+      #ipoteza asimetrica la stanga
+      z_critical=qnorm(a,0,1)
+      if(z_score>z_critical)
+        OK=1;
+    }
+    else
+    {
+      #ipoteza asimetrica la dreapta
+      z_critical=qnorm(1-a,0,1)
+      if(z_score<z_critical)
+        OK=1;
+    }
+  }
+  if(OK==1)
+    print("Ipoteza nula se accepta!")
+  else
+    print("Ipoteza nula se respinge!")
+  rezultat=vector()
+  rezultat[1]=z_score
+  rezultat[2]=z_critical
+  return (rezultat)
+}
+#III.2
+z_test_means(0.01,80,70,160,155,3.24,2.25,0,0)
+#III.3
+z_test_means(0.01,100,100,22.8,23.3,1.3,1.9,0,0)
+
+#IV.1
+f_test=function(n1,s1,n2,s2,alfa,tip)
+{
+  f=s1^2/s2^2
+  if(tip==0)  
+  {
+    #ipoteza simetrica
+    Fs_critical=qf(alfa/2,n1-1,n2-1)
+    Fd_critical=qf(1-alfa/2,n1-1,n2-1)
+    if(f<=Fd_critical && f>=Fs_critical)
+      print("Ipoteza nula in testul F NU a fost respinsa!")
+    else
+      print("Ipoteza nula in testul F a fost respinsa!")
+    rezultat=vector()
+    rezultat[1]=f
+    rezultat[2]=Fs_critical
+    rezultat[3]=Fd_critical
+  }
+  else
+  {
+    F_critical=qf(1-alfa,n1-1,n2-2)
+    if(f<=F_critical)
+      print("Ipoteza nula in testul F NU a fost respinsa!")
+    else
+      print("Ipoteza nula in testul F a fost respinsa!")
+    rezultat=vector()
+    rezultat[1]=f
+    rezultat[2]=F_critical
+  }
+  return (rezultat)
+}
+
+#IV.2
+col1 = read.table("program.txt", header = TRUE)[['A']]
+col2 = read.table("program.txt", header = TRUE)[['B']]
+n1 = length(col1)
+s1 = sd(col1)
+n2=length(col2)
+s2 = sd(col2)
+print("Pentru nivelul de semnificatie de 0.01")
+f_test(n1,s1,n2,s2,0.01,0)
+print("Pentru nivelul de semnificatie de 0.05")
+f_test(n1,s2,n2,s2,0.05,0)
+
+#IV.3
+vec1=c(12.512, 12.869, 19.098, 15.350, 13.297, 15.589)
+vec2=c(11.074, 9.686, 12.164, 8.351, 12.182, 11.489)
+s1=sd(vec1)
+n1=length(vec1)
+n2=length(vec2)
+s2=sd(vec2)
+f_test(n1,s1,n2,s2,0.05,0)
+
+#V.1
+T_test_means=function(a,n1,n2,s1,s2,x1,x2,m0,tip)
+{
+  curent=f_test(n1,s1,n2,s2,a,tip)
+  raspuns=0
+  if(curent[1]>=curent[2] && curent[1]<=curent[3])
+    ok=1  #dispersiile sunt egale
+  else ok=0   #dispersiile nu sunt egale
+  if(ok==0)
+  {
+    t_score=(x1-x2-m0)/sqrt(s1^2/n1 + s2^2/n2)
+    df=min(n1-1,n2-1)
+  }
+  else
+  {
+    s=((n1-1)*s1^2+(n2-1)*s2^2)/(n1+n2-2)
+    t_score=(x1-x2-m0)/sqrt(s/n1 + s/n2)
+    df=n1+n2-2
+  }
+  if(tip==0)
+  {
+    #ipoteza simetrica
+    t_critical=-qt(a/2,df)
+    if(abs(t_score)>abs(t_critical))
+      raspuns=1
+  }
+  else if(tip==1)
+  {
+    #ipoteza asimetrica la stanga
+    t_critical=qt(a,df)
+    if(t_score>t_critical)
+      raspuns=1
+  }
+  else if(tip==2)
+  {
+    #ipoteza asimetrica la dreapta
+    t_critical=qt(1-a,df)
+    if(t_score<t_critical)
+      raspuns=1
+  }
+  if(raspuns==1)
+    print("Ipoteza nula a fost respinsa!")
+  else print("Ipoteza nula nu este respinsa!")
+  valori_finale=vector()
+  valori_finale[1]=t_score
+  valori_finale[2]=t_critical
+  return(valori_finale)
+}
+
+#V.2
+col1 = read.table("program.txt", header = TRUE)[['A']]
+col2 = read.table("program.txt", header = TRUE)[['B']]
+x1 = mean(col1)
+s1 = sd(col1)
+x2 = mean(col2)
+s2 = sd(col2)
+print("Pentru nivel de semnificatie de 0.01:")
+T_test_means(0.01,length(col1),length(col2),s1,s2,x1,x2,0,0)
+print("Pentru nivel de semnificatie de 0.05:")
+T_test_means(0.05,length(col1),length(col2),s1,s2,x1,x2,0,0)
+
+#V.3
+vec1=c(12.512, 12.869, 19.098, 15.350, 13.297, 15.589)
+vec2=c(11.074, 9.686, 12.164, 8.351, 12.182, 11.489)
+s1=sd(vec1)
+x1=mean(vec1)
+x2=mean(vec2)
+s2=sd(vec2)
+T_test_means(0.01,6,6,s1,s2,x1,x2,0,0)

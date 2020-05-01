@@ -1,0 +1,12 @@
+#include<iostream.h>
+int  x= 235; char a; /* o variabila */
+struct  S1
+int  f(int y) {   
+h(2,z);
+return   g(y + 34);
+}
+
+ffhfgk   int int
+
+
+*c  *c      >>   <<   >>>     ->-

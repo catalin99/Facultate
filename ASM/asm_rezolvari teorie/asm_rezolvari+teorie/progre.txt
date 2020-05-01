@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+bool progresie(int, int*)
+{
+	_asm{
+		MOV EBX, [EBP + 8] // nr de elemente
+			MOV EDI, [EBP + 12] // pointer catre primu element
+			MOV EAX, [EDI] // primu element
+			MOV EDX, [EDI + 4] // al doilea
+			SUB EAX, EDX // in EAX avem ratia
+			MOV ECX, 2
+			DEC EBX
+		_for :
+		CMP ECX, EBX
+			JGE _true
+			SUB EDX, [EDI + 4 * ECX]
+			CMP EDX, EAX
+			JNE _false
+			MOV EDX, [EDI + 4 * ECX]
+			INC ECX
+			JMP _for
+		_true :
+		MOV EAX, 1
+			JMP _end
+		_false :
+		MOV EAX, 0
+		_end :
+	}
+}
+void main()
+{
+	int *p, v[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+	p = v;
+	cout << progresie(8, p);
+}

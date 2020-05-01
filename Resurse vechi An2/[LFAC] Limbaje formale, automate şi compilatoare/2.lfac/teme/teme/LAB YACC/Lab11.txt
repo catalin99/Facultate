@@ -1,0 +1,112 @@
+int int x = 20 ; ++
+TIP TIP ID ASSIG NR PV OP
+-> sunt terminali in g (sintaxa limbaj)
+metode d parsare-- parsare ascendenta--
+                -- descendenta-- 
+
+ascendnta-deplassare/reducere
+--stiva--cu sf marcat cu $
+w$ cuvant care trebuie accceptat
+
+$alfa  din buffer au$->prin deplasare $alfaa
+prin reducere  $alfabetta   u$   reducere A->betta 
+$alfaA   buffer u$
+
+Exemplu:
+e->(e+e)
+e->(e*e)
+e->a
+e->b
+^
+|
+Gramatica
+
+$<-stiva         (a+b)$<-cuvant
+$(                a+b)$
+$(a                +b)$
+$(e                +b)$
+$(e+                b)$
+$(e+b                )$ 
+$(e+e)               )$
+
+
+Conflict dp/red   s->xb|y
+                  x->a
+                  y->ab
+
+Exemplu :(1)
+s->xb|yc
+x->a
+y->b
+
+Gramatica de tip LR(1)
+
+s->xbc|ybd
+x->a
+y->b
+
+Gramatica de tip LR(2)
+
+
+
+Gramatica ambigua--gramatica la care se pot construi mai multi arbori !!!!!!
+GRAMATICILE AMBIGUE NU SUNT DE TIP LR(k)
+
+------------------------------------IMPLEMENTAREA UNUIPRSER---------------------------------------------------------------------------------------
+
+---RELATII FIRST SI FOLOW        |
+---CONSTRUCTIA AUTOMATULUI LR(0) |==>PENTRU EXAMEN
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+YACC->dam gramatica face parserul
+
+fis.y
+ |
+  --> G(tip LR(1))-->YACC=>y.tab.c->yyparse()<-yylex()
+
+
+y.tab.c->gcc->input->a.out->syn tax error==cuvantul nu este generat de gramatica
+
+COMMAND LINE
+yacc fis.y
+gcc y.tab.l ly
+--------------
+daca nu scriem noi yylex facem asa
+--------------
+yacc fis.y -d
+fis.l si includem in el si y.tab.h
+lex fis.l
+gcc lex.yy.c y.tab.c -ll -ly
+si astfel functioneaza---:)
+--------------------------------------------------------SECTIUNI IN COD-----------------------------------------------------------------------------
+%{
+cod c
+%}
+%start S
+%token (terminali)
+%token nume1 nume2 nume3 nume4 ...
+%type--REVENIM--
+%union(tipuri de date utilizate pt unele valori)
+%left
+%right
+%%
+neterminal:simb1 simb2 simb3 ... {cod c};
+    |       |     |     |
+    $$     $1     $2    $3
+
+neterminal:lista_simb1{cod c}
+          |lista_simb2{cod c}
+          |/*epsilon*/{cod c}
+          ;
+%%
+conflict red/red alege primul red
+daca e red/dep alege sa faca deplasara
+%union{
+       tip1 nume tip 1;
+       tip2 nume tip 2;
+}
+
+
+
+

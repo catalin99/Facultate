@@ -1,0 +1,10 @@
+public class Pair {
+	Node First;
+	int cost;
+	public Pair(Node first, int cost) {
+		super();
+		First = first;
+		this.cost = cost;
+	}
+	
+}

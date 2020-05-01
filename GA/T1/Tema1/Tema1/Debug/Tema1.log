@@ -1,0 +1,37 @@
+﻿  Source.cpp
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(53): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(113): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(211): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(213): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(215): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(217): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(224): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(227): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(236): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(238): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(240): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(242): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(318): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(320): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(322): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(324): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(337): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(339): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(342): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(351): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(353): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(355): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(357): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(444): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(446): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(448): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(450): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(454): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(457): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(466): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(468): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(470): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(472): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(481): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+e:\info\info_fac\ga\t1\tema1\tema1\source.cpp(528): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Tema1.vcxproj -> E:\Info\Info_fac\GA\T1\Tema1\Debug\Tema1.exe

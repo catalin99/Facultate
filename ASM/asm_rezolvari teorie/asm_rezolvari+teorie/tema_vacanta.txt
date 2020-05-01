@@ -1,0 +1,256 @@
+#include "stdafx.h"
+
+#include <stdio.h>
+#include <malloc.h>
+#include<string.h>
+
+unsigned nrBits( int ){
+    _asm{
+        mov eax,0
+        mov ebx, [ebp+8]
+_while:
+        shl ebx,1
+        jnc next
+        inc eax
+        jmp _while
+next:
+        jz finish
+        jmp _while
+finish:
+    }
+}
+
+unsigned nrBits2( int ){
+    _asm{
+        mov eax,0
+        mov ebx, [ebp+8]
+        cmp ebx,0
+        jz finish
+do_while:
+        inc eax
+        mov edx,ebx
+        dec edx
+        and ebx,edx
+        jz finish
+        jmp do_while
+finish:
+    }
+}
+
+unsigned isPrime( int ){
+    _asm{
+        push [ebp+8]
+        call nrBits
+        add esp,4
+        mov ebx,eax
+        shr ebx,1
+        mov ecx,2
+        mov esi,eax
+
+_while:
+        cmp ecx,ebx
+        jg prime
+        mov eax,esi
+        xor edx, edx
+        div ecx
+        cmp edx,0
+        jz not_prime
+        inc ecx
+        jmp _while
+not_prime:
+        xor eax,eax
+        jmp finish
+prime:
+        mov eax,1
+finish:
+    }
+}
+
+unsigned int fib(unsigned char n){
+    _asm{
+        push ebx
+        movzx eax, byte ptr [ebp+8]
+        cmp eax,1
+        jbe finish
+        dec eax
+        push eax
+        dec eax
+        push eax
+        call fib
+        add esp,4
+        mov ebx,eax
+        call fib
+        add esp,4
+        add eax,ebx
+finish:
+        pop ebx
+    }
+}
+
+int palindrom( unsigned int ){
+    _asm{
+        mov ebx, [ebp+8]
+        mov esi,ebx
+        xor edi,edi
+        mov ecx,10
+_while:
+        cmp ebx,0
+        jz start_compare
+        mov eax, edi
+        mul ecx
+        mov edi,eax
+        xor edx,edx
+        mov eax, ebx
+        div ecx
+        mov ebx,eax
+        add edi,edx
+        jmp _while
+start_compare:
+        cmp esi,edi
+        jnz not_palindrom
+        mov eax,1
+not_palindrom:
+    }
+}
+
+unsigned short powerOf2( int , int* ){
+    _asm{
+        mov esi,[ebp+12]
+        mov ecx,[ebp+8]
+        xor ax,ax
+_loop:
+        dec ecx
+        cmp ecx,0
+        jl finish
+        mov edi,[esi+4*ecx]
+        cmp edi,0
+        jz _loop
+        mov ebx,edi
+        dec ebx
+        and ebx,edi
+        jnz _loop
+        inc ax
+        jmp _loop
+finish:
+
+    }
+}
+
+int progresie_aritmetica(int, int*){
+    _asm{
+        mov esi,[ebp+12]
+        mov edi,[ebp+8]
+        push ebp
+        sub esp,4
+        cmp edi,3
+        jl not_pa
+        jz is_pa
+        mov ebx,[esi+12]
+        mov [esp],ebx
+        sub ebx, [esi+8]
+        mov ecx,3
+
+_loop:
+        add ecx,2
+        cmp  ecx,edi
+        jge is_pa
+        mov ebp,2
+inner_loop:
+        mov eax, ecx
+        shr eax,1
+        cmp ebp,eax
+        jge is_prime
+        mov eax,ecx
+        xor edx,edx
+        div ebp
+        cmp edx,0
+        jz _loop
+        inc ebp
+        jmp inner_loop
+is_prime:
+        mov eax,[esp]
+        mov edx,[esi+4*ecx]
+        add eax,ebx
+        mov [esp],edx
+        cmp eax,edx
+        jz _loop
+not_pa:
+        xor eax,eax
+        jmp finish
+is_pa:
+        mov eax,1
+finish:
+        add esp,4
+        pop ebp
+    }
+}
+
+int toUpper(char* ){
+    _asm{
+        mov esi,[ebp+8]
+        xor eax,eax
+_loop:
+        mov bl,[esi]
+        cmp bl,0
+        jz finish
+        cmp bl,'a'
+        jb _next
+        cmp bl,'z'
+        ja _next
+        and byte ptr [esi], 11011111b
+        inc eax
+_next:
+        inc esi
+        jmp _loop
+finish:
+    }
+}
+
+int nrTok( char* ){
+    _asm{
+        mov esi,[ebp+8]
+        xor eax,eax
+        xor ecx,ecx
+        xor edx,edx
+_loop:
+        mov bl,[esi]
+        cmp bl,0
+        jz finish
+        cmp bl,'.'
+        jz sep
+        cmp bl,' '
+        jz sep
+        cmp bl,'\t'
+        jz sep
+        cmp bl,','
+        jz sep
+        cmp bl,';'
+        jz sep
+        cmp bl,'('
+        jz sep
+        cmp bl,')'
+        jz sep
+        mov ecx,1
+        xor edx,edx
+        inc esi
+        jmp _loop
+sep:
+        cmp ecx,1
+        jnz not_started
+        inc eax
+        xor ecx,ecx
+not_started:
+        mov edx,1
+        inc esi
+        jmp _loop
+finish:
+        cmp edx,1
+        jz _exit
+        cmp ecx,1
+        jnz _exit
+        inc eax
+_exit:
+
+    }
+}
+

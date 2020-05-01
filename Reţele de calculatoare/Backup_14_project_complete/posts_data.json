@@ -1,0 +1,117 @@
+{
+  "Id_Start": "9015",
+  "Posts": {
+    "9000": {
+      "Id_Post": "9000",
+      "Id_User": "5000",
+      "Postare": "Mi-am cumparat masina noua. M-a costat 3 milioane de euro",
+      "Status": "ok",
+      "Visibility": "Public"
+    },
+    "9001": {
+      "Id_Post": "9001",
+      "Id_User": "5000",
+      "Postare": "Aceasta este prima mea postare. Sper sa fie totul ok. Saluut!",
+      "Status": "ok",
+      "Visibility": "Public"
+    },
+    "9002": {
+      "Id_Post": "9002",
+      "Id_User": "5000",
+      "Postare": "Test postare pentru prietenii prietenilor, mnannna",
+      "Status": "ok",
+      "Visibility": "Friends of Friends"
+    },
+    "9003": {
+      "Id_Post": "9003",
+      "Id_User": "5000",
+      "Postare": "Vreau s-o pot vedea doar eu.",
+      "Status": "ok",
+      "Visibility": "Public"
+    },
+    "9004": {
+      "Id_Post": "9004",
+      "Id_User": "6004",
+      "Postare": "Test postare de pe alt user in acelasi client. Pare sa fie totul okeee",
+      "Status": "ok",
+      "Visibility": "Public"
+    },
+    "9005": {
+      "Id_Post": "9005",
+      "Id_User": "6003",
+      "Postare": "Teste creare postari complet. Aparent totul merge bine. Ez pz!",
+      "Status": "ok",
+      "Visibility": "Public"
+    },
+    "9006": {
+      "Id_Post": "9006",
+      "Id_User": "5000",
+      "Postare": "Test postare privatttttaa bllllaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "Status": "ok",
+      "Visibility": "Friends"
+    },
+    "9007": {
+      "Id_Post": "9007",
+      "Id_User": "5000",
+      "Postare": "ACUM CHIAR TESTEZ POSTARILE PRIVATEEE",
+      "Status": "ok",
+      "Visibility": "Private"
+    },
+    "9008": {
+      "Id_Post": "9008",
+      "Id_User": "6004",
+      "Postare": "Asta este o postare facuta doar pentru prietenii mei cei dragi.",
+      "Status": "ok",
+      "Visibility": "Friends"
+    },
+    "9009": {
+      "Id_Post": "9009",
+      "Id_User": "6002",
+      "Postare": "Postare friends",
+      "Status": "ok",
+      "Visibility": "Private"
+    },
+    "9010": {
+      "Id_Post": "9010",
+      "Id_User": "6002",
+      "Postare": "Postare privata",
+      "Status": "ok",
+      "Visibility": "Private"
+    },
+    "9011": {
+      "Id_Post": "9011",
+      "Id_User": "5000",
+      "Postare": "Test update posts",
+      "Status": "ok",
+      "Visibility": "Friends of Friends"
+    },
+    "9012": {
+      "Id_Post": "9012",
+      "Id_User": "6004",
+      "Postare": "blabalaa",
+      "Status": "deleted",
+      "Visibility": "Public"
+    },
+    "9013": {
+      "Id_Post": "9013",
+      "Id_User": "6004",
+      "Postare": "Alevamnsadoasd",
+      "Status": "ok",
+      "Visibility": "Private"
+    },
+    "9014": {
+      "Id_Post": "9014",
+      "Id_User": "6012",
+      "Postare": "Varza mare multa mica",
+      "Status": "ok",
+      "Visibility": "Friends of Friends"
+    },
+    "9015": {
+      "Id_Post": "9015",
+      "Id_User": "6002",
+      "Postare": "Acum merge si editarea profilelor",
+      "Status": "ok",
+      "Visibility": "Public"
+    }
+  }
+}

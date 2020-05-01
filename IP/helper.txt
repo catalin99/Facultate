@@ -1,0 +1,55 @@
+510*, 525*, 518*, 519*,  516*,  507*,  295*,  502* ,  1608$&%^&%^&$%^&,  618*,  187*
+"D:\Watch_Dogs 2\bin\WatchDogs2.exe"
+1665*,1777*,1581*,1255*, 1284*, 1797*40*, 387*80*, 1568*80*, 408
+
+#include <iostream>
+#include <fstream>
+#include <cstring>
+#include <cctype>
+#include <cmath>
+#include <cstdlib>
+
+using namespace std;
+ifstream f("lipsa.in");
+ofstream g("lipsa.out");
+typedef unsigned long int ul;
+typedef long long ll;
+typedef bool bl;
+
+bool prim(ul x)
+{
+    if (x<2)
+        return false;
+    if (x>2 && x%2==0)
+        return false;
+    for(ui d=3; d*d<=x; d+=2)
+        if(x%d==0)
+            return false;
+    return true;
+}
+
+void quicksort(ui left, ui right, ul q[])
+{
+    ui i=left, j=right, pivot;
+    ul aux;
+    pivot=q[(left+right)/2];
+    while(i<j)
+    {
+        while(q[i]<pivot)
+            i++;
+        while(q[j]>pivot)
+            j--;
+        if(i<=j)
+        {
+            aux=q[i];
+            q[i]=q[j];
+            q[j]=aux;
+            i++;
+            j--;
+        }
+    }
+    if(left<j)
+        quicksort(left, j, q);
+    if(i<right)
+        quicksort(i, right, q);
+}

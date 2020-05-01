@@ -1,0 +1,9 @@
+﻿  MyString.cpp
+d:\info\info_fac\oop\lab poo\lab 2\lab 2\mystring.cpp(163): warning C4018: '<': signed/unsigned mismatch
+d:\info\info_fac\oop\lab poo\lab 2\lab 2\mystring.cpp(167): warning C4018: '<': signed/unsigned mismatch
+d:\info\info_fac\oop\lab poo\lab 2\lab 2\mystring.cpp(184): warning C4018: '<=': signed/unsigned mismatch
+d:\info\info_fac\oop\lab poo\lab 2\lab 2\mystring.cpp(188): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Lab 2.cpp
+  Lab 2.vcxproj -> D:\Info\Info_fac\OOP\Lab poo\Lab 2\Debug\Lab 2.exe

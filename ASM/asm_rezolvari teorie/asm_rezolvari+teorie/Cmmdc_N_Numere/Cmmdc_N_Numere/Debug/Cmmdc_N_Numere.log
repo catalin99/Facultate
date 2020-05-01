@@ -1,0 +1,14 @@
+﻿Build started 20.11.2014 17:02:52.
+     1>Project "F:\0Arl\Scoala\Visual\ASM\Cmmdc_N_Numere\Cmmdc_N_Numere\Cmmdc_N_Numere.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Cmmdc_N_Numere.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cmmdc_N_Numere.cpp
+         Cmmdc_N_Numere.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\0Arl\Scoala\Visual\ASM\Cmmdc_N_Numere\Debug\Cmmdc_N_Numere.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\0Arl\Scoala\Visual\ASM\Cmmdc_N_Numere\Debug\Cmmdc_N_Numere.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\0Arl\Scoala\Visual\ASM\Cmmdc_N_Numere\Debug\Cmmdc_N_Numere.lib" /MACHINE:X86 Debug\Cmmdc_N_Numere.obj
+         Debug\stdafx.obj
+         Cmmdc_N_Numere.vcxproj -> F:\0Arl\Scoala\Visual\ASM\Cmmdc_N_Numere\Debug\Cmmdc_N_Numere.exe
+     1>Done Building Project "F:\0Arl\Scoala\Visual\ASM\Cmmdc_N_Numere\Cmmdc_N_Numere\Cmmdc_N_Numere.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89

@@ -1,0 +1,30 @@
+1)
+A set is an unordered (usually) collection of elementes and it doesn't allow duplicates and a list is an ordered collection of elementes and it can contain duplicates
+
+2)
+A wraper class is a class whose object contains a primitive data types (int, char, double etc). 
+We can use it when we want to declare an ArrayList that stores primitive data types. Wrapper Class: Character, Byte, Short, Integer, Boolean, Float, Double
+Example: ArrayList<Boolean> arrayList = new ArrayList<Boolean>();
+
+3) b)
+4) a)
+5) c)
+6) 
+We can use setters and getters in encapsulation when we need to read or write the data mambers from the outside and the direct access is restricted to some of the object's components from outside the class.
+
+7)
+int getmynumber(List listOfNumbers, int numberIWantToReturn) { Integer foundNumber = Integer.parseInt("0"); for (int i = 0; i < listOfNumbers.size(); i++) { if(listOfNumbers.get(i)!=null) { if (listOfNumbers.get(i).equals(numberIWantToReturn)) { foundNumber++; } } } return foundNumber; } 
+
+8) c)
+9) c)
+10) 
+class Doctor {Patient myPatients[]; } class Patient { Doctor myDoctor; } 
+
+
+Lab2 psgbd:
+diversi studenti au burse
+putem identifica pentru fiecare grupa care sunt bursele existente in acea grupa si sa facem suma lor. (banii alocați pentru fiecare grupă)
+luăm bursele studenților care au bursă și le alocăm primilor 3 studenți cu cele mai mari 3 medii
+afisat cine a avut inainte bursele
+si cine le are la final
+grupa data ca parametru

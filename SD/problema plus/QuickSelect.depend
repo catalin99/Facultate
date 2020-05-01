@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1513677401 source:d:\info\algoritmi\sortari\quickselect\main.cpp
+	<iostream>
+	<fstream>
+	<limits.h>
+	<vector>
+
+1513762075 source:d:\info fac\sd\problema plus\main.cpp
+	<iostream>
+	<fstream>
+	<limits.h>
+	<vector>
+

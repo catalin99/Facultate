@@ -1,0 +1,7 @@
+int @a,@f,@g;
+float @b;
+char @r;
+int @fjoewijf(int @f);
+begin_progr
+@a:=@b+5*5+3*@r;
+end_progr

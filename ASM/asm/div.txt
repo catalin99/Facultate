@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{	
+  // a=b/10
+  unsigned a, b=155;
+  _asm{
+	  mov eax,b
+	  mov edx,0
+	  mov ecx,10
+	  
+	  div ecx
+	  mov a,eax
+  }
+  cout << a << endl;
+  return 0;
+}
+
+	
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{	
+   unsigned a=500007,b=10,c,d;
+  
+   _asm{
+	   mov eax,a
+	   mov edx,0
+	   mov ecx, b
+	   div ecx
+	   mov c, eax
+	   mov d, edx
+   }
+   cout<<c<<" "<<d;
+   
+   
+   //c=a/b;
+   //d=a%b;
+
+  return 0;
+}
+
+	

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ProjRCclient.dir/client.cpp.o  -o ProjRCclient -lpthread 

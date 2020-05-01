@@ -1,0 +1,29 @@
+/*
+1)
+0.25pct
+Se da n din N*. Sa se calculeze 1!+2!+..+n!
+
+2)
+0.5pct
+Se citeste n>=2 natural, apoi se citesc n numere reale.
+Sa se determine prima secventa de numere citite consecutiv care sunt identice de lungime maxima
+O: lungimea maxima si pozitia primului element.
+
+3)
+0.60
+Se citesc numerele naturale a si b. 
+Sa se determine ultima cifra a numarului a la puterea b.
+
+4)
+0.4
+Se citeste n>=1 natural.
+Sa se calculeze si afiseze S=
+
+5)
+0.5
+Se citeste n natural, apoi n numere reale.
+Sa se calculeze si afiseze cea mai mare diferenta in modul dintre oricare doua numere citite.
+
+6)
+0.5
+ Se da o scara cu n trepte. Un om poate urca 1 sau 2 trepte. Sa se det. toate modalitatile de a urca scara cu n trepte.

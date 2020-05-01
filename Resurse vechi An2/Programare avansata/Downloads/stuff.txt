@@ -1,0 +1,83 @@
+ArrayList vs Vector
+1) ArrayList este syncronizat in timp ce Vector nu este syncronizat ( adica ArrayList permite mai multor threaduri sa realizeze modificari asupra lor in timp ce Vector nu, de aici vine si performanta mai mare a lui ArrayList fata de Vector si faptul ca ArrayList este fail-fast(adica atunci cand un thread va realiza o modificare in timp ce alt thread este in cursul unei modificari se va executa exceptia de ConcurentModification iar Vector tot fail-fast(adica nu permite acest tip de modificare concurenta deoarece iteratorii fail-safe actioneaza de fapt, pe o clona a colectiei respective)))
+2) ArrayList isi poate extinde size-ul cu 50% in timp ce Vector cu dublu size-ul actual
+
+Asemanari : Ambele sunt colectii ordonate adica mentin ordinea elementelor, ambele permit valori duplicat sau nule , operatorii iterator and listIterator de la ambele sunt fail-fast
+
+ArrayList vs LinkedList
+1)Operatiile de Insert si Delete sunt mult mai lente in LinkedList deoarece LinkedList este o lista dublu-inlantuita si mentine 2 pointeri pentru nodurile vecine
+Per total, din punct de vedere al memoriei ArrayList este mai eficient deoarece LinkedList trebuie sa retina si pointerii de next si prev si deci ar fi de 3 ori mai mare fata de ArrayList
+Asemanari : ambele sunt implementari ale interfatei List iar ambii iteratori sunt fail-fast, ambele colectii nefiind sincronizate 
+
+List vs Set
+List poate contine elemente duplicate in timp ce Set nu
+
+SortedSet
+Este ca set adica nu poate contine elemente duplicate dar acestea sunt ordonate crescator 
+
+Set vs Map
+Set contine doar valori in timp ce Map contine si chei si valori, Map nu poate sa contina chei duplicate
+
+Interfata 				Clasa
+-----------------------------
+Set                     HashSet
+SortedSet				TreeSet
+List                    ArrayList, LinkedList, Vector
+Map						HashMap, Hashtable
+SortedMap 				TreeMap
+
+
+Comparable vs Comparator
+Comparable este o interfata ce permite unui obiect de un tip sa se compare cu el insusi pe baza unor atribute private dar problema este ca ni se permite sa creeam doar o singura metoda de tip compareTo in timp ce Comparator ne lasa sa avem mai multe metode de sortare
+Comparable compara this cu obiectul care este dat ca argument la compareTo
+
+class Persoana implements Comparable<Persoana>
+{
+	private int age;
+
+	public int compareTo(Persoana persoana)
+	{
+		return this.age - persoana.age
+	}
+}
+
+public static Comparator<Persoana> cevaNume = new Comparator<Persoana>() {
+	public int compare(Persoana persoana1, Persoana persoana2)
+	{
+		return persoana1.getAge().compareTo(persoana2.getAge());
+	}	
+};
+
+
+Conectare DB:
+
+public class DB {
+	String url : cevaUrl;
+
+	try {
+	Class.forName('com.oracle.jdbc.Driver');
+	Connection con = DriverManager.getConnection(url, username, pass);
+	}
+	catch(ClassNotFoundException e)
+	{
+	 	e.printStackTrace();
+	}
+	catch(SQLException e)
+	{
+		e.printStackTrace();
+	}
+}
+
+public void list(int idStudent) throws SQLException {
+	String querry = "SELECT BURSA FROM STUDENTI WHERE id = ?"
+	Connection con = DB.getConnection();
+	try(PreparedStatement ps = con.prepareStatement(querry)) {
+		ps.setInt(idStudent);
+		try(ResultSet rs = ps.executeQuerry()) {
+			while(rs.next())
+			{
+				System.out.println(rs.getInt("BURSA"));
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int val=0;
+
+void prim(int n)
+{
+	_asm
+	{	
+		mov ebx,2//i
+		mov esi,n
+		shr esi,1
+bucla:
+		cmp ebx,esi
+		ja EXIT
+		mov edx,0
+		mov eax,esi
+		div ebx
+		cmp edx,0
+		jne E1
+		inc ebx
+		mov val,1
+		jmp bucla
+		
+
+E1:inc ebx
+   jmp bucla
+EXIT:
+  }
+
+	cout<<val;
+}
+
+int main()
+{
+	_asm
+	{
+		push dword ptr 2
+			call prim
+			add esp,4
+	}
+}

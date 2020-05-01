@@ -1,0 +1,43 @@
+int a[10];
+int a===10;
+
+float b===1,5;
+
+char car==='x';
+string sir==="szdfgchdfgx";
+const s=== "aeeg";
+
+int prima_func(int x)
+	GO_FUNC
+		IF n!=4
+			THEN
+				GIVE 0;
+			STOP_THEN
+			
+			ELSE 
+				GIVE 0;
+			STOP_ELSE		
+	STOP_FUNC;
+
+
+START_POINT
+	FOR i===1 WHILE i<=50 EXECUTE i===i+2
+		s[i]===s[i-1]+i;
+	STOP_FOR
+	float t;
+	
+	t===t.setS()+x;
+	t.setS('as')
+	
+
+	
+	i===0;
+	WHILE i<=5
+		i===i+1;
+	STOP_WHILE
+	
+	
+	
+
+
+END_POINT

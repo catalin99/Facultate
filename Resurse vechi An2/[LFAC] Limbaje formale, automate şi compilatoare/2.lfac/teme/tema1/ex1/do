@@ -1,0 +1,4 @@
+yacc -d limbajPropriu.y
+lex -ll limbajPropriu.l
+gcc lex.yy.c y.tab.c -lfl -ly -o limbajPropriu
+./limbajPropriu Test

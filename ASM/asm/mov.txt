@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a=5, b=14;
+
+	_asm{
+		mov eax,a
+		mov b, eax
+	}
+	cout<< b << endl;
+	return 0;
+
+}

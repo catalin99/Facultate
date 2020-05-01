@@ -1,0 +1,24 @@
+﻿  Source.cpp
+e:\university\anu 2\ag\teema2\teema2\source.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(43): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(51): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(60): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(72): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(102): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\teema2\teema2\source.cpp(155): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(101): warning C4101: 'parinte2': unreferenced local variable
+e:\university\anu 2\ag\teema2\teema2\source.cpp(101): warning C4101: 'parinte1': unreferenced local variable
+e:\university\anu 2\ag\teema2\teema2\source.cpp(259): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(280): warning C4305: '=': truncation from 'double' to 'float'
+e:\university\anu 2\ag\teema2\teema2\source.cpp(281): warning C4305: '=': truncation from 'double' to 'float'
+e:\university\anu 2\ag\teema2\teema2\source.cpp(286): warning C4305: '=': truncation from 'double' to 'float'
+e:\university\anu 2\ag\teema2\teema2\source.cpp(287): warning C4305: '=': truncation from 'double' to 'float'
+e:\university\anu 2\ag\teema2\teema2\source.cpp(342): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\teema2\teema2\source.cpp(272): warning C4101: 'vect': unreferenced local variable
+e:\university\anu 2\ag\teema2\teema2\source.cpp(276): warning C4101: 'n': unreferenced local variable
+  TEEMA2.vcxproj -> E:\University\Anu 2\AG\TEEMA2\Debug\TEEMA2.exe
+  TEEMA2.vcxproj -> E:\University\Anu 2\AG\TEEMA2\Debug\TEEMA2.pdb (Full PDB)

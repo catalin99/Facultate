@@ -1,0 +1,19 @@
+var x, y, z, a, b, c;
+x := 1;
+y := 0;
+z := x + x + y;
+{
+  var x, y;
+  x := 4;
+  {
+    var z;
+    z := 5;
+    a := x;
+    var x, y;
+    y := 4;
+    b := z
+  };
+  var z;
+  z := b;
+  c := z + 1
+}

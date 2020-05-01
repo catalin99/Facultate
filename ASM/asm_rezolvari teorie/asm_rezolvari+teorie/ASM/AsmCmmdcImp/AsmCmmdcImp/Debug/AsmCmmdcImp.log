@@ -1,0 +1,15 @@
+﻿Build started 9/13/2014 3:44:52 PM.
+     1>Project "D:\0Arl\Scoala\Visual\AsmCmmdcImp\AsmCmmdcImp\AsmCmmdcImp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\AsmCmmdcImp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AsmCmmdcImp.cpp
+         AsmCmmdcImp.cpp
+     1>d:\0arl\scoala\visual\asmcmmdcimp\asmcmmdcimp\asmcmmdcimp.cpp(23): warning C4405: 'ret' : identifier is reserved word
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\0Arl\Scoala\Visual\AsmCmmdcImp\Debug\AsmCmmdcImp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\0Arl\Scoala\Visual\AsmCmmdcImp\Debug\AsmCmmdcImp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\0Arl\Scoala\Visual\AsmCmmdcImp\Debug\AsmCmmdcImp.lib" /MACHINE:X86 Debug\AsmCmmdcImp.obj
+         Debug\stdafx.obj
+         AsmCmmdcImp.vcxproj -> D:\0Arl\Scoala\Visual\AsmCmmdcImp\Debug\AsmCmmdcImp.exe
+     1>Done Building Project "D:\0Arl\Scoala\Visual\AsmCmmdcImp\AsmCmmdcImp\AsmCmmdcImp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91

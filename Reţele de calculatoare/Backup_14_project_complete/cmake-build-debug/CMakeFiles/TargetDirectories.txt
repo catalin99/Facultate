@@ -1,0 +1,4 @@
+/home/catalin/Retele/ProjRC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/catalin/Retele/ProjRC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/catalin/Retele/ProjRC/cmake-build-debug/CMakeFiles/ProjRCclient.dir
+/home/catalin/Retele/ProjRC/cmake-build-debug/CMakeFiles/ProjRCserver.dir

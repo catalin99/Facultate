@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{	
+   unsigned s,i;
+ 
+   _asm{
+	   mov s,0
+	   mov i,0
+	   E2: cmp i,10
+	   jge E1
+	   mov eax,i
+	   add s,eax
+	   
+	   inc i
+	   jmp E2
+		E1:
+   }
+   cout << s <<endl;
+  return 0;
+}
+
+	

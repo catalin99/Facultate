@@ -1,0 +1,209 @@
+{
+  "Profil_Info": {
+    "1000": {
+      "Friends": [
+        "0",
+        "2000"
+      ],
+      "Grad": "Normal User",
+      "Nume": "Debaca",
+      "Posts": "0",
+      "Prenume": "Ramona",
+      "Vizibilitate": "Friends",
+      "id": "1000"
+    },
+    "2000": {
+      "Friends": [
+        "0",
+        "1000"
+      ],
+      "Grad": "Normal User",
+      "Nume": "Vicuta",
+      "Posts": "0",
+      "Prenume": "Adina",
+      "Vizibilitate": "Public",
+      "id": "2000"
+    },
+    "3000": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "VIP",
+      "Nume": "Blaj",
+      "Posts": "0",
+      "Prenume": "Silviu Aristel",
+      "Vizibilitate": "Public",
+      "id": "3000"
+    },
+    "4000": {
+      "Friends": [
+        "0",
+        "5000"
+      ],
+      "Grad": "Admin",
+      "Nume": "Ardelean",
+      "Posts": "0",
+      "Prenume": "Marius",
+      "Vizibilitate": "Public",
+      "id": "4000"
+    },
+    "5000": {
+      "Friends": [
+        "0",
+        "6001",
+        "4000",
+        "6004",
+        "6002"
+      ],
+      "Grad": "Owner",
+      "Nume": "blabla",
+      "Posts": "7",
+      "Prenume": "Catalin-Cosmin",
+      "Vizibilitate": "Private",
+      "id": "5000"
+    },
+    "6001": {
+      "Friends": [
+        "0",
+        "5000",
+        "6002"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6001"
+    },
+    "6002": {
+      "Friends": [
+        "0",
+        "6004",
+        "6003",
+        "6001",
+        "5000"
+      ],
+      "Grad": "Normal User",
+      "Nume": "Jucator bun",
+      "Posts": "3",
+      "Prenume": "Jucator bun prenume",
+      "Vizibilitate": "Public",
+      "id": "6002"
+    },
+    "6003": {
+      "Friends": [
+        "0",
+        "6002"
+      ],
+      "Grad": "Normal User",
+      "Nume": "Burebista",
+      "Posts": "1",
+      "Prenume": "Maredo-Viano",
+      "Vizibilitate": "Friends",
+      "id": "6003"
+    },
+    "6004": {
+      "Friends": [
+        "0",
+        "6002",
+        "5000"
+      ],
+      "Grad": "Normal User",
+      "Nume": "BLSADAS",
+      "Posts": "4",
+      "Prenume": "Bluss",
+      "Vizibilitate": "Friends of Friends",
+      "id": "6004"
+    },
+    "6005": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6005"
+    },
+    "6006": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6006"
+    },
+    "6007": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6007"
+    },
+    "6008": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "Normal User",
+      "Nume": "Plseditnew",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6008"
+    },
+    "6009": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6009"
+    },
+    "6010": {
+      "Friends": [
+        "0"
+      ],
+      "Grad": "Normal User",
+      "Nume": "PreaBabuin",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Friends of Friends",
+      "id": "6010"
+    },
+    "6011": {
+      "Friends": [
+        "0",
+        "6012"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "0",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6011"
+    },
+    "6012": {
+      "Friends": [
+        "0",
+        "6011"
+      ],
+      "Grad": "Normal User",
+      "Nume": "-",
+      "Posts": "1",
+      "Prenume": "-",
+      "Vizibilitate": "Public",
+      "id": "6012"
+    }
+  }
+}

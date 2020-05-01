@@ -1,0 +1,14 @@
+test 1
+1.a, 2.c,d 3.a,c,d tuplu, 4.c,d 5.a,c 6.map-lua o functie si returna o lista a,
+filter returneaza o sublista, filter are tipul lista se duce in lista, map alt tip->tipuri compatibile ca sa mearga, 7.b, sa tinem cont de impartirea la 0,
+8.a,c,d asociativitatea, 9.a->nu corecta total, prima parte ok, poo nu deoarece show e o clasa de tipuri(interfata)->t nu mosteneste clasa de tipuri,b,c,d fals
+pentru ca aritatea e 1->v string, 10.a,b,d
+alfa conversie
+lamda x->x+1 => lamda y->y+1
+
+beta reducere
+(lamda x.x+y) 7 =>7+y
+
+test 3
+1.d, 2.c,d, 3.$->scapi de paranteze,d 4.c, 5.c, 6.c, 7.a, 8.a,d, 9.c,d, 10.a,b,d
+

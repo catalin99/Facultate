@@ -1,0 +1,34 @@
+{--module
+
+
+Data Char
+:browse
+isUpper 'a'
+
+vazute doar in modulul Char
+
+incarcam cu :m + Data.List
+
+
+import qualified as <Alias>
+
+Alias.f
+
+Data.Matrix
+cabal huskell m.Matrix
+
+//declaram noi modulele noastre
+Mod.hs  - fisier
+module Mod
+(
+c,f,T(A,B))where
+c=2
+f x = x +1 
+data T = A | B
+z-vizibil doar in modul ,sa fie vizibil trebuia declarat la inceput
+)
+
+learnyourhaskell.com
+fpconplete.com
+book.realworldhaskell.org	
+--}

@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{	
+ unsigned n=4573,i;
+ char s[10];
+ 
+ _asm{
+	 mov ecx, 0
+	 mov eax, n
+	 mov ebx, 10
+
+	E1: mov edx,0
+	 div ebx
+	 add edx,'0'
+	 mov s[ecx], dl // ptr ca char e pe 1 byte
+	 inc ecx
+
+	 cmp eax, 0
+	 ja E1
+	 mov s[ecx],0
+ }
+ cout<<s;
+ return 0;
+}
+
+	

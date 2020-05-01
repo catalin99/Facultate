@@ -1,0 +1,327 @@
+// opppp.cpp : Defines the entry point for the console application.
+//
+1) n! recursiv
+2) suma elem pare vector
+3) sir de ch, sa se elimine consoanele
+4) numaram cate elem prime intr-un vector, cu apel la functie de primalitate
+5) transpusa unei matrici
+6) se dau 2 vectori, sa se interclaseze in primul al doilea
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+/*
+Seminarul Ivonei 2k18
+PUSHA/POPA da push/pop la ax, bx, cx,... pentru cei de 2 octeti; se da automax sub/add esp, 16
+PUSHAD/POPAD da push/pop la eax, ebx, ecx,... pentru cei de 4 octeti; se da automax sub/add esp, 32
+LEARN EFLAGS
+BOTEZ - VECTORI, PTR [ ]
+WEEEEEEEEE 25 IAN EXAMEN ASM
+
+
+_ _ cdecl -> se ocupa de curatarea stivei
+Pasarea argumentelor functiei se face in ordine inversa
+int main()
+f(p1,p2,p3)
+push p3
+push p2
+push p1 :)
+call f
+VEZI FIGURA 1 CAIET
+By default compilatorul va scrie urm chestii:
+push ebp
+mov ebp,esp
+sub esp, 12 (vezi explicatia *)
+- va primi chestia curatata ca sa stie unde se va intoarce ?
+* int a,b,c - 3 dwords. 3 x 4 = 12 => scadem valoarea 12 ^
+Urmeaza codul nostru in asm
+Automat:
+mov esp, ebp
+pop ebp
+ret
+-> se face clear complet in cadrul stivei iar main isi va continua executia
+___________________________________________________________________________
+int f(p1,p2,p3)
+Intervine alinierea stivei la 4 octeti. #standard pt toate marimile char short etc
+Primul parametru se va afla la EBP + 8;		se face +8 pentru ca +4 e ret
+I. p1 = [ebp+8] -> []=zona de memorie
+II. p2 = [ebp+12]
+III. p3 = [ebp+16]
+etc.
+Astia au fost parametri. Mereu se afla deasupra in stiva.
+Accesam a,b,c:
+a [ebp-4]
+b [ebp-8]
+c [ebp-12]
+La sfarsitul programului, am grija sa adaug:
+add esp,12 (c-am scazut la inceput, il ducem inapoi unde era)
+_____________________________________________________________________________
+???: *???:*
+(ex)
+EX. 1.
+int f(int, int, int)
+return a+b+c;
+int main()
+{
+int a=7,b=3,c=5;
+f(a,b,c);
+
+!!! VALOAREA DE RET SE AFLA IN EAX INTOTDEAUNA - CRED  
+? ? ? ? ? ? ? ? ? ? ? ? ?
+*/
+
+/*
+int suma(int, int, int)
+{
+_asm {
+mov eax, [ebp + 8]
+add eax, [ebp + 12]
+add eax, [ebp + 16]
+}
+} //+4 e ret, +8 e a si tot asa :d
+int main()
+{
+int a, b, c,rez;
+cin >> a >> b >> c;
+_asm {
+push c //in spate se face un dec esp 4
+push b //dec esp 4
+push a //din nou esp 4, deci 4x3 12 in total <3
+call suma
+mov rez, eax
+add esp, 12
+}
+cout << rez;
+return 0;
+}
+*/
+/*
+f(int n)
+ret 2 + 2*4 + 2*4*6 +... + 2*4*..*2n
+>>> C++
+int suma=0;
+int a=1,b=2;
+while(n)
+suma += a*b;
+a=a*b;
+b+=2;
+n--;
+<<< ASM
+*/
+int suma(int n)
+{
+	_asm {
+		push 0				// am adaugat o variabila locala in care vom tine mereu suna
+		mov eax, 1
+		mov ebx, 2
+		mov ecx, [ebp + 8]	// initializam cu parametrul n ca sa stim cand sa ne oprim
+		_while:
+		xor edx, edx		// acelasi lucru ca mov edx,0 doar ca foloseste mai putina memorie <3
+			MUL	ebx			// eax*ebx. la mul se foloseste edx pt cea mai seminifcativa parte
+			add[esp], ebx	// esp e varful stivei
+			add ebx, 2
+			dec ecx
+			cmp ecx, 0
+			jz _finish
+			jmp _while
+			finish :
+		mov eax, [esp]		// salvam suma mai intai
+			add esp, 4			// curatam stiva - adica stergem suma de pe stiva
+								// == pop eax in loc de aceste doua randuri ! #nice
+	}
+	/*
+	avem toate instructiunile astea:
+	mov ecx, [ebp + 8]
+	..
+	..
+	..
+	> dec ecx
+	> cmp ecx,0
+	> jz...
+	IN LOC DE ASTEA 3 LINII FOLOSIM LOOP #nice
+	loop _while
+	finish:
+	//daca a ajuns la 0 iese automat din while, daca nu face jump la while.
+	// ! LOOP lucreaza doar cu registrul ecx. count register
+	// LOOP functioneaza doar pt momentul cand il initializezi cu o valoare, el stie doar sa decrementeze, se opreste la 0.
+
+	}
+	int main();
+	{
+	int suma = 0; ... keep going
+	return 0;
+	}
+	*/
+	/*
+	R E C U R S I V I T A T E
+	Calculam al n-lea termen al sirului lui Fibonacci
+	a=b=1;
+	while
+	c=a+b;
+	a=b;
+	b=c;
+	int Fibo(int n)
+	if(n==1 || n==0) return 1;
+	else return Fibo(n-1) + Fibo(n-2);
+
+	int Fibo(int n)
+	{
+	//tema pt acasa factorial
+	_asm{
+	cmp [ebp+8], 1 //compar n cu 1
+	JLE _return10 //JUMP IF LOWER OR EQUAL #nice
+	mov ebx, [ebp+8] //n
+	dec ebx //n-1
+	push 0 //tinem minte suma
+	push ebx
+	call fibo //va fi apelat cu n-1
+	add esp, 4 //clean
+	add [esp], eax
+	mov ebx, [ebp+8]
+	sub ebx, 2 //n-2
+	push ebx
+	call fibo
+	add esp, 4
+	add [esp], eax
+	pop eax
+	JMP _done
+	_return10: mov eax, 1
+	done: add esp,4
+	}
+	}
+	*/
+	/*
+	V E C T O R I 1D SI 2D
+	1D
+	int v[100] -> alocare statica
+	int *v = (int*) malloc(100*sizeof(int))
+	Lucram cu memoria =>
+	integer - accesarea se face din 4 in 4 octeti
+	char 1 1
+	short 2 2
+
+	v[i]=5;
+	*(v+i)=5 unde i este indexul -> i*sizeof(int) in cazul nostru.
+
+	LEA Load Effective Address
+	LEA dest, val
+	incarca adresa efectiva a vect care este un pointer in adresa de memorie in  destinatia dorita
+	mov ecx, i
+	mov DWORD ptr [esi + 4*ecx], 7
+	^v	 ^sz ^i
+
+	EX
+	Vector v. suma elementelor pare din vector
+	*/
+	int suma(int *v, int n)
+	{
+		_asm {
+			LEA esi, [ebp + 8]
+			mov ecx, [ebp + 12]
+			mov eax, 0 //suma el pare
+			_while:
+			//luam primul element din vector
+			mov ebx, [esi] * **
+				add esi, 4 * **
+				//testam daca e par
+				test ebx, 1 //diferenta dintre and ebx,1 => se strica ebx pt ca face ebx = ebx & 1 ***
+				jnz skip_add
+				add eax, ebx
+				skip_add : loop _while
+				la *** putem inlocui cele 3 instructiuni cu mov ebx, [esi + 4 * ecx]
+				inc ecx
+				jmp ecx[ebp + 12] ? ?
+		}
+	}
+	lla siruri de caractere :
+	esi, v
+		cmp[esi], 0
+		inc esi
+		_____________________
+		MATRICI
+		stat
+		inc a[n][m]
+		a[i][j] = 5;
+	*(a + (i*m + j) * 4) = 5; *4 pentru ca e de tip int
+		- pozitia - -ca sa sara peste elem -
+		->in asm :
+	LEA edi, a
+		mov ebx, i
+		mov edx, j
+		mov eax, m
+		mul ebx // m*i
+		add eax, edx //m*i+j
+		shl eax, 2
+		mov[ed] + [ax], 5
+		Mat dinamice
+		char **a = (char**)(malloc(m * sizeof(char*))
+			for (i = 0; i < n; i++)
+				a[i] = (char*)(malloc(n * sizeof(char))
+
+					a[i][j] = 5;
+	*(*(a + i) + j) = 5;
+	<= > LEA edi, a
+		mov ecx, a
+		mov edx, j
+		mov edi, [edi + 4 * ecx]
+		mov[edi + edx], 5
+
+		/*
+		patratice	DOUA MATRICI A,B. A+B ?
+		A = A+B
+		void suma (int *pa, int *pb, int n)
+		{
+		_asm {
+		mov esi, [ebp+8] //a
+		mov edi, [ebp+12] //matricea b
+		// hai sa obtinem n*n
+		mov ebx, [ebp+16]
+		mov eax, [ebp+16]
+		xor edx, edx
+		mul edx
+		mov ecx, eax
+		_while:
+		mov ebx, [edi] //mutam in ebx primul elem din b
+		add esi, ebx   //a= a+b
+		add edi, 4
+		add esi, 4 //4 pt ca e integer
+		loop _while
+		}
+		}
+		int main()
+		{
+		int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+		int b[3][3]=...
+		int *pa=a;
+		int *pb=b;
+		_asm
+		{
+		push n
+		push pa
+		push pb
+		call suma
+		add esp, 8
+		}
+		return 0;
+		}
+		*/
+		// CE E ALA OFFSET?
+		/*
+		CUM SE SIMULEAZA 2 FOR
+		a,n,m  nr de linii nr de coloane
+		_asm{
+		mov esi, [ebp+8]
+		mov edx, 0
+		for_i: cmp edx, [ebp+12]
+		ja exit_for_1
+		mov ecx, 0
+		for_j : cmp ecx, [ebp+16]
+		ja exit_for_2
+		mov ebx, [esi + 4*edx + ecx] //esi -> a
+		test ebx
+		....
+		exit_for_1: inc edx
+		jmp for_i
+
+		}
+		*/

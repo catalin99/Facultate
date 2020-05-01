@@ -1,0 +1,877 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+TEMA 3 ALGORITMICA GRAFURILOR
+\end_layout
+
+\begin_layout Author
+Dorneanu Anca Tutuianu Corneliu grupa A7 ,an II
+\end_layout
+
+\begin_layout Date
+01/06/2015
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Problema 1
+\end_layout
+
+\begin_layout Standard
+Fie un digraf 
+\begin_inset Formula $G=(V,E)$
+\end_inset
+
+.
+ Daca 
+\begin_inset Formula $X\subseteq V$
+\end_inset
+
+ , notam cu 
+\begin_inset Formula $\delta^{+}(X)={\{xy\in E|x\in X,y\in V-X\}}$
+\end_inset
+
+ si cu 
+\begin_inset Formula $\delta^{-}(X)=δ^{+}(V-X)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $l,u:E\rightarrow\mathbb{R}^{+}$
+\end_inset
+
+ce satisfac 
+\begin_inset Formula $l(e)\leq u(e)$
+\end_inset
+
+ 
+\begin_inset Formula $\forall$
+\end_inset
+
+ 
+\begin_inset Formula $e\in E$
+\end_inset
+
+.
+ Atunci fie exista o circulatie 
+\begin_inset Formula $f:E\rightarrow\mathbb{R}$
+\end_inset
+
+ cu 
+\begin_inset Formula $l(e)\leq f(e)\leq u(e)$
+\end_inset
+
+ 
+\begin_inset Formula $\forall$
+\end_inset
+
+ 
+\begin_inset Formula $e\in E$
+\end_inset
+
+ sau exista 
+\begin_inset Formula $X\subseteq V$
+\end_inset
+
+ astfel incat 
+\begin_inset Formula $\sum\limits _{e\in\delta^{+}(X)}u(e)<\sum\limits _{e\in\delta^{-}(X)}l(e)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Demonstratie:
+\end_layout
+
+\begin_layout Standard
+Definim partea slaba a multimii 
+\begin_inset Formula $X$
+\end_inset
+
+ ca fiind 
+\begin_inset Formula $s(X)=$
+\end_inset
+
+
+\begin_inset Formula $\sum\limits _{e\in\delta^{+}(X)}u(e)-\sum\limits _{e\in\delta^{-}(X)}l(e)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este suficient sa demonstram ca exista un flux 
+\begin_inset Formula $f$
+\end_inset
+
+ cu presupunerea ca fiecare multime are o partea slaba
+\begin_inset Formula $\geq0$
+\end_inset
+
+ .Daca fiecare muchie 
+\begin_inset Formula $e$
+\end_inset
+
+ satisface 
+\begin_inset Formula $l(e)=u(e)$
+\end_inset
+
+, atunci definim 
+\begin_inset Formula $f=u=l$
+\end_inset
+
+.
+ Pentru fiecare 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ avem 
+\begin_inset Formula $\sum\limits _{e\in\delta^{+}(X)}f(e)-\sum\limits _{e\in\delta^{-}(X)}f(e)=s(\{v\})\geq0$
+\end_inset
+
+ si 
+\begin_inset Formula $\sum\limits _{e\in\delta^{-}(X)}f(e)-\sum\limits _{e\in\delta^{+}(X)}f(e)=s(V\backslash\{v\})\geq0$
+\end_inset
+
+ deci 
+\begin_inset Formula $f$
+\end_inset
+
+ este un flux.
+ Vom modifica acum 
+\begin_inset Formula $l,u$
+\end_inset
+
+ pentru cate o muchie, mentinand partea slaba nenegativa peste tot pana
+ cand ajungem la 
+\begin_inset Formula $l=u$
+\end_inset
+
+ .Pentru a face asta, vom alege o muchie 
+\begin_inset Formula $e'$
+\end_inset
+
+ cu
+\begin_inset Formula $l(e')\neq u(e')$
+\end_inset
+
+.
+ Alegem un multimea 
+\begin_inset Formula $X$
+\end_inset
+
+ cu o partea slaba minima astfel incat 
+\begin_inset Formula $e'\in\delta^{+}(X)$
+\end_inset
+
+ si alegem o multime 
+\begin_inset Formula $Y$
+\end_inset
+
+ cu o partea slaba minima astfel incat 
+\begin_inset Formula $e'\in\delta^{-}(Y)$
+\end_inset
+
+.
+ Fie multimea 
+\begin_inset Formula $S$
+\end_inset
+
+,multime cu muchii avand un varf in 
+\begin_inset Formula $X\backslash Y$
+\end_inset
+
+ si cu un varf in 
+\begin_inset Formula $Y\backslash X$
+\end_inset
+
+ si stim ca 
+\begin_inset Formula $e\in S$
+\end_inset
+
+.
+ Acum avem:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s(X)+s(Y)=s(X\cap Y)+s(X\cup Y)+\sum(u(e)-l(e))\geq u(e')-l(e')\limits _{e\in S}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Deci, putem alege 
+\begin_inset Formula $x,y\geq0$
+\end_inset
+
+ cu 
+\begin_inset Formula $x\leq s(X)$
+\end_inset
+
+ si 
+\begin_inset Formula $y\leq s(Y)$
+\end_inset
+
+ si
+\begin_inset Formula $x+y=u(e')-l(e')$
+\end_inset
+
+.
+ Acum incrementam 
+\begin_inset Formula $l(e')$
+\end_inset
+
+ cu 
+\begin_inset Formula $x$
+\end_inset
+
+ si decrementam 
+\begin_inset Formula $u(e')$
+\end_inset
+
+ cu 
+\begin_inset Formula $y$
+\end_inset
+
+ , astfel rezultand 
+\begin_inset Formula $u(e')=l(e')$
+\end_inset
+
+, iar in fuctie de modul in care am ales 
+\begin_inset Formula $X,Y$
+\end_inset
+
+, functiile rezultate 
+\begin_inset Formula $l,u$
+\end_inset
+
+ inca au parti slabe nenegative pentru fiecare multime.
+\end_layout
+
+\begin_layout Section*
+Problema 2
+\end_layout
+
+\begin_layout Standard
+a) Fie 
+\begin_inset Formula $F=(V,E)$
+\end_inset
+
+ o padure, adica o multime de componente conexe care sunt arbori.
+ Stim ca 
+\begin_inset Formula $eh(F)$
+\end_inset
+
+ reprezinta numarul componentelor conexe e-pare.
+ 
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $G=(V,E)$
+\end_inset
+
+, 
+\begin_inset Formula $G$
+\end_inset
+
+ = arbore 
+\begin_inset Formula $\Rightarrow|E|=|V|-1$
+\end_inset
+
+.
+ Fie 
+\begin_inset Formula $|V|=n$
+\end_inset
+
+.
+ Astfel avem 
+\begin_inset Formula $|E|=n-1$
+\end_inset
+
+, care este impar, rezultand ca 
+\begin_inset Formula $n$
+\end_inset
+
+ este par.
+\end_layout
+
+\begin_layout Standard
+Consideram 
+\begin_inset Formula $m$
+\end_inset
+
+ ca fiind un numar de componente conexe e-pare.
+\end_layout
+
+\begin_layout Standard
+Cazul I:
+\end_layout
+
+\begin_layout Standard
+Avem 
+\begin_inset Formula $|V|=n$
+\end_inset
+
+, 
+\begin_inset Formula $n$
+\end_inset
+
+ fiind par.
+ Inseamna ca avem un numar impar de muchii 
+\begin_inset Formula $(n-1)$
+\end_inset
+
+, ceea ce inseamna ca numarul de componente conexe e-pare este 
+\begin_inset Formula $0$
+\end_inset
+
+ 
+\begin_inset Formula $(m=0)\Rightarrow eh(F)\equiv0mod2$
+\end_inset
+
+ .Presupunem prin reducere la absurd ca 
+\begin_inset Formula $|V|\equiv1mod2$
+\end_inset
+
+ .
+ Atunci vom avea
+\begin_inset Formula $|V|=\sum\limits _{u\in e-par(V)}|u|+|V-e-par(V)|$
+\end_inset
+
+, ceea ce nu se poate deoarece un numar impar(suma este para iar modulul
+ este impar) nu poate fi scris ca o suma de numere pare, deci 
+\begin_inset Formula $|V|\equiv0mod2.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cazul II: 
+\begin_inset Formula $eh(F)\equiv1mod2$
+\end_inset
+
+ .Presupunem prin reducere la absurd ca 
+\begin_inset Formula $V|\equiv0mod2$
+\end_inset
+
+.
+ Atunci vom avea
+\begin_inset Formula $|V|=\sum\limits _{u\in e-par(V)}|u|+|V-e-par(V)|$
+\end_inset
+
+, ceea ce nu se poate deoarece un numar impar(atat suma cat si modulul sunt
+ pare) nu poate fi scris ca o suma de numere pare, deci
+\begin_inset Formula $|V|\equiv1mod2.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Astfel, din cazurile I si II rezulta ca 
+\begin_inset Formula $eh(F)\equiv|V|mod2.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b) Fie 
+\begin_inset Formula $T=(V,E)$
+\end_inset
+
+ un arbore cu un numar de varfuri impar 
+\begin_inset Formula $\geq3$
+\end_inset
+
+.
+ Daca avem
+\begin_inset Formula $eh(T-v)\in{\{0,2\}},\forall v\in V$
+\end_inset
+
+ , atunci 
+\begin_inset Formula $L(T)$
+\end_inset
+
+ – graful reprezentativ al muchiilor lui 
+\begin_inset Formula $T$
+\end_inset
+
+ – are exact un cuplaj perfect.
+\end_layout
+
+\begin_layout Standard
+Se numeste cuplaj perfect in graf o modalitate de a alege muchii ale arborelui
+ astfel incat oricare varf din el sa fie incident cu exact o muchie aleasa.
+\end_layout
+
+\begin_layout Standard
+Deci daca numarul componentelor conexe e-pare al arborelui T, mai putin
+ un varf v este egal cu 
+\begin_inset Formula $0$
+\end_inset
+
+ sau 
+\begin_inset Formula $2$
+\end_inset
+
+, atunci 
+\begin_inset Formula $L(T)$
+\end_inset
+
+ are cuplaj perfect, deci avem 2 cazuri:
+\end_layout
+
+\begin_layout Standard
+Cuplajele perfecte sunt unice datorita muchiilor incidente grafului complet
+ format.
+\end_layout
+
+\begin_layout Standard
+CAZ I
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename hw3-1.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename hw3-2.jpg
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+CAZ II
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename hw333.jpg
+	lyxscale 25
+	scale 20
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/cornelius/desen3.jpg
+	lyxscale 25
+	scale 20
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+c) Daca L(T) are exact un cuplaj perfect, atunci 
+\begin_inset Formula $eh(T-v)\in\{0,2\},\forall v\in V$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+Presupunem prin reducere la absurd ca 
+\begin_inset Formula $eh(T-v)\notin$
+\end_inset
+
+
+\begin_inset Formula ${\{0,2\}}\Longrightarrow eh(T-v)\geq3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/cornelius/desen 333333.xpm
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/cornelius/altdesesn.jpg
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pentru ca L(T) sa aiba cuplaj perfect unic trebuie ca 
+\begin_inset Formula $eh(T-v)\in{\{0,2\}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Problema 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $VertexCover\propto_{p}FAS$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $G=(V,E)$
+\end_inset
+
+ un graf unidirectional.
+ Fie 
+\begin_inset Formula $V={\{v_{1},...,v_{n}\}}$
+\end_inset
+
+.
+ Construim un digraf 
+\begin_inset Formula $G_{0}=(V_{0},E_{0})$
+\end_inset
+
+ care satisface urmatoarele proprietati :
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v_{i}\in V\iff w_{i},w_{i}'\in V_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $(w_{i},w_{i}')\in E_{0}$
+\end_inset
+
+pentru fiecare 
+\begin_inset Formula $i=1,...,n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $(v_{i},v_{j})\in E\iff(w_{i}',w_{j}),(w_{j}',w_{i})\in E_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deminstram ca G are o acoperire a varfurilor cu dimensiunea 
+\begin_inset Formula $\leq k$
+\end_inset
+
+ daca si doar daca 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ are FAS (feedback arc set) de dimensiune 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Presupunem ca 
+\begin_inset Formula $G$
+\end_inset
+
+ are o acoperire a varfurilor 
+\begin_inset Formula $VC$
+\end_inset
+
+ de dimensiune 
+\begin_inset Formula $k$
+\end_inset
+
+.Daca 
+\begin_inset Formula $(v_{i},v_{j})\in E$
+\end_inset
+
+, atunci prin constructia 
+\begin_inset Formula $(w_{i},w_{i}'),(w_{i}',w_{j}),(w_{j},w_{j}'),(w_{j}',w_{i})\in E_{0}$
+\end_inset
+
+ care formeaza un ciclu.
+ Daca 
+\begin_inset Formula $v_{i}\in VC$
+\end_inset
+
+, atunci eliminarea lui 
+\begin_inset Formula $(w_{i},w_{i}')$
+\end_inset
+
+ ar intrerupe ciclul.
+ In acelasi mod daca 
+\begin_inset Formula $v_{j}\in VC$
+\end_inset
+
+, atunci eliminarea lui 
+\begin_inset Formula $(w_{j},w_{j}')$
+\end_inset
+
+ ar intrerupe ciclul.
+ Asadar 
+\begin_inset Formula ${\{(w_{i},w_{i}')|v_{i}\in VC\}}$
+\end_inset
+
+este un 
+\begin_inset Formula $FAS$
+\end_inset
+
+, deci 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+are un 
+\begin_inset Formula $FAS$
+\end_inset
+
+ de dimensiune 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Acum presupunem ca 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ are un FAS de dimensiune 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ Putem transforma acest 
+\begin_inset Formula $FAS$
+\end_inset
+
+ intr-unul doar cu muchii de forma 
+\begin_inset Formula $(w_{i},w_{i}')$
+\end_inset
+
+in urmatorul mod: daca 
+\begin_inset Formula $(w_{i}',w_{j})\in FAS$
+\end_inset
+
+, atunci il inlocuim cu 
+\begin_inset Formula $(w_{i},w_{i}')$
+\end_inset
+
+ si mentinem proprietatea FAS.
+ Facand acest lucru, nu vom putea niciodata sa marim dimensiunea 
+\begin_inset Formula $FAS$
+\end_inset
+
+, cu toate ca s-ar putea micsora, de exemplu daca 
+\begin_inset Formula $(w_{k}',w_{j})$
+\end_inset
+
+ si 
+\begin_inset Formula $(w_{i}',w_{j})$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\in FAS$
+\end_inset
+
+, atunci le inlocuim pe amandoua cu 
+\begin_inset Formula $(w_{i},w_{i}')$
+\end_inset
+
+ .
+ Deci avem un nou FAS de dimensiune maxim 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ Pretindem ca 
+\begin_inset Formula $VC={\{v_{i}|(w_{i},w_{i}')\in FAS\}}$
+\end_inset
+
+este o acoperire a varfurilor pentru 
+\begin_inset Formula $G$
+\end_inset
+
+ .
+ Presupunem ca nu este asa.
+ Atunci exista 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $(v_{i},v_{j})\in E$
+\end_inset
+
+ cu 
+\begin_inset Formula $v_{i},v_{j}\notin VC$
+\end_inset
+
+.Deci 
+\begin_inset Formula $(w_{i},w_{i}'),(w_{j},w_{j}')\notin FAS$
+\end_inset
+
+.
+ Eliminand toate muchiile in 
+\begin_inset Formula $FAS$
+\end_inset
+
+ din 
+\begin_inset Formula $E_{0}$
+\end_inset
+
+ ar trebui sa rezulte 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ aciclic,dar 
+\begin_inset Formula $(w_{i},w_{i}')$
+\end_inset
+
+,
+\begin_inset Formula $(w_{i}',w_{j})$
+\end_inset
+
+,
+\begin_inset Formula $(w_{j},w_{j}')$
+\end_inset
+
+,
+\begin_inset Formula $(w_{j}',w_{i})$
+\end_inset
+
+ formeaza un ciclu,acest lucru fiind o contradictie.
+\end_layout
+
+\end_body
+\end_document

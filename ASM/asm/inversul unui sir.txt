@@ -1,0 +1,45 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+void invers(char *s)
+{
+	_asm
+	{
+		mov edi,s
+		push s
+		call strlen
+		add esp,4
+		mov ecx,eax
+
+		mov edx,eax
+		shr edx,1
+
+		mov ebx,0
+
+bucla:
+
+		cmp ebx,edx
+		 
+		jge final
+		mov  al, [edi+ebx]
+
+		mov esi,ecx
+		sub esi,ebx
+		mov ah, [edi+esi-1]
+
+		mov [edi+ebx],ah
+		mov [edi+esi-1],al
+		inc ebx
+
+		jmp bucla
+
+	final:
+	}
+
+}
+int main()
+{
+	char s[8]="abcd";
+	invers(s);
+	cout<<s;
+}

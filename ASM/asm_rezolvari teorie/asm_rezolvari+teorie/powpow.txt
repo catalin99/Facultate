@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+unsigned int powerOf2(int, int*){
+	_asm{
+		MOV EBX, [EBP + 8] //Lungimea vectorului in EBX
+			MOV EDI, [EBP + 12]//Pointer spre primu' element
+			XOR ECX, ECX
+			XOR ESI, ESI
+		_for:
+		CMP ECX, EBX
+			JGE _end
+			MOV EAX, [EDI+4*ECX] // pune valoarea in EAX
+			INC ECX
+			XOR EDX, EDX
+		_while:
+		CMP EAX, 0
+			JE _endWhile
+		SHR EAX, 1
+		JNC _while
+		INC EDX // aici vedem cati biti de 1 avem in EAX
+		JMP _while
+	_endWhile:
+		CMP EDX, 1
+		JNE _for
+		INC ESI
+		JMP _for
+		_end:
+		MOV EAX, ESI
+	}
+}
+void main()
+{
+	int *p, v[] = { 24234, 1024, 23, 24, 32, 1, 4, 64 };
+	p = v;
+	cout << powerOf2(8, p);
+}

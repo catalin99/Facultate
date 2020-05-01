@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ProjRC.dir/client.cpp.o  -o ProjRC 

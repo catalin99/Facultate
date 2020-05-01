@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+unsigned a;
+
+
+void interschimba(int *a, int *b)
+{
+	_asm
+	{
+		mov eax, a   //pentru a-adresa
+		mov ebx, [eax] //pentru a-valoare
+		mov ecx, b  //pentru b-adresa
+		mov edx, [ecx] //pentru b-valoare
+
+		mov [eax], edx
+		mov [ecx], ebx
+	}
+}
+
+int main()
+{
+	int a=5,b=7;
+	interschimba(&a,&b);
+	cout<<a<<" "<<b;
+}

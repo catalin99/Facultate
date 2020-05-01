@@ -1,0 +1,9 @@
+﻿  Source.cpp
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(18): warning C4018: '<': signed/unsigned mismatch
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(20): warning C4018: '<': signed/unsigned mismatch
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(45): warning C4018: '<': signed/unsigned mismatch
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(48): warning C4018: '<': signed/unsigned mismatch
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(73): warning C4018: '<': signed/unsigned mismatch
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(82): warning C4018: '>=': signed/unsigned mismatch
+E:\Info\Info_fac\PSGBD\regexp\regexp\Source.cpp(175): warning C4018: '>': signed/unsigned mismatch
+  regexp.vcxproj -> E:\Info\Info_fac\PSGBD\regexp\Debug\regexp.exe

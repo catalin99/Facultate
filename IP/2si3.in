@@ -1,0 +1,76 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+typedef unsigned long ul;
+#define tip int
+
+fstream in("prob.in");
+
+struct nod
+{
+    tip elt;
+    nod *succ;
+};
+
+void citire(nod *&L, ul &nrElemente)
+{
+    tip x;
+    ul i;
+    nod *p;
+    //cout<<"dati numarul de elemente ";
+    in>>nrElemente;
+    L='\0';
+    for(i=0; i<nrElemente; i++)
+    {
+        //cout<<"Dati elementul numarul "<<i+1<<" ";
+        in>>x;
+        p=new nod;
+        p->elt=x;
+        p->succ=L;
+        L=p;
+    }
+}
+
+void stergpar(nod*&L)
+{
+    nod *p,*q;
+    while(L->elt%2==0)
+    {
+        q=L;
+        L=L->succ;
+        delete q;
+    }
+
+    p=L;
+    while(p->succ)
+        if(p->succ->elt %2==0)
+        {
+            q=p->succ;
+            p->succ=q->succ;
+            delete q;
+        }
+        else p=p->succ;
+  }
+
+void afisare(nod *L)
+{
+    nod *p;
+    p=L;
+    while(p!='\0')
+    {
+        cout<<p->elt<<" ";
+        p=p->succ;
+    }
+}
+
+
+int main()
+{
+    ul n;
+    nod *L;
+    citire(L, n);
+    stergpar(L);
+    afisare(L);
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{	
+  unsigned int n = 5,i,f=1;
+  for(i=1;i<=n;i++){
+
+    _asm{  
+		mov eax, f
+		/mov ebx, i
+		mul ebx
+		mov f, eax
+  }
+  
+}
+  cout<<f;
+}
+	

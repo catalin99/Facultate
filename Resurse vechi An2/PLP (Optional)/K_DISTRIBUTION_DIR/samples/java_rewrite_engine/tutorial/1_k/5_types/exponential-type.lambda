@@ -1,0 +1,4 @@
+let f00 = lambda x . lambda y . x in
+  let f01 = lambda x . f00 (f00 x) in
+                                  f01
+

@@ -1,0 +1,5 @@
+Variabile:x a f y jdecl x2 y2 xc as b 
+
+Structur:S1 x y h 
+
+Apel Functii:h(2,z) jk(vbn,7889,nm,0,oiuoiuoiu) 

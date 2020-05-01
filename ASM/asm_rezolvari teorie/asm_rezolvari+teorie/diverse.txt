@@ -1,0 +1,470 @@
+#include "stdafx.h"
+
+#include <stdio.h>
+#include <malloc.h>
+#include<string.h>
+
+unsigned nrBits( int ){
+    _asm{
+        mov eax,0
+        mov ebx, [ebp+8]
+_while:
+        shl ebx,1
+        jnc next
+        inc eax
+        jmp _while
+next:
+        jz finish
+        jmp _while
+finish:
+    }
+}
+
+unsigned nrBits2( int ){
+    _asm{
+        mov eax,0
+        mov ebx, [ebp+8]
+        cmp ebx,0
+        jz finish
+do_while:
+        inc eax
+        mov edx,ebx
+        dec edx
+        and ebx,edx
+        jz finish
+        jmp do_while
+finish:
+    }
+}
+
+unsigned isPrime( int ){
+    _asm{
+        push [ebp+8]
+        call nrBits
+        add esp,4
+        mov ebx,eax
+        shr ebx,1
+        mov ecx,2
+        mov esi,eax
+
+_while:
+        cmp ecx,ebx
+        jge prime
+        mov eax,esi
+        xor edx, edx
+        div ecx
+        cmp edx,0
+        jz not_prime
+        inc ecx
+        jmp _while
+not_prime:
+        xor eax,eax
+        jmp finish
+prime:
+        mov eax,1
+finish:
+    }
+}
+
+unsigned int fib(unsigned char n){
+    _asm{
+        push ebx
+        movzx eax, byte ptr [ebp+8]
+        cmp eax,1
+        jbe finish
+        dec eax
+        push eax
+        dec eax
+        push eax
+        call fib
+        add esp,4
+        mov ebx,eax
+        call fib
+        add esp,4
+        add eax,ebx
+finish:
+        pop ebx
+    }
+}
+
+int palindrom( unsigned int ){
+    _asm{
+        mov ebx, [ebp+8]
+        mov esi,ebx
+        xor edi,edi
+        mov ecx,10
+_while:
+        cmp ebx,0
+        jz start_compare
+        mov eax, edi
+        mul ecx
+        mov edi,eax
+        xor edx,edx
+        mov eax, ebx
+        div ecx
+        mov ebx,eax
+        add edi,edx
+        jmp _while
+start_compare:
+        cmp esi,edi
+        jnz not_palindrom
+        mov eax,1
+not_palindrom:
+    }
+}
+
+unsigned short powerOf2( int , int* ){
+    _asm{
+        mov esi,[ebp+12]
+        mov ecx,[ebp+8]
+        xor ax,ax
+_loop:
+        dec ecx
+        cmp ecx,0
+        jl finish
+        mov edi,[esi+4*ecx]
+        cmp edi,0
+        jz _loop
+        mov ebx,edi
+        dec ebx
+        and ebx,edi
+        jnz _loop
+        inc ax
+        jmp _loop
+finish:
+
+    }
+}
+
+int progresie_aritmetica(int, int*){
+    _asm{
+        mov esi,[ebp+12]
+        mov edi,[ebp+8]
+        push ebp
+        sub esp,4
+        cmp edi,3
+        jl not_pa
+        jz is_pa
+        mov ebx,[esi+12]
+        mov [esp],ebx
+        sub ebx, [esi+8]
+        mov ecx,3
+
+_loop:
+        add ecx,2
+        cmp  ecx,edi
+        jge is_pa
+        mov ebp,2
+inner_loop:
+        mov eax, ecx
+        shr eax,1
+        cmp ebp,eax
+        jge is_prime
+        mov eax,ecx
+        xor edx,edx
+        div ebp
+        cmp edx,0
+        jz _loop
+        inc ebp
+        jmp inner_loop
+is_prime:
+        mov eax,[esp]
+        mov edx,[esi+4*ecx]
+        add eax,ebx
+        mov [esp],edx
+        cmp eax,edx
+        jz _loop
+not_pa:
+        xor eax,eax
+        jmp finish
+is_pa:
+        mov eax,1
+finish:
+        add esp,4
+        pop ebp
+    }
+}
+
+int toUpper(char* ){
+    _asm{
+        mov esi,[ebp+8]
+        xor eax,eax
+_loop:
+        mov bl,[esi]
+        cmp bl,0
+        jz finish
+        cmp bl,'a'
+        jb _next
+        cmp bl,'z'
+        ja _next
+        and byte ptr [esi], 11011111b
+        inc eax
+_next:
+        inc esi
+        jmp _loop
+finish:
+    }
+}
+
+int nrTok( char* ){
+    _asm{
+        mov esi,[ebp+8]
+        xor eax,eax
+        xor ecx,ecx
+        xor edx,edx
+_loop:
+        mov bl,[esi]
+        cmp bl,0
+        jz finish
+        cmp bl,'.'
+        jz sep
+        cmp bl,' '
+        jz sep
+        cmp bl,'\t'
+        jz sep
+        cmp bl,','
+        jz sep
+        cmp bl,';'
+        jz sep
+        cmp bl,'('
+        jz sep
+        cmp bl,')'
+        jz sep
+        mov ecx,1
+        xor edx,edx
+        inc esi
+        jmp _loop
+sep:
+        cmp ecx,1
+        jnz not_started
+        inc eax
+        xor ecx,ecx
+not_started:
+        mov edx,1
+        inc esi
+        jmp _loop
+finish:
+        cmp edx,1
+        jz _exit
+        cmp ecx,1
+        jnz _exit
+        inc eax
+_exit:
+
+    }
+}
+
+int freqWords( char*,char*){
+    _asm{
+        mov esi,[ebp+8]                ;adresa caracterului curent
+        sub esp,9                      ; facem loc pentru starea initiala
+                                       ;resetam structura
+        mov byte ptr  [esp],0
+        mov dword ptr [esp+1],0
+        mov dword ptr [esp+5],0
+        mov edi,esp                    ;starea initiala
+        mov ecx,edi                    ; starea curenta = starea initiala
+big_loop:
+        mov bl,byte ptr [esi]          ; extragem caracterul
+        cmp bl,0
+        jz finish_training
+        cmp bl,'.'
+        jz sep
+        cmp bl,' '
+        jz sep
+        cmp bl,'\t'
+        jz sep
+        cmp bl,','
+        jz sep
+        cmp bl,';'
+        jz sep
+        cmp bl,'('
+        jz sep
+        cmp bl,')'
+        jz sep
+                                       ;am citit o litera. Verificam daca avem arc din starea curenta, cu litera curenta
+        and bl,11011111b               ;conversie la litera mare
+        mov edx,[ecx+1]                ; primul arc din starea curenta
+        mov eax,0xffffffff             ;ultimul arc verificat din lista inlantuita
+check_arc:
+        cmp edx,0
+        jnz has_arcs
+                                       ;starea curenta nu are nici un arc
+        lea edx,[esp-9]                ;adresa noii structuri
+        mov [ecx+1],edx                ;legam noua structura de cea veche
+        mov esp,edx                    ;rezervam spatiu pentru noua structura
+        mov ecx,esp                    ;starea curenta  = noua stare
+        mov [ecx],bl                   ;setam eticheta arcului
+                                       ;resetam restul campurilor
+        mov dword ptr [ecx+1],0
+        mov dword ptr [ecx+5],0
+        inc esi                        ;next letter
+        jmp big_loop
+        
+has_arcs:
+                                       ;cautam arcul etichetat cu litera citita.
+        mov bh,[edx]                   ;extragem eticheta primului arc din starea curenta de pe stiva
+        and bh,11011111b               ;uppercase
+        cmp bh,bl                      ; e arcul cautat?
+        jz next_state                  ; daca da, trecem in starea urmatoare
+                                       ;acest arc nu e bun, mergem pe urmatorul
+        mov eax,edx                    ;setam ultimul arc verificat din lista inlantuita
+        mov edx,[edx+5]
+        cmp edx,0
+        jz arc_not_found               ; nu mai sunt alte arce.
+                                       ;am gasit un nou arc.
+        jmp check_arc
+arc_not_found:
+                                       ;nu am gasit nici un arc etichetat cu litera citita. trebuie sa il cream noi.
+        mov edx,eax                    ;ultimul arc verificat din lista inlantuita
+                                    
+        cmp edx,0xffffffff             ; avem un astfel de arc?
+        jnz add_arc                    ;da
+        mov edx,[ecx+1]                ;nu avem, trebuie cream un arc nou din starea curenta catre o noua stare
+add_arc:                               ;adaugam noua stare
+        sub esp,9                      ;rezervam spatiu
+        mov [esp],bl                   ;punem eticheta
+                                       ;resetam restul campurilor
+        mov dword ptr [esp+1],0
+        mov dword ptr [esp+5],0
+        mov [edx+5],esp                ;adaugam acest arc la lista inlantuita
+        mov ecx,esp                    ;starea curenta = noua stare
+        inc esi                        ; next letter
+        jmp big_loop
+next_state:
+        mov ecx,edx                    ;am sarit in noua stare, pot citi urmatoarea litera
+        inc esi
+        jmp big_loop 
+sep:
+        inc esi                        ;next letter
+        cmp eax,0                      ;verific daca tocmai s-a sfarsit sau nu un cuvant
+        jz big_loop                    ;NU
+                                       ;tocmai s-a sfarsit un cuvant
+        or byte ptr [ecx],32           ; convertim la litera mica - (stare finala)
+        mov eax,0                      ; flag - tocmai s-a terminat un cuvant
+        mov ecx, edi                   ; suntem iar in starea initiala
+        jmp big_loop
+finish_training:                    
+        or [ecx],32                    ; convertim la litera mica- stare finala
+                                       ; testam cel de-al II-lea sir si vedem cate din starile finale coincid
+        mov esi,[ebp+12]            
+        mov ecx,edi
+        xor eax,eax
+        xor edx,edx
+        mov bh,0
+test_loop:
+        mov bl, byte ptr [esi]
+        cmp bl,0
+        jz finish_testing
+        cmp bl,'.'
+        jz sep_test
+        cmp bl,' '
+        jz sep_test
+        cmp bl,'    '
+        jz sep_test
+        cmp bl,','
+        jz sep_test
+        cmp bl,';'
+        jz sep_test
+        cmp bl,'('
+        jz sep_test
+        cmp bl,')'
+        jz sep_test
+        
+        and bl,11011111b                   ;conversie la litera mare
+        mov edx,[ecx+1]                    ;primul arc
+test_check_arc:
+        cmp edx,0                          ;avem arc din starea curenta?
+        jz test_arc_not_found              ;NU
+                                           ;DA
+        mov bh,[edx]                       ;extragem eticheta
+        and bh,11011111b                   ;conversie la litera mare
+        cmp bh,bl                          ; verificam daca arcul e etichetat cu litera citita
+        jz test_next_state                 ; daca da, trecem in starea urmatoare
+                                           ;acest arc nu e bun, mergem pe urmatorul
+        mov edx,[edx+5]                    ;pointer catre urmatorul
+        cmp edx,0                          ;exista un "urmatorul" ?
+        jz test_arc_not_found              ;nu
+                                           ;incercam cu urmatorul arc
+        jmp test_check_arc
+        
+test_next_state:
+        mov ecx,edx                        ;suntem in noua stare,
+        inc esi
+        jmp test_loop
+sep_test:
+        cmp edx,0                          ;tocmai s-a terminat un cuvant?
+        jz reset_state                     ;NU
+        test byte ptr [ecx],32             ;Daca da, vedem daca s-a terminat intr-o stare finala a tree-ului
+        jz reset_state                     ; nu a fost stare finala
+        inc eax                            ;a fost stare finala, incrementam contorul
+        jmp reset_state
+        
+test_arc_not_found:
+        inc esi
+        
+discard:                                   ;incrementam indexul pana dam de un separator
+        mov bl, byte ptr [esi]
+        cmp bl,0
+        jz finish_testing
+        cmp bl,'.'
+        jz reset_state
+        cmp bl,' '
+        jz reset_state
+        cmp bl,'    '
+        jz reset_state
+        cmp bl,','
+        jz reset_state
+        cmp bl,';'
+        jz reset_state
+        cmp bl,'('
+        jz reset_state
+        cmp bl,')'
+        jz reset_state
+        inc esi                            ;nu este separator, keep discarding
+        jmp discard    
+reset_state:
+        mov ecx,edi                        ;starea curenta = starea initiala
+        xor edx,edx                        ;flag - incepem un nou cuvant
+        inc esi                            ;next letter
+        jmp test_loop
+
+finish_testing:
+        cmp edx,0                          ;Sirul al II-lea s-a terminat cu separator?
+        jz restore_esp                     ;da
+        test byte ptr [ecx],32             ;daca nu - starea curenta este una finala?
+        jz restore_esp                     ;nu
+        inc eax                            ;da, e stare finala - incrementam counterul
+restore_esp:
+        lea esp,[edi+9]                    ;restauram ESP-ul
+        }
+}
+
+void main(){
+    int v[]={9,8,4,6,5,8,3,11,1,0};
+    int i;
+    _asm{
+        lea eax,v
+        mov edx,10
+outer_loop:
+        xor ebx,ebx
+        mov ecx,1
+inner_loop:
+        cmp ecx,edx
+        jz finish_inner_loop
+        mov esi,[eax + 4*ecx - 4]
+        mov edi,[eax + 4*ecx]
+        cmp esi,edi
+        jg interschimba
+        inc ecx
+        jmp inner_loop
+interschimba:
+        mov ebx,1
+        mov [eax+4*ecx],esi
+        mov [eax+4*ecx-4],edi
+        jmp inner_loop
+finish_inner_loop:
+        cmp ebx, 0
+        jnz outer_loop
+    }    
+}

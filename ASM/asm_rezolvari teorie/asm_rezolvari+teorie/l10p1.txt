@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+//Calculul factorialului unui numar - recursiv
+
+unsigned int f(int){
+ _asm{
+	mov ecx, [ebp+8]//nr
+	cmp ecx,1
+	jnz apel_recursiv
+	//baza: nr = 1, functia returneaza 2
+	mov eax,2
+	jmp final
+apel_recursiv:
+	dec ecx//n-1
+	push ecx
+	call f
+	add esp,4
+	mov ebx,eax//f(n-1)
+	mov ecx, [ebp+8]//nr
+	shl ecx,1//2n
+	mov eax,ecx
+_while:
+	sub ecx,2
+	cmp ecx,2
+	jl final_calcul_termen
+	mul ecx
+	jmp _while
+final_calcul_termen:
+	//returnam f(n-1) + 2*4*...*2n
+	add eax,ebx
+final:
+ }
+}
+
+
+void main(){
+ int nr,rez;
+ printf("nr = ");
+ scanf("%u",&nr);
+ _asm{
+	push nr
+	call f
+	add esp,4
+	mov rez,eax
+ }
+ printf("Rez: %u",rez);
+}

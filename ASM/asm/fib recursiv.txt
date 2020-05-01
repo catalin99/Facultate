@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int s;
+
+unsigned fact(unsigned n)
+{
+	_asm{
+		add eax,1
+		cmp n,0
+		je sfarsit
+		mov edx, n
+		dec edx
+		push edx
+		call fact
+		add esp, 4
+		mul n
+		mov s, eax
+		jmp final
+	sfarsit: mov eax,1
+	final:
+	}
+}
+
+int main()
+{
+	cout << fact(5);
+}
+

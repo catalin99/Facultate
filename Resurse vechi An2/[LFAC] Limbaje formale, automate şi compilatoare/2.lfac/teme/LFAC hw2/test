@@ -1,0 +1,14 @@
+var a;
+var d=4;
+var g;
+var c=2;
+begin
+d=5+c;
+print(d);
+print(7);
+g=min(min(1,2,3),99,5);
+print(d);
+c=7;
+print(g);
+print(h);
+end

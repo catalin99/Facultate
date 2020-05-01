@@ -1,0 +1,30 @@
+#include "functions.h"
+#include <string.h>
+
+int medieAritm(int p[], int n)
+{
+  int s = 0;
+  int i;
+  for(i=0; i<n; i++)
+   s = s + p[i];
+   
+   s = s / n;
+   return s;
+}
+
+intFunc fns[] = {&medieAritm};
+char *fnNames[] = {"medieAritm"};
+
+int totalFns = 1;
+
+intFunc getFunctionFromName(char *fName)
+{
+  intFunc res = NULL;
+  int i;
+  
+  for(i=0; i<totalFns; i++)
+   if(strcmp(fnNames[i], fName) == 0)
+    res = fns[i];
+  
+  return res;
+}

@@ -1,0 +1,21 @@
+var x, y, z;
+x := 1;
+y := 0;
+z := 2;
+{
+  var x, y;
+  x := 4;
+  {
+    var z;
+    z := 5;
+    print("z = ", z, "\n");
+    var x, y;
+    y := 4;
+    print("y = ", y, "\n")
+  };
+  var z;
+  z := y;
+  print("z = ", z, "\n");
+  print("x = ", x, "\n")
+};
+print("x = ", x, "\n")

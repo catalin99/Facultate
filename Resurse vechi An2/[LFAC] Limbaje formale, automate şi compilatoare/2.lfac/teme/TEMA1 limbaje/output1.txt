@@ -1,0 +1,16 @@
+<#include INCL><<iostream.h> LIB>
+<int TIP><x VA><+= SEQ><- DEC><235 NR><++ INCDEC><; PV><char TIP><a VA><; PV>
+<struct REZ>
+<( PARS><>= CO><0 NR><) PARD><= ASSIG><6 NR><= ASSIG><0 NR>
+<int TIP><f VA><( PARS><int TIP><y VA><) PARD><{ ACOS>
+<h VA><( PARS><2 NR><, V><z VA><) PARD><; PV>
+<int TIP><jdecl VA><( PARS><int TIP><x2 VA><, V><int TIP><y2 VA><) PARD>
+<jk VA><( PARS><vbn VA><, V><7889 NR><, V><nm VA><, V><0 NR><, V><oiuoiuoiu VA><) PARD>
+<int TIP><xc VA><, V><ui VA><, V><io VA><= ASSIG><7 NR><; PV>
+
+<return REZ><g VA><( PARS><y VA><+ ADD><34 NR><) PARD><; PV>
+<} ACOD>
+
+<ffhfgk VA>
+<int TIP><as VA><int TIP><b VA>
+<* MUL><c VA>< *c POINT><>> CIN><<< COUT><>> CIN><> CO><-> IMPLI><- DEC><a VA><* MUL><b VA><a VA><* MUL><b VA>

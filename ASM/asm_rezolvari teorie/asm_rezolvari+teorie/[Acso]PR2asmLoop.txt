@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+//Sa se scrie codul in limbaj de asamblare care oglindeste bitii  unui numar
+
+void main(){
+	char number;
+	number = 140;
+
+	_asm{
+		mov al, number
+			mov dl, 0
+			mov ecx,7
+		
+		Label:
+			mov bl, al
+			and bl, 1
+			or dl, bl
+			shl dl, 1
+			shr al, 1
+			
+			loop label
+
+			mov bl, al
+			and bl, 1
+			or dl, bl
+			mov number, dl
+		}
+	if (number != 49)
+		printf("Failed! Your result is %d\n", number);
+	else
+		printf("OK!");
+}

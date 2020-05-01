@@ -1,0 +1,4 @@
+﻿  Lab1 Prob2.cpp
+d:\info\info_fac\oop\lab poo\lab1 prob2\lab1 prob2\lab1 prob2.cpp(24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\info\info_fac\oop\lab poo\lab1 prob2\lab1 prob2\lab1 prob2.cpp(34): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Lab1 Prob2.vcxproj -> D:\Info\Info_fac\OOP\Lab poo\Lab1 Prob2\Debug\Lab1 Prob2.exe

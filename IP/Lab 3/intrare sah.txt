@@ -1,0 +1,11 @@
+Marblo
+Adrian
+negru
+T 0 N R S N 0 T
+P P P P P P P P
+C 0 0 0 0 C 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 p n
+p p p p p p 0 p
+t c n r s 0 c t

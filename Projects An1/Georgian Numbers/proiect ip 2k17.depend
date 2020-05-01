@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1515770874 source:d:\info\poriect ip 2k17\proiect ip 2k17\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<cmath>
+	<iostream>
+	<cstring>
+

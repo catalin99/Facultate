@@ -1,0 +1,4 @@
+int x;
+x = read();
+
+print("x = "); print(++x); print("\n");

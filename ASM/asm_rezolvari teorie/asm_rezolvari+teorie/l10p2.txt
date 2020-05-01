@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+//Calculul factorialului unui numar - recursiv
+
+unsigned int fact_rec(unsigned int ){
+ _asm{
+	mov ebx, [ebp+8]//nr
+	cmp ebx,0
+	jnz apel_recursiv
+	//nr este 0, returnam 1
+	mov eax,1
+	jmp final
+apel_recursiv:
+	//nr*fact_rec(nr-1)
+	dec ebx	
+	push ebx
+	call fact_rec
+	add esp,4
+	mov ebx, [ebp+8]//nr
+	mul ebx//return nr*fact_rec(nr-1)
+final:
+
+ }
+}
+
+
+void main(){
+ int nr,fact;
+ printf("nr = ");
+ scanf("%u",&nr);
+ _asm{
+	push nr
+	call fact_rec
+	add esp,4
+	mov fact, eax
+ }
+ printf("%u! = %u",nr,fact);
+}

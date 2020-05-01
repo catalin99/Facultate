@@ -1,0 +1,25 @@
+$load basic.bld
+int a(2)
+int b(3)
+int vec[3,4,5,"salut"]
+function$ int cmmdc(int a, int b)
+define function$ cmmdc 
+ begin
+  while (a!=b)
+   begin
+    if(a!=b)
+     begin
+      a$:a-b
+     end
+      else
+     begin
+      b$:b-a
+     end
+    fi
+   end
+  eow
+  write a
+ end
+read a
+read b
+run function$ cmmdc having parameters:["15","27"]

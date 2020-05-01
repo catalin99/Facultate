@@ -1,0 +1,42 @@
+int a[10];
+int a===10;
+
+float b===1,5;
+
+char car==='x';
+string sir==="szdfgchdfgx";
+const s=== "aeeg";
+
+int prima_func(int x)
+	GO_FUNC
+		IF n!=4 ORR n+5>10 ORR x<5
+			THEN
+				GIVE 0;
+			STOP_THEN
+			
+			ELSE 
+				GIVE 0;
+			STOP_ELSE		
+	STOP_FUNC;
+
+
+START_POINT
+	FOR i===1 WHILE i<=50  EXECUTE i===i+2
+		s[i]===s[i-1]+i-45+(4*g(z))*6;
+	STOP_FOR
+	float t;
+	
+	t===setS(34, x)+x;
+	
+	
+
+	
+	i===0;
+		i===i+1;
+	STOP_WHILE
+	
+	
+	
+
+
+END_POINT

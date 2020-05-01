@@ -1,0 +1,57 @@
+@uses System.Sysutils;
+@uses Vcl.System;
+
+%DECLARATIONS:
+
+$type student := class
+start
+private section
+	VariableName1: var_N;
+	VariableName2: var_Z;
+	VariableName3, Variable4: var_R;
+	VariableName5: string;
+    permanent Constant: string = ~Maira merge in padure dupa fragi si dupa mure.~;
+
+	$type student2 := record
+	start
+		VariableName5: string;
+	end
+
+	function FunctionName(Parameter1, Parameter2: var_N): var_N;
+public section
+	procedure ProcedureName(Parameters: char);
+	VariableName6: array [0-20][0-30] of char;
+	procedure ProcedureName(Parameters: char);
+end
+
+$type name := myown
+start
+	VariableName5: string;
+end
+
+%IMPLEMENTATION:
+
+function FunctionName(Parameter1, Parameter2: var_N): var_N
+start
+Name := Name;
+Somename.create(2,3);
+Somename.gsp;
+Trololo := AnotherFunction(~asd~);
+if 0 < 1 & 6 < 93 | id < 6
+start
+	tello := 13;
+	result := anotherID + anotherId(2+x-y, ~asd~) - 20 + x * 5 - y;
+	
+	for idul := anotherID[6][7] until 100 
+	start
+		result := anotherID + anotherId(func(smth), ~asd~); #comentariu 123
+		do := 3 + 5 - IDD * 6 + 6;
+	end
+x := y & z;
+end
+else
+start 
+	Name := Name;
+end
+Result := ID;
+end.

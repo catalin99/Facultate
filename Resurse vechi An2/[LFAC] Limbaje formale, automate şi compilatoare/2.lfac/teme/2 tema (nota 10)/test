@@ -1,0 +1,22 @@
+variabila a=3;
+variabila d=4;
+variabila g;
+variabila w=3;
+variabila c=2;
+
+inceput
+
+d=5+c+5*9/14;
+afiseaza(d);
+
+g=minim(minim(1,2),99);
+c=7;
+afiseaza(435345);
+
+w=modul(-10);
+g=cmmmc(23,10);
+
+afiseaza(g);
+afiseaza(w);
+
+sfarsit

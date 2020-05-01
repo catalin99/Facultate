@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+struct Punct{
+	int x;
+	int y;
+};
+
+int cdg(Punct t[], int n, Punct *rez){
+
+	_asm{
+		mov eax,t // tabloul de puncte, n fiind nr de puncte
+		mov ebx, 0 // i=0
+		mov ecx, 0 // r->x=0
+		mov edx, 0 // r->y=0
+		bucla: cmp ebx, n
+		jge afara
+		add ecx, [eax+ebx*8];
+		add edx, [eax+ebx*8+4];
+		inc ebx
+		jmp bucla
+afara: 
+
+		mov ebx, ecx
+		mov ecx, edx
+
+		//impartirea pentru r->x
+
+		mov eax, ebx
+		mov edx, 0  
+		div n
+		mov ebx, eax // trecem in ebx rezultatul impartirii
+
+		// impartirea pentru r->y
+
+		mov eax, ecx
+		mov edx, 0
+		div n
+		mov ecx, eax // trecem in ecx rezultatul impartirii
+
+		mov eax, rez
+		mov dword ptr [eax], ebx
+		mov dword ptr [eax+4], ecx
+}
+
+}
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+
+	Punct t[]={{5,7},{1,8},{10,3}};
+	Punct r;
+	cdg (t,3,&r);
+	printf("x:%d, y:%d \n",r.x, r.y);
+	return 0;
+}

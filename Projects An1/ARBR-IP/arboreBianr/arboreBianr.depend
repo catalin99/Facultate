@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1516094146 source:c:\users\gabriel\desktop\new folder (6)\final.cpp
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<cstring>
+	"bibiotecaGrafica.h"
+	"functiArb.h"
+
+1516090139 c:\users\gabriel\desktop\new folder (6)\bibiotecagrafica.h
+	<windows.h>
+	<iostream>
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<cstring>
+
+1516094309 c:\users\gabriel\desktop\new folder (6)\functiarb.h
+	"bibiotecaGrafica.h"
+
+1516094146 source:c:\users\belu catalin\desktop\new folder (6)\final.cpp
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<cstring>
+	"bibiotecaGrafica.h"
+	"functiArb.h"
+
+1516090139 c:\users\belu catalin\desktop\new folder (6)\bibiotecagrafica.h
+	<windows.h>
+	<iostream>
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<cstring>
+
+1516094309 c:\users\belu catalin\desktop\new folder (6)\functiarb.h
+	"bibiotecaGrafica.h"
+

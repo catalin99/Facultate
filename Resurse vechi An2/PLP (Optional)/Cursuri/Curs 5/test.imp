@@ -1,0 +1,7 @@
+int x;
+int y;
+
+spawn x = ++x / (++x /x);
+spawn y = ++x / (++x /x);
+
+print("y = "); print(y); print("\n");

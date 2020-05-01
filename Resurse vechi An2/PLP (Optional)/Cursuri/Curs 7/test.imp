@@ -1,0 +1,20 @@
+int x;
+int y;
+
+function sum(int x, int y) {
+     return x + y;
+};
+
+function main() {
+     x=10;
+     y=20;
+     x=sum(x,y);
+     print("Sum = "); print(x); print("\n");
+     return;
+}
+
+/*
+     syntax VarDecl ::= "int" Id ";"
+     syntax FunDecl ::= "function" / ...
+     syntax Decls ::= List{Decl, ""}
+*/

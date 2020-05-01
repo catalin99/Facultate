@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	unsigned a, b=7, c=3;
+
+	_asm{
+		 mov ebx, b
+		 mov cl, byte ptr c
+		 shl ebx, cl
+		 mov a,ebx
+	}
+	cout << a << endl;
+
+	return 0;
+}
+	
+!!! shiftez cu o constanta sau cu cl!!![pun byte ptr ...]

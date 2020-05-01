@@ -1,0 +1,100 @@
+﻿  Source.cpp
+e:\university\anu 2\ag\tema1\tema1\source.cpp(39): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(63): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(64): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(66): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(67): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(70): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(159): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(160): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(162): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(163): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(167): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(178): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(196): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(250): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(251): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(253): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(256): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(260): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(346): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(370): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(380): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(383): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(390): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(391): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(393): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(394): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(396): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(400): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(408): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(408): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(426): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(426): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(484): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(502): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(503): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(507): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(518): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(518): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(537): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(537): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(595): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(596): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(600): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(611): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(611): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(630): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(630): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(697): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(707): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(716): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(717): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(719): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(720): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(722): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(726): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(734): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(752): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(811): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(827): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(828): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(830): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(831): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(835): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(846): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(865): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(920): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(921): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(923): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(924): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(928): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(939): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(958): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1027): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1037): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1046): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1047): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1049): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1050): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1052): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1056): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1064): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1082): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1141): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1159): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1160): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1164): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1194): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1252): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1253): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1257): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1268): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1287): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\university\anu 2\ag\tema1\tema1\source.cpp(1349): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  tema1.vcxproj -> E:\University\Anu 2\AG\tema1\Debug\tema1.exe
+  tema1.vcxproj -> E:\University\Anu 2\AG\tema1\Debug\tema1.pdb (Full PDB)

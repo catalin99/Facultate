@@ -1,0 +1,782 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=latex 2014.11.30)  12 DEC 2014 18:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tema3.l
+(./tema3.l
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 d
+     irectivaprepocesare ("load"|"define")
+? 
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no | in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2 librarie ("basic"|"extended_
+                                basic"|"basic_math"|"basic_string")
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+
+LaTeX Warning: Command \" invalid in math mode on input line 8.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 8.
+
+LaTeX Font Info:    Try loading font information for +cmr on input line 8.
+LaTeX Font Info:    No file cmr.fd. on input line 8.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 8.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.8 string (\")
+               ([^\"])*(\")
+? 
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 8.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.8 string (\")
+               ([^\"])*(\")
+? 
+! Missing { inserted.
+<to be read again> 
+                   \edef 
+l.8 string (\")
+               ([^\"])*(\")
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.8 string (\")
+               ([^\"])*(\")
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.8 string (\")([^\"
+                    ])*(\")
+? 
+
+LaTeX Warning: Command \" invalid in math mode on input line 8.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.8 string (\")([^\"]
+                     )*(\")
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.8 string (\")([^\"]
+                     )*(\")
+? 
+
+LaTeX Warning: Command \" invalid in math mode on input line 8.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.8 string (\")([^\"])*(\")
+                           
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.8 string (\")([^\"])*(\")
+                           
+? 
+! Misplaced alignment tab character &.
+l.10 operator_logic ("&
+                       &"|"||"|"<="|">="|"=="|"!="|"<"|">")
+? 
+! Misplaced alignment tab character &.
+l.10 operator_logic ("&&
+                        "|"||"|"<="|">="|"=="|"!="|"<"|">")
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 
+     
+? 
+Missing character: There is no è in font cmex10!
+Missing character: There is no è in font cmex10!
+Missing character: There is no è in font cmex10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--13
+[]
+ []
+
+
+Overfull \hbox (190.59802pt too wide) in paragraph at lines 1--13
+[]\OML/cmm/m/it/10 asic\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m
+/it/10 basic[]ath\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/10
+ basic[]tring\/cmr/m/n/10 ")\OML/cmm/m/it/10 litera\/cmr/m/n/10 [\OML/cmm/m/it/
+10 a \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (20.36812pt too wide) in paragraph at lines 1--13
+\OML/cmm/m/it/10 zA \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (49.69527pt too wide) in paragraph at lines 1--13
+\OML/cmm/m/it/10 Z\/cmr/m/n/10 ]\OML/cmm/m/it/10 cifra\/cmr/m/n/10 [0 \OMS/cmsy
+/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (53.91573pt too wide) in paragraph at lines 1--13
+\/cmr/m/n/10 9]\OML/cmm/m/it/10 numar\/cmr/m/n/10 [0 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 1--13
+\/cmr/m/n/10 9] \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (161.83368pt too wide) in paragraph at lines 1--13
+\OML/cmm/m/it/10 variabila\/cmr/m/n/10 ("[]\OMS/cmsy/m/n/10 j[]\/cmr/m/n/10 )("
+[]\OMS/cmsy/m/n/10 j[]j[]\/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (1233.0514pt too wide) in paragraph at lines 1--13
+\OML/cmm/m/it/10 tipdate\/cmr/m/n/10 ("\OML/cmm/m/it/10 int\/cmr/m/n/10 "\OMS/c
+msy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/10 longint\/cmr/m/n/10 "\OMS/cmsy/m/n/1
+0 j\/cmr/m/n/10 "\OML/cmm/m/it/10 shortint\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr
+/m/n/10 "\OML/cmm/m/it/10 char\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OM
+L/cmm/m/it/10 bool\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/1
+0 float\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/10 double\/c
+mr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/10 longdouble\/cmr/m/n
+/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/10 wchar[]\/cmr/m/n/10 "\OMS
+/cmsy/m/n/10 j\/cmr/m/n/10 "\OML/cmm/m/it/10 string\/cmr/m/n/10 "\OMS/cmsy/m/n/
+10 j\/cmr/m/n/10 "\OML/cmm/m/it/10 signedchar\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/
+cmr/m/n/10 "\OML/cmm/m/it/10 unsignedchar\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/
+m/n/10 "\OML/cmm/m/it/10 short\/cmr/m/n/10 "\OMS/cmsy/m/n/10 j\/cmr/m/n/10 "\OM
+L/cmm/m/it/10 signedshort\/cmr/m/n/10 ")\OML/cmm/m/it/10 string\/cmr/m/n/10 ([]
+$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.15 #
+      include <stdio.h>
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 #i
+       nclude <stdio.h>
+? 
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no > in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.16 #
+      include "y.tab.h"
+? 
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no " in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--18
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 (
+      "$"){directivaprepocesare}{space_char}?{librarie}("\.bld") {return LOAD;}
+
+? 
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+
+LaTeX Warning: Command \. invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 20.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.20 ...vaprepocesare}{space_char}?{librarie}("\.b
+                                                  ld") {return LOAD;}
+? 
+! Missing { inserted.
+<to be read again> 
+                   \edef 
+l.20 ...vaprepocesare}{space_char}?{librarie}("\.b
+                                                  ld") {return LOAD;}
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.20 ...vaprepocesare}{space_char}?{librarie}("\.b
+                                                  ld") {return LOAD;}
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.31 "$
+       :" {return ASSIGN;}
+? 
+Missing character: There is no è in font cmex10!
+Missing character: There is no : in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 "define function$" {return DEFINE_
+                                       FUNC;}
+? 
+! Extra }, or forgotten $.
+l.42 "define function$" {return DEFINE_FUNC;}
+                                             
+? 
+Missing character: There is no " in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no N in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 "run function$" {return RUN_
+                                 FUNCTION;}
+? 
+! Extra }, or forgotten $.
+l.43 "run function$" {return RUN_FUNCTION;}
+                                           
+? 
+
+LaTeX Warning: Command \t invalid in math mode on input line 46.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 46.
+(/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 46.
+
+
+LaTeX Warning: Command \t invalid in math mode on input line 46.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.46 [ \t]
+           ;
+? 
+! Missing { inserted.
+<to be read again> 
+                   \edef 
+l.46 [ \t]
+           ;
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.46 [ \t]
+           ;
+? 
+! Undefined control sequence.
+l.47 \n
+        {yylineno++;}
+? 
+)
+*
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> 
+    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+<*> 
+    
+? 
+Missing character: There is no è in font cmex10!
+
+Overfull \hbox (1448.59946pt too wide) in paragraph at lines 20--0
+[]$\/cmr/m/n/10 ")[][]?[]("[]$
+ []
+
+
+Overfull \hbox (169.1038pt too wide) in paragraph at lines 20--0
+\/cmr/m/n/10 "[]"\OML/cmm/m/it/10 definefunction$
+ []
+
+
+Overfull \hbox (97.44673pt too wide) in paragraph at lines 20--0
+[]\OML/cmm/m/it/10 UNC\/cmr/m/n/10 ; "\OML/cmm/m/it/10 runfunction$
+ []
+
+
+Overfull \hbox (158.39954pt too wide) in paragraph at lines 20--0
+[]\OML/cmm/m/it/10 UNCTION\/cmr/m/n/10 ; "\OML/cmm/m/it/10 havingparameters \/c
+mr/m/n/10 :
+ []
+
+
+Overfull \hbox (166.7986pt too wide) in paragraph at lines 20--0
+\/cmr/m/n/10 "[][[]\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 zA \OMS/cmsy/m/n/10 ^^@
+
+ []
+
+
+Overfull \hbox (46.08081pt too wide) in paragraph at lines 20--0
+\OML/cmm/m/it/10 Z\/cmr/m/n/10 ][[]\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 zA \OMS
+/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (20.31949pt too wide) in paragraph at lines 20--0
+\OML/cmm/m/it/10 Z\/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 20--0
+\/cmr/m/n/10 9] \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (191.32428pt too wide) in paragraph at lines 20--0
+[]\/cmr/m/n/10 [[]$ 
+ []
+
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 37 strings out of 493109
+ 510 string characters out of 6140750
+ 54954 words of memory out of 5000000
+ 3596 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,5n,16p,165b,99s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

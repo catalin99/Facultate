@@ -1,0 +1,6 @@
+﻿  Video.cpp
+  Belu Catalin A6.cpp
+c:\users\catal\desktop\belu catalin a6\belu catalin a6\belu catalin a6.cpp(14): error C2679: binary '+=': no operator found which takes a right-hand operand of type 'Video' (or there is no acceptable conversion)
+  c:\users\catal\desktop\belu catalin a6\belu catalin a6\editorvideo.h(12): note: could be 'EditorVideo &EditorVideo::operator +=(EditorVideo &)'
+  c:\users\catal\desktop\belu catalin a6\belu catalin a6\belu catalin a6.cpp(14): note: while trying to match the argument list '(EditorVideo, Video)'
+  Generating Code...

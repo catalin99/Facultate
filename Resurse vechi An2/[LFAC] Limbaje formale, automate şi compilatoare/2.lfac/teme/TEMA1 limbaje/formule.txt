@@ -1,0 +1,21 @@
+q%%
+expresie1
+expresie2
+expresie3
+file *yyin
+file *yyout
+%%
+int main....
+
+
+[abcd]==a sau b sau c sau d
+[a-z]==a sau b sau c sau d  sau ... sau z
+[a-z]+ == orce cuvant peste a-z cu cel putin un simbol
+[^a-g] == orce fara intervalul a-g
+
+^a == a la inceput
+a$ == a la sfarsit
+a\b == a urmat de b
+. == orce element inafara de "enter"
+? == simbolul aflat inaintea acestui semn este optional
+

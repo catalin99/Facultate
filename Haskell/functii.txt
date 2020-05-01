@@ -1,0 +1,2 @@
+identitate x = x
+sumThree x y z = x + y + z

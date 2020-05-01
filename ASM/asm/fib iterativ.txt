@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+unsigned a;
+
+int fib(int n)
+{
+	_asm
+	{
+		mov eax,0
+		mov ebx,1
+		cmp n,0
+		je E1
+		E1:mov eax,0
+
+		E3: cmp n,0
+		je E2
+		add eax, ebx
+		mov ecx, eax
+		mov eax, ebx
+		mov ebx, ecx
+		dec n
+		jmp E3
+		E2:mov eax,ebx
+	}
+}
+
+int main()
+{
+	cout<<fib(5);
+}

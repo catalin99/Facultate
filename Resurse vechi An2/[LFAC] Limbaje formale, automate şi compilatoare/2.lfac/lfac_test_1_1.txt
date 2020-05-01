@@ -1,0 +1,30 @@
+lit [ac-zBD-z]
+\.lit*(lit*AbClit*AbClit*)*lit*
+cp[02468]
+ci[13579]
+c0[0-9]
+c1[1-9]
+nr1 {c1}{c0}*{ci}{c0}*{ci}{c0}*{cp}
+nr2 {ci}{c0}*{ci}{c0}*{cp}
+
+Gr. X2 seria 1
+Nr. 1:	scrieti intr-un fisier toate cuvintele care contin de un numar par de ori secventa 'AbC' si sunt incadrate de . .
+		afisati pe ecran toate numerele care sunt divizibile cu 2 si contin macar 2 cifre impare
+Nr. 2:	Scrieti in fisier toate cuvintele care contin un numar impar de subsiruri formate din orice combinatie de a,b,c
+		afisati pe ecran numerele >= 1000 care au pe pozitii impare cifre impare si pe pozitii pare cifre pare (ex. 123456)
+
+Gr. X2 seria 2
+Nr. 1:	scrieti intr-un fisier toate cuvintele care contin un numar impar de 'bb'
+		afisati pe ecran toate numerele care sunt divizibile cu 5 si sunt <100 >=10000
+Nr. 2:	Scrieti in fisier toate numerele care contin un numar impar de cifre mai mici decat 4
+		afisati pe ecran cuvintele de lngime >=5 care au pe pozitii impare litera 'a'
+Gr. A5 seria 1
+Nr. 1:	scrieti intr-un fisier toate cuvintele care incep cu un numar par de az, contin un numar par de secvente de c,d,h si sunt incadrate de . .
+		afisati pe ecran toate numerele care se termina cu 3 cifre impare, au un numar par de cifre pare si sunt precedate de subsirul "< >"
+Nr. 2:	Scrieti in fisier toate cuvintele care contin doua subsiruri formate din orice combinatie de a si b, lungimea subsirurilor ramase este impara si sunt incadrate de <>
+		afisati pe ecran numerele >= 1000 care au a doua cifra 7, a patra cifra para si sunt divizibile cu 4
+Gr. A5 seria 2
+Nr. 1:	scrieti intr-un fisier toate cuvintele care contin de macar 3 ori secventa 'xyz', subsirurile ramase au lungime para, si sunt incadrate de . .
+		afisati pe ecran toate numerele care sunt divizibile cu 5 si au lungime para daca au numar par de cifre pare si impara altfel
+Nr. 2:	Scrieti in fisier toate cuvintele care contin doua subsiruri formate din orice combinatie de a,b,c de lungime impara si care au lungime para
+		afisati pe ecran numerele >= 1000 care au lungime egala cu ultima cifra

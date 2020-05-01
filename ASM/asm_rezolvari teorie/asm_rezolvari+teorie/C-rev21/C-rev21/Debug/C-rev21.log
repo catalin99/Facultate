@@ -1,0 +1,17 @@
+﻿Build started 05.12.2014 21:46:19.
+     1>Project "F:\0Arl\Scoala\Visual\ASM\C-rev21\C-rev21\C-rev21.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\C-rev21.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C-rev21.cpp"
+         C-rev21.cpp
+     1>f:\0arl\scoala\visual\asm\c-rev21\c-rev21\c-rev21.cpp(18): warning C4101: 'read' : unreferenced local variable
+     1>f:\0arl\scoala\visual\asm\c-rev21\c-rev21\c-rev21.cpp(21): warning C4101: 'i' : unreferenced local variable
+     1>f:\0arl\scoala\visual\asm\c-rev21\c-rev21\c-rev21.cpp(19): warning C4101: 'fsize' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\0Arl\Scoala\Visual\ASM\C-rev21\Debug\C-rev21.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\0Arl\Scoala\Visual\ASM\C-rev21\Debug\C-rev21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\0Arl\Scoala\Visual\ASM\C-rev21\Debug\C-rev21.lib" /MACHINE:X86 "Debug\C-rev21.obj"
+         Debug\stdafx.obj
+         C-rev21.vcxproj -> F:\0Arl\Scoala\Visual\ASM\C-rev21\Debug\C-rev21.exe
+     1>Done Building Project "F:\0Arl\Scoala\Visual\ASM\C-rev21\C-rev21\C-rev21.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97

@@ -1,0 +1,884 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size largest
+Algoritmica Grafurilor Tema 2 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Iordache Iustin-Ionut 
+\series bold
+Grupa B2
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Vascan Dumitru 
+\series bold
+Grupa B2 
+\end_layout
+
+\begin_layout Standard
+\align center
+7 Ianuarie 2014
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 1 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pentru a demonstra ca doar una dintre proprietati a sau b pot avea loc,
+ vom demonstra ca 
+\begin_inset Formula $(a)\Rightarrow!(b)$
+\end_inset
+
+ si 
+\begin_inset Formula $(b)\Rightarrow!(a)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(a)\Rightarrow!(b)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $l(e)\leq f(e)\leq u(e)\Rightarrow\begin{cases}
+l(e)\leq f(e)\Rightarrow{\displaystyle \sum_{e\epsilonδ^{-}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilonδ^{-}(X)}f(e)} & (1)\\
+f(e)\leq u(e)\Rightarrow{\displaystyle \sum_{e\epsilonδ^{+}(X)}f(e)}\leq{\displaystyle \sum_{e\epsilonδ^{+}(X)}u(e)} & (2)
+\end{cases}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+{\displaystyle \sum_{e\epsilon\delta^{-}(v)}f(e)}={\displaystyle \sum_{e\epsilon\delta^{+}(v)}f(e)}\\
+v\epsilon V\negthickspace si\negthickspace X\subseteq V
+\end{cases}\Rightarrow{\displaystyle \sum_{e\epsilon\delta^{-}(X)}f(e)}={\displaystyle \sum_{e\epsilon\delta^{+}(X)}f(e)\;(3)}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Din (1), (2) si (3) 
+\begin_inset Formula $\Rightarrow{\displaystyle \sum_{e\epsilonδ^{-}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilonδ^{+}(X)}u(e)}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(b)\Rightarrow!(a)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Stim din ipoteza ca 
+\begin_inset Formula $l(e)\leq u(e)$
+\end_inset
+
+ pentru orice arc 
+\begin_inset Formula $e\epsilon E\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow\begin{cases}
+{\displaystyle \sum_{e\epsilonδ^{-}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilonδ^{-}(X)}u(e)} & (4)\\
+{\displaystyle \sum_{e\epsilonδ^{+}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilonδ^{+}(X)}u(e)} & (5)
+\end{cases}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Din (4), (5) si (b) 
+\begin_inset Formula $\Rightarrow{\displaystyle \sum_{e\epsilonδ^{-}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilonδ^{-}(X)}u(e)<{\displaystyle \sum_{e\epsilonδ^{+}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilonδ^{+}(X)}u(e)\quad(6)}}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pentru ca (a) sa fie adevarat, trebuie sa avem 
+\begin_inset Formula $l(e)\leq f(e)\leq u(e)\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow\begin{cases}
+{\displaystyle \sum_{e\epsilon\delta^{-}(X)}l(e)}\leq{\displaystyle \sum_{e\epsilon\delta^{-}(X)}f(e)}\leq{\displaystyle \sum_{e\epsilon\delta^{-}(X)}u(e)} & (7)\\
+{\displaystyle \sum_{e\epsilon\delta^{+}(X)}l(e)\leq{\displaystyle \sum_{e\epsilon\delta^{+}(X)}f(e)}}\leq{\displaystyle \sum_{e\epsilon\delta^{+}(X)}u(e)} & (8)
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Din (6), (7) si (8) 
+\begin_inset Formula $\Rightarrow{\displaystyle \sum_{e\epsilonδ^{-}(X)}f(e)}<{\displaystyle \sum_{e\epsilonδ^{+}(X)}f(e)}$
+\end_inset
+
+, ceea ce contrazice ipoteza.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 2 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+a) Notam cu 
+\begin_inset Formula $V_{i}$
+\end_inset
+
+ a i-ea componenta conexa a grafului V.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cum componentele conexe sunt arbori, iar un arbore cu k varfuri are k-1
+ muchii, si cum arborele
+\begin_inset Formula $V{}_{i}$
+\end_inset
+
+este e-par daca are un numar par de muchii
+\begin_inset Formula $\Rightarrow|V_{i}|\equiv1(mod2)$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+eh(V)=
+\begin_inset Formula $|V_{1}|(mod2)+|V_{2}|(mod2)+...+|V_{n}|(mod2)$
+\end_inset
+
+ (1)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|V|=|V_{1}|+|V_{2}|+...+|V_{n}|$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|V|(mod2)=(|V_{1}|+|V_{2}|+...+|V_{n}|)(mod2)=(|V_{1}|(mod2)+|V_{2}|(mod2)+...+|V_{n}|(mod2))(mod2)\quad(2)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Din (1), (2) 
+\begin_inset Formula $\Rightarrow eh(V)\equiv V(mod)$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 4 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consideram n=4, si D={3,3,3,3}.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vom construi graful 
+\begin_inset Formula $M{}_{D}$
+\end_inset
+
+astfel : 
+\end_layout
+
+\begin_layout Standard
+1.Construim subgrafurile 
+\begin_inset Formula $C{}_{i}$
+\end_inset
+
+,
+\begin_inset Formula $1\leq i\leq n$
+\end_inset
+
+ ca fiind induse de 
+\begin_inset Formula $R_{i}\bigcup S_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.Unim componentele 
+\begin_inset Formula $C{}_{i}$
+\end_inset
+
+,
+\begin_inset Formula $1\leq i\leq n$
+\end_inset
+
+ si construim muchiile 
+\begin_inset Formula $\{r{}_{i,j},r_{j,i}\}$
+\end_inset
+
+pentru 
+\begin_inset Formula $i,j\epsilon\{1,....,n\}$
+\end_inset
+
+si 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Construim 
+\begin_inset Formula $C{}_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/dima/1.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Construim 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/dima/2.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Construim 
+\begin_inset Formula $C_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/dima/3.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Construim 
+\begin_inset Formula $C{}_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/dima/4.png
+	scale 20
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Avand 
+\begin_inset Formula $C{}_{1},C_{2},C_{3},C_{4}$
+\end_inset
+
+vom construi graful 
+\begin_inset Formula $M{}_{D}$
+\end_inset
+
+unind varfurile din 
+\begin_inset Formula $R{}_{i}$
+\end_inset
+
+cu cele din 
+\begin_inset Formula $R{}_{j}$
+\end_inset
+
+cum am scris la 2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/dima/complet.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $"\Leftarrow"$
+\end_inset
+
+Se observa pe reprezentarea de mai sus ca graful 
+\begin_inset Formula $M{}_{D}$
+\end_inset
+
+ are un cuplaj perfect, iar gradele varfurilor sale sunt 
+\begin_inset Formula $d{}_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/dima/final.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $"\Rightarrow"$
+\end_inset
+
+In reprezentarea de mai sus, fiecare din componentele 
+\begin_inset Formula $C{}_{1},C_{2},C_{3},C_{4}$
+\end_inset
+
+este un subgraf format dupa constructia enuntata, iar fiecare din varfurile
+ acestori subgrafuri este unit cu cate un varf din alte subgrafuri, la fel
+ urmand regula de constructie a muchiilor.
+\end_layout
+
+\end_body
+\end_document

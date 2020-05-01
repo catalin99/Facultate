@@ -1,0 +1,23 @@
+Add products to site -> adminul poate să adauge noi produse pe site disponibile pentru clienți
+Remove products from site -> adminul poate să șteargă produsele existente pe site din diverse motive (epuizare de stoc, schimbare produse etc)
+Modify details of product -> adminul poate schimba detaliile unui produs precum: prețul, caracteristici etc
+Admin panel -> un utilizator, după logare, dacă are drepturi are acces la comenzile de admin
+Login -> utilizatorul se poate autentifica pe site pentru a avea acces la mai multe privilegii (place order, admin panel - if admin-, review product, add to wishlist)
+Logout -> utilizatorul iese din cont
+Place order -> utilizator finalizeaza comanda și alege metoda de plată
+Add to favorites -> utilizatorul adaugă produsul într-o listă de produse pe care dorește să le cumpere
+User panel -> modificare date de profil ale utilizatorului (adresa, date personale etc)
+Pay by card -> posibilitatea de a plăti cu cardul
+Pay cash -> posibilitatea de a plăti comanda la livrare, cash
+Review product -> posibilitatea de a adăuga comentarii unui produs și de a da rating-uri
+Browse for products -> clientul își caută produsele dorite urmând ca mai apoi, dacă dorește, să le adauge în coș, să plaseze comanda etc..
+View products -> vizualizare detalii complete despre produs
+Add to cart -> adaugă produsul vizualizat în coș
+View cart -> Vizualizare coș cu produse, se poate plasa comanda după aceasta
+Delete from cart -> Scoate produsul din coș
+
+
+//studenți - foarte mulți, pot fi sortați
+//din catalog sortat alfabetic să preluăm doi studenți care au id-uri introduse de la tastatură
+//pentru cei doi studenți afișăm nume, prenume, media (2 înregistrări), apoi doar numele studentului care are media mai mare (media nu e întreg)
+

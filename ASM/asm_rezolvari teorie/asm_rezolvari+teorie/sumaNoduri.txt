@@ -1,0 +1,65 @@
+#include"stdafx.h"
+#include<Windows.h>
+struct nod{
+int val;
+nod *next;
+}*prim,*ultim,*curent;
+void creare_lista(int a)
+{
+prim = new nod;
+prim->val=a;
+prim->next = NULL;
+ultim=prim;
+}
+void adaugare(int a)
+{
+curent = new nod;
+curent->val=a;
+ultim->next = curent;
+curent->next = NULL;
+ultim=curent;
+}
+int simp(nod *prim)
+{
+/* int s=0;
+while(prim!=NULL)
+{
+if(prim->val%2==1)
+s+=prim->val;
+prim=prim->next;
+}
+return s;*/
+_asm
+{
+mov ebx, prim;
+mov edi,0;//s;
+start_while:
+cmp ebx,NULL;
+je end_while;
+start_if:
+mov eax, dword ptr [ebx];
+mov edx,0;
+mov ecx,2;
+div ecx;
+cmp edx,1;
+jne if_false;
+if_true: add edi, dword ptr [ebx];
+if_false:
+mov ebx,[ebx+4];
+jmp start_while;
+end_while:
+mov eax,edi;
+
+}
+}
+int main()
+{
+creare_lista(1);
+for(int i=2;i<=10;i++)
+adaugare(i);
+
+int c=simp(prim);
+printf("%d",c);
+system("pause");
+return 0;
+}

@@ -1,0 +1,2 @@
+int n, sum;
+if (n <= 0) { sum = (-1); } else { }

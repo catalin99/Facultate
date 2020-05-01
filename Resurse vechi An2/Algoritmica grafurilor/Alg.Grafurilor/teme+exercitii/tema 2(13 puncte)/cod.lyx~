@@ -1,0 +1,1274 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 4cm
+\bottommargin 2cm
+\headheight 4cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size largest
+Algoritmica Grafurilor Tema 2 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Iordache Iustin-Ionut 
+\series bold
+Grupa B2
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Vascan Dumitru 
+\series bold
+Grupa B2 
+\end_layout
+
+\begin_layout Standard
+\align center
+3 Decembrie 2014
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 1
+\end_layout
+
+\begin_layout Standard
+Daca G are varfuri izolate, atunci in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+ acestea maresc numarul de subgrafuri complete, si deci putem sa le coloram
+ in culori adaugatoare.
+\end_layout
+
+\begin_layout Standard
+In continuare, presupunem ca G nu are varfuri izolate.
+\end_layout
+
+\begin_layout Standard
+Stiind ca fiecare multime independenta induce un subgraf complet in complementul
+ sau(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+) si vice versa, avem 
+\begin_inset Formula $\omega(\ensuremath{\bar{G}})$
+\end_inset
+
+= 
+\begin_inset Formula $\alpha(G)$
+\end_inset
+
+.Pentru orice graf dat avem egalitatea 
+\begin_inset Formula $\alpha(G)=n-nr_{min}(V(G))$
+\end_inset
+
+(unde 
+\begin_inset Formula $nr_{min}(V(G))$
+\end_inset
+
+ reprezinta numarul de varfuri din acoperirea minima a grafului G).Deci,
+ 
+\begin_inset Formula $\omega(\ensuremath{\bar{G}})=n-nr_{min}(V(G))$
+\end_inset
+
+ (1).
+ 
+\end_layout
+
+\begin_layout Standard
+De asemenea stim ca 
+\begin_inset Formula $\chi($
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+) este numarul de subgrafuri complete in G necesar pentru a acoperi V(G).Daca
+ G este bipartit, atunci aceste subgrafuri complete trebuie sa fie muchii.Putem
+ colora 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+ utilizand o culoare de 1 sau 2 ori, odata ce 
+\begin_inset Formula $\alpha$
+\end_inset
+
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+)=2.
+ Daca k culori sunt folosite de 2 ori, atunci sunt folosite k+(n-2k)=n-k
+ culori.Culorile folosite de doua ori se utilizeaza la colorarea muchiilor
+ a multimii de muchii independente in G, deci 
+\begin_inset Formula $\chi($
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+)=
+\begin_inset Formula $nr_{max}(E(G))$
+\end_inset
+
+(unde 
+\begin_inset Formula $nr_{max}(E(G))$
+\end_inset
+
+ este numarul maxim de muchii din acoperirea minima a grafului G ) (2).
+\end_layout
+
+\begin_layout Standard
+Din teorema lui König, avem 
+\begin_inset Formula $nr_{min}(V(G))$
+\end_inset
+
+=
+\begin_inset Formula $nr_{max}(E(G))\Rightarrow n-nr_{min}(V(G))=n-nr_{max}(E(G))$
+\end_inset
+
+(3).
+\end_layout
+
+\begin_layout Standard
+Din (1),(2) si (3) 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $\chi($
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+bar{G}$
+\end_layout
+
+\end_inset
+
+)=
+\begin_inset Formula $\omega(\ensuremath{\bar{G}})$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 2
+\end_layout
+
+\begin_layout Standard
+Fiecare muchie din graf complet face parte dintr-un numar concret de arbori
+ de acoperire.Folosind principiul simetriei, putem afirma ca pentru fiecare
+ muchie dintr-un graf complet dat, numarul de arbori de acoperire, notat
+ in prealabil cu k, este acelasi, ceea ne ajuta in continuare sa aflam numarul
+ total de muchii din toti arbori de acoperire a grafului complet analizat.
+\end_layout
+
+\begin_layout Standard
+La primul pas al demonstratiei stim ca graful este impartit in 
+\begin_inset Formula $n^{n-2}$
+\end_inset
+
+ arbori de acoperire, fiecare din acestia, la randul sau, continand n-1
+ muchii.
+ Din informatia cunoscuta la pasul dat rezulta ca toti arbori contin, in
+ total, 
+\begin_inset Formula $(n-1)n^{n-2}$
+\end_inset
+
+(1)
+\end_layout
+
+\begin_layout Standard
+In al doilea pas evidentiem faptul ca in graful complet analizat de noi
+ exista 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$C_n^2$
+\end_layout
+
+\end_inset
+
+ = 
+\begin_inset Formula $\frac{n(n-1)}{2}$
+\end_inset
+
+ muchii, fiecare din acestea, cum am si enuntat initial, fiind continuta
+ in k arbori de acoperire, ceea ce, spre urmare 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+in total avem 
+\begin_inset Formula $\frac{n(n-1)}{2}k$
+\end_inset
+
+ muchii.(2)
+\end_layout
+
+\begin_layout Standard
+Din (1) si (2) 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $(n-1)n^{n-2}=\frac{n(n-1)}{2}k$
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow k=2n^{n-3}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Daca eliminam un varf, atunci eliminam si multimea tuturor arborilor de
+ acoperire ce contin acel varf.Deoarece am presupus anterior ca acest numar
+ este k 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+in total vor fi 
+\begin_inset Formula $n^{n-2}-k=n^{n-2}-2n^{n-3}=n^{n-3}(n-2)$
+\end_inset
+
+ arbori de acoperire.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 3
+\end_layout
+
+\begin_layout Standard
+Pentru prima parte, avem de demonstrat ca : 
+\end_layout
+
+\begin_layout Standard
+Ana castiga 
+\begin_inset Formula $\Longleftrightarrow$
+\end_inset
+
+ G nu are cuplaj perfect.
+\end_layout
+
+\begin_layout Standard
+Fara a restrange generalitatea, putem presupune ca graful G este conex.
+ Pentru cazul in care G nu este conex, jocul va avea loc pe o singura componenta
+ conexa.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Presupunem prin reducere la absurd ca Ana castiga chiar daca G are cuplaj
+ perfect.
+\end_layout
+
+\begin_layout Standard
+Cum G are cuplaj perfect
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ G formeaza perechi de varfuri de-a lungul muchiilor corespunzatoare.
+ Strategia lui Barbu este de a alege din cuplaj perechea varfului ales de
+ Ana.
+ Astfel, Barbu castiga(absurd).
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Deci, daca Ana castiga, atunci G nu are cuplaj perfect.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Presupunem prin reducere la absurd ca Barbu castiga chiar daca G nu are
+ cuplaj perfect.
+\end_layout
+
+\begin_layout Standard
+G nu are cuplaj perfect
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+G are un lant impar, sau un ciclu care tot ar putea fi parcurs ca un lant
+ impar.Strategie folosita de Barbu, pentru a fi castigator, este de a alege
+ permanent nodul pereche a nodului ales de Ana.
+ Astfel, la intalnirea lantului(sau ciclului) impar, strategia Anei va fi
+ de a parcurge acesta, asa incat ea va alege ultimul nod din lantul parcurs
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Ana castiga(absurd).
+\end_layout
+
+\begin_layout Standard
+Deci, daca G nu are cuplaj perfect, atunci Ana castiga.
+\end_layout
+
+\begin_layout Standard
+Spre urmare, Ana castiga daca si numai daca G nu are cuplaj perfect.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In cel mai nefavorabil caz, numarul strategiilor posibile este : 
+\end_layout
+
+\begin_layout Standard
+pasul 1: Ana poate alege primul varf in n moduri;
+\end_layout
+
+\begin_layout Standard
+pasul 2: Barbu poate alege al doilea varf in n-1 moduri
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+pasul n: Ana sau Barbu fac ultima alegere posibila.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Numarul total de strategii este n!.Deci, complexitatea unui algoritm determinist
+ care verifica daca Ana are o strategie castigatoare este cel putin O(n!).
+\end_layout
+
+\begin_layout Standard
+Pentru a rezolva aceasta problema in timp polinomial, trebuie folosit un
+ algoritm nedeterminist: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+function e_cuplaj_perfect
+\series default
+(G(E(M),V(M)))
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+folosim algoritmul Blossom pentru a afla cuplajul maxim pentru subgraful
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{6pt}$
+\end_layout
+
+\end_inset
+
+indus de M in G;
+\end_layout
+
+\begin_layout Standard
+if (|M|==|cuplaj maxim returnat de Blossom|)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+return 1;
+\end_layout
+
+\begin_layout Standard
+else 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+return 0;
+\end_layout
+
+\begin_layout Standard
+}
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+procedure castigator
+\series default
+(G(V,E))
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+M=
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+emptyset$
+\end_layout
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+alegem un 
+\begin_inset Formula $v_{0}\in V(G)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $M=M\cup\{v_{0}\}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+while(exista un 
+\begin_inset Formula $v_{i}\in V(G)$
+\end_inset
+
+ pentru care jocul continua)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+{
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{10pt}$
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $M=M\cup\{v_{i}\}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{10pt}$
+\end_layout
+
+\end_inset
+
+ G=G - ({
+\begin_inset Formula $v_{i-1}$
+\end_inset
+
+}
+\begin_inset Formula $\cup N_{G}(v_{i-1})$
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+}
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+if(
+\series bold
+e_cuplaj_perfect
+\series default
+(G(E(M),V(M)))==1)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{10pt}$
+\end_layout
+
+\end_inset
+
+print 
+\begin_inset Quotes erd
+\end_inset
+
+Ana castiga
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{5pt}$
+\end_layout
+
+\end_inset
+
+else
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+hspace{10pt}$
+\end_layout
+
+\end_inset
+
+print 
+\begin_inset Quotes erd
+\end_inset
+
+Barbu castiga
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+}
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Algoritmul 
+\series bold
+castigator 
+\series default
+alege in timp liniar o strategie pe baza conditiilor jocului si, folosind
+ algoritmul 
+\series bold
+e_cuplaj_perfect
+\series default
+, care foloseste algoritmul 
+\series bold
+Blossom
+\series default
+ ce se executa in timp polinomial, determina jucatorul pentru care strategia
+ aleasa va fi castigatoare.Timpul total de executie este polinomial, iar
+ algoritmul este nedeterminist 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ algoritmul care decide daca Ana are o strategie castigatoare este din NP.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Problema 4
+\end_layout
+
+\begin_layout Standard
+a)
+\end_layout
+
+\begin_layout Standard
+Pasul initial v
+\begin_inset Formula $\in V(G)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+r=0
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|S{}_{G}(v,0)|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|S{}_{G}(v,1)|>\rho|S_{G}(v,0)|=\rho$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|S{}_{G}(v,2)|>\rho|S_{G}(v,1)|=\rho*\rho=\rho^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|S{}_{G}(v,k)|>\rho|S_{G}(v,k-1)|=\rho*\rho^{k-1}=\rho^{k}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+|S{}_{G}(v,k)|>\rho^{k}\\
+|S{}_{G}(v,k)|\leq n
+\end{cases}$
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow\rho^{k}\leq n\Rightarrow k\leq log_{\rho}n$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b)
+\end_layout
+
+\begin_layout Standard
+Numarul muchiilor intercluster cu centrul in v corespunde cu numarul muchiilor
+ de pe stratul extern clusterului cu raza r.Avem numarul muchiilor intercluster
+ = 
+\begin_inset Formula $|S{}_{G}(v,r+1)|-|S_{G}(v,r)|\leq\rho|S_{G}(v,r)|-|S_{G}(v,r)|\Rightarrow$
+\end_inset
+
+numarul muchiilor intercluster 
+\begin_inset Formula $\leq(\rho-1)|S_{G}(v,r)|$
+\end_inset
+
+, dar cum 
+\begin_inset Formula $|S_{G}(v,r)|\leq n$
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+numarul muchiilor intercluster
+\begin_inset Formula $\leq(\rho-1)n$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+c)
+\end_layout
+
+\begin_layout Standard
+Cum numarul muchiilor intercluster
+\begin_inset Formula $\leq(\rho-1)n$
+\end_inset
+
+, si noi avem de gasti o functie 
+\begin_inset Formula $\rho(k)$
+\end_inset
+
+ care sa fie in O(n
+\begin_inset Formula $^{1+\frac{1}{k}}$
+\end_inset
+
+), avem de rezolvat ecuatia 
+\begin_inset Formula $(\rho(k)-1)n=n^{1+\frac{1}{k}}$
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow\rho(k)-1=n^{\frac{1}{k}}\Rightarrow\rho(k)=n^{\frac{1}{k}}+1.$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

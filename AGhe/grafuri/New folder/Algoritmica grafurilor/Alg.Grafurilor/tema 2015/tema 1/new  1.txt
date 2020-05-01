@@ -1,0 +1,696 @@
+\documentclass[12pt]{article}
+\usepackage{makeidx}
+\usepackage[all]{xy}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\graphicspath{ {images/} }
+
+\title{}
+\usepackage[paperwidth=595pt,paperheight=841pt,top=70pt,right=70pt,bottom=70pt,left=70pt]{geometry}
+
+\makeatletter
+	\newenvironment{indentation}[3]%
+	{\par\setlength{\parindent}{#3}
+	\setlength{\leftmargin}{#1}       \setlength{\rightmargin}{#2}%
+	\advance\linewidth -\leftmargin       \advance\linewidth -\rightmargin%
+	\advance\@totalleftmargin\leftmargin  \@setpar{{\@@par}}%
+	\parshape 1\@totalleftmargin \linewidth\ignorespaces}{\par}%
+\makeatother 
+
+% new LaTeX commands
+
+
+\begin{document}
+
+\lhead{\hfill \\Simionesei Loredana-Marinela \\ Prisacaru Elena-C\u{a}t\u{a}lina}
+\rhead \hfill \\{grupa A5 anul 1}
+
+\begin{center}
+\textbf{{\huge Tema 1}}
+\end{center}
+
+\begin{center}
+\textbf{{\huge Algoritmica Grafurilor}}
+\end{center}
+
+{\raggedright
+\uline{{\large Problema 3}}
+}
+
+\begin{enumerate}
+a) Presupunem c\u{a} G=(V,E) este un graf.
+\end{enumerate}
+	
+
+{\raggedright
+R-COV(G,k) returneaz\u{a} ''Yes'' dac\u{a} $\exists{}$ o mul\c{t}ime
+T$\subseteq{}$V(E), T-vertex cover pentru G,
+$\vert{}$T$\vert{}$$\leq{}$k$\leq{}$n.
+}
+
+\begin{enumerate}
+	1. If E(G)= \O{} then return (''Yes'', \O{});
+\end{enumerate}
+
+{\raggedright
+\^{I}n aceast\u{a} secven\c{t}\u{a} se verific\u{a} dac\u{a} G nu are muchii, iar
+\^{\i}n cazul \^{\i}n care E(G)= \O{}, r\u{a}spunsul primit va fi c\u{a} exist\u{a} o
+mul\c{t}ime T$\subseteq{}$V(G), T-vertex cover.
+}
+
+\begin{enumerate}
+	 2. If$\vert{}$E(G)$\vert{}$ $>$ k($\vert{}$V(G)$\vert{}$-1) then return ''No'';
+\end{enumerate}
+
+{\raggedright
+Consider\u{a}m o mul\c{t}ime de k noduri, fiecare nod din aceast\u{a} mul\c{t}ime poate
+fi adiacent cu cel mult n-1 noduri (poate fi adiacent cu oricare din
+celelalte noduri), de unde rezult\u{a} c\u{a} fiecare nod poate parcurge cel mult
+k(n-1) muchii. A\c{s}adar, r\u{a}spunsul trebuie s\u{a} fie ''No'' dac\u{a}
+$\vert{}$E(G)$\vert{}$$>$k(n-1).
+}
+
+\begin{enumerate}
+	3. Let \{u,v\} $\in{}$ E(G);
+	\newline
+	4. If R-COV(G-u,k-1) return (''Yes'',T) then return (''Yes'',T$\cup{}$\{u\})
+	\newline
+	5. else if R-COV(G-v,k-1) return (''Yes'',T) then return (''Yes'',T$\cup{}$\{v\})
+\end{enumerate}
+
+{\raggedright
+Consider\u{a}m acum orice muchie (u,v) $\in{}$ E(G).
+}
+
+{\raggedright
+Consider\u{a}m o mul\c{t}ime de noduri T$\subseteq{}$V(G).
+}
+
+{\raggedright
+Dac\u{a} T-vertex cover pentru G, atunci \^{\i}nseamn\u{a} c\u{a} m\u{a}car o
+extremitate a muchiei (u,v) apar\c{t}ine lui T, adic\u{a} m\u{a}car nodul u sau nodul
+v este din mul\c{t}imea T.
+}
+
+{\raggedright
+Dac\u{a} elimin\u{a}m nodul u sau nodul v din G, trebuie s\u{a} elimin\u{a}m \c{s}i
+toate muchiile incidente cu acest nod. Ob\c{t}inem \^{\i}n felul acesta un subgraf G'
+al grafului G. Facem aceea\c{s}i eliminare \c{s}i din T$\subseteq{}$V(G) ob\c{t}in\^{a}nd
+astfel o mul\c{t}ime T'$\subseteq{}$V(G'), T'-vertex cover pentru G'.
+}
+
+{\raggedright
+\hspace{15pt}6. else return (''No'');
+}
+
+{\raggedright
+De aceea R-COV(G,k) returneaz\u{a} ''Yes'' dac\u{a} R-COV(G-u,k-1) sau
+R-COV(G-v,k-1) returneaz\u{a} ''Yes''. Altfel, returneaz\u{a} ''No'', adic\u{a}
+nici u \c{s}i nici v nu apar\c{t}in lui T.
+}
+
+\begin{enumerate}
+	b) Presupunem k-constant\u{a}.
+\end{enumerate}
+
+{\raggedright
+Atunci c\^{a}nd alegem o muchie (u,v) din E(G), exist\u{a} cel mult
+$\binom{n}{2}$ itera\c{t}ii ($\binom{n}{2}=\frac{n\left(n-1\right)}{2}$=$>$
+complexitate O($n^2$)).
+}
+
+{\raggedright
+Pentru fiecare muchie (u,v) $\in{}$ E(G) $\exists{}$ cel mult dou\u{a} apeluri
+recursive (unul pentru nodul u \c{s}i altul pentru nodul v). Acest apel recursiv
+formeaz\u{a} de fapt un arbore binar de ad\^{a}ncime maxim\u{a} k-1. Num\u{a}rul
+maxim de noduri \^{\i}ntr-un arbore binar de ad\^{a}ncime cel mult k-1 este
+$2^k$-1=$>$
+}
+
+\begin{itemize}
+	\item T(n,k)= O ($2^kn^2$)
+\end{itemize}
+
+{\raggedright
+k-constant\u{a}  =$>$ T(n,k)= O($n^2$).
+}
+
+{\raggedright
+\clearpage
+\clearpage
+\clearpage
+\clearpage
+\clearpage
+\uline{{\large Problema 1}}
+}
+
+\begin{enumerate}
+	a) Vom ar\u{a}ta c\u{a} \{B$_{1}$$^{+}$, B$_{2}$$^{+}$ ,\ldots{},$^{
+}$B$_{p}$$^{+}$\} este o parti\c{t}ie a lui V(D).
+\end{enumerate}
+{\raggedright
+Dac\u{a} un vertex v  $\in{}$ unor componente B$_{i}$$^{+}$ ,
+B$_{j}$$^{+}$$\subseteq{}$\{B$_{1}$$^{+}$, B$_{2}$$^{+}$ ,\ldots{},$^{
+}$B$_{p}$$^{+}$\}, i,j $\in{}$ \{1,2,\ldots{},p\} spunem c\u{a} x $\in{}$
+B$_{i}$$^{+ }$$\cap{}$ B$_{j}$$^{+}$ , atunci $\exists{}$ un arc de la x $\in{}$
+B$_{i}$ spre v \c{s}i un alt arc de la y $\in{}$ B$_{j}$ spre v.
+}
+
+{\raggedright
+{\color{red}\line(0,1)( Observa\c{t}ie ! Dou\u{a} noduri a \c{s}i b au un ''common prey'' dac\u{a} a$^{+}$
+$\cap{}$ b$^{+}$ $\not=$ \O{}).
+}
+}
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{x}}="x"
+!{(2,2) }*+{\bullet_{v}}="v"
+!{(4,0) }*+{\bullet_{y}}="y"
+"x":"v" "y":"v"
+} } \]
+}
+
+{\raggedright
+Atunci x \c{s}i y \^{\i}mpart acela\c{s}i ''common prey'' - nodul v, deci este o muchie
+\^{\i}n G$_{cp }$ de la x la y, ceea ce contrazice faptul c\u{a} x \c{s}i y fac parte
+din componente diferite ale lui G$_{cp.}$ Astfel, componentele B$_{1}$$^{+}$,
+B$_{2}$$^{+}$ ,\ldots{},$^{ }$B$_{p}$$^{+}$  sunt separate.
+}
+
+{\raggedright
+$\forall{}$ B$_{z}$$^{+}$ , z $\in{}$ \{1,2,\ldots{},p\} pentru c\u{a} \^{\i}n
+orice nod w $\in{}$ B$_{z}$$^{+}$ , z $\in{}$ \{1,2,\ldots{},p\} este un arc cu
+extremitatea \^{\i}n w (adic\u{a} pleac\u{a} din nodul w).
+}
+
+{\raggedright
+Din ipotez\u{a} =$>$ faptul c\u{a} \^{\i}n orice vertex din B$_{1}$$^{+}$,
+B$_{2}$$^{+}$ ,\ldots{},$^{ }$B$_{p}$$^{+}$ exist\u{a} un arc care intr\u{a}
+\^{\i}n nodul w $\in{}$ B$_{z}$$^{+}$ , z $\in{}$ \{1,2,\ldots{},p\}. \^{I}n
+concluzie, \{B$_{1}$$^{+}$, B$_{2}$$^{+}$ ,\ldots{},$^{ }$B$_{p}$$^{+}$\} este o
+parti\c{t}ie a lui V(D).
+\linebreak
+}
+
+{\raggedright
+Analog pentru \{A$_{1}$$^{-}$, A$_{2}$$^{-}$ ,\ldots{},$^{ }$A$_{k}$$^{-}$\}
+}
+
+{\raggedright
+Vom ar\u{a}ta c\u{a} \{A$_{1}$$^{-}$, A$_{2}$$^{-}$ ,\ldots{},$^{
+}$A$_{k}$$^{-}$\} este o parti\c{t}ie a lui V(D).
+}
+
+{\raggedright
+Dac\u{a} un vertex v $\in{}$ unor componente A$_{i}$$^{-}$ ,
+A$_{j}$$^{-}$$\subseteq{}$\{A$_{1}$$^{-}$, A$_{2}$$^{-}$ ,\ldots{},$^{
+}$A$_{k}$$^{-}$\}, i,j $\in{}$ \{1,2,\ldots{},k\} spunem c\u{a} v $\in{}$
+A$_{i}$$^{- }$$\cap{}$ A$_{j}$$^{-}$ , atunci $\exists{}$ un arc de la v spre x
+$\in{}$ A$_{i}$ \c{s}i un alt arc de la v spre y $\in{}$ A$_{j}$.
+}
+
+{\raggedright
+{\color{red}\line(0,1)( Observa\c{t}ie! Dou\u{a} noduri a \c{s}i b au un ''common enemy'' dac\u{a} a$^{-}$
+$\cap{}$ b$^{-}$ $\not=$ \O{}).
+}
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{x}}="x"
+!{(2,2) }*+{\bullet_{v}}="v"
+!{(4,0) }*+{\bullet_{y}}="y"
+"v":"x" "v":"y"
+} } \]
+}
+
+{\raggedright
+Atunci x \c{s}i y \^{\i}mpart acela\c{s}i ''common enemy'' - nodul v, deci este o
+muchie \^{\i}n G$_{ce }$de la x la y, ceea ce contrazice faptul c\u{a} x \c{s}i y fac
+parte din componente diferite ale lui G$_{ce}$. Astfel, componentele
+A$_{1}$$^{-}$, A$_{2}$$^{-}$ ,\ldots{},$^{ }$A$_{k}$$^{-}$  sunt separate.
+}
+
+{\raggedright
+$\forall{}$ A$_{z}$$^{-}$ , z $\in{}$ \{1,2,\ldots{},k\} pentru c\u{a} \^{\i}n
+orice nod w $\in{}$ A$_{z}$$^{-}$ , z $\in{}$ \{1,2,\ldots{},k\} un arc cu
+v\^{a}rful \^{\i}n w (adic\u{a} intr\u{a} din nodul w).
+}
+
+{\raggedright
+Din ipotez\u{a} =$>$ faptul c\u{a} \^{\i}n orice vertex din A$_{1}$$^{-}$,
+A$_{2}$$^{-}$ ,\ldots{},$^{ }$A$_{k}$$^{-}$ exist\u{a} un arc care iese \^{\i}n
+nodul w $\in{}$ A$_{z}$$^{-}$ , z $\in{}$ \{1,2,\ldots{},k\}. \^{I}n concluzie,
+\{A$_{1}$$^{-}$, A$_{2}$$^{-}$ ,\ldots{},$^{ }$A$_{k}$$^{-}$\} este o parti\c{t}ie a
+lui V(D).
+}
+\linebreak
+\begin{enumerate}
+	b) Presupunem c\u{a} $\exists{}$ dou\u{a} v\^{a}rfuri u \c{s}i v
+$\in{}$ B$_{1}$$^{+}$. Dac\u{a} u \c{s}i v \^{\i}mpart acela\c{s}i ''common prey'' w $\in{}$ B$_{1}$, atunci ele \^{\i}mpart \c{s}i acela\c{s}i ''common enemy'', de unde ob\c{t}inem c\u{a} sunt adiacente
+\^{\i}n G$_{ce.}$
+\end{enumerate}
+
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{b1}}="b1"
+!{(2,2) }*+{\bullet_{b2}}="b2"
+!{(8,0) }*+{\bullet_{bt}}="bt"
+!{(6,2) }*+{\bullet}="a1"
+!{(4,0) }*+{\bullet}="a2"
+!{(-2,-3) }*+{\bullet_{u}}="u"
+!{(1,-2) }*+{\bullet_{u1}}="u1"
+!{(3,-2) }*+{\bullet_{u2}}="u2"
+!{(5,-2) }*+{\bullet}="a3"
+!{(7,-2) }*+{\bullet_{ut-1}}="ut-1"
+!{(10,-3) }*+{\bullet_{v}}="v"
+"b1"-@[red]"b2"
+"b2"-@[red]"a2"
+"a2"-@[red]"a1"
+"a1"-@[red]"bt"
+"b1":"u"
+"b1":"u1"
+"b2":"u1"
+"b2":"u2"
+"a2":"u2"
+"a2":"a3"
+"a1":"a3"
+"a1":"ut-1"
+"bt":"ut-1"
+"bt":"v"
+"u"-@[blue]"u1"
+"u1"-@[blue]"u2"
+"u2"-@[blue]"a3"
+"a3"-@[blue]"ut-1"
+"ut-1"-@[blue]"v"
+\linebreak
+\linebreak
+\linebreak
+} } \]
+}
+{\raggedright
+\[ \fbox{ Ro\c{s}u pentru Gcp ("common prey"). Albastru pentru Gce ("common enemy")}
+}
+\linebreak
+
+{\raggedright
+Pe de alt\u{a} parte avem b$_{1 }, $b$_{t }$$\in{}$ B$_{1}$ \^{\i}n care
+exit\u{a} un arc [b$_{1,}$ u] \c{s}i un arc [b$_{t,}$ v]={\small $>$ }$\exists{}$ un
+drum de lungime minim\u{a} de la b$_{1}$ la b$_{t}$ \^{\i}n G$_{cp.}$
+}
+
+
+
+
+{\raggedright
+Pentru c\u{a} b$_{1}$ \c{s}i b$_{2}$ sunt adiacente \^{\i}n G$_{lp}$ ele \^{\i}mpart
+acela\c{s}i ''common prey'' \^{\i}n u$_{1}$, apoi u \c{s}i n$_{1}$ \^{\i}mpart acela\c{s}i
+''common enemy'' prin b$_{1}$ =$>$ u și u$_{1 }$sunt adiacente \^{\i}n G$_{ce
+}$=$>$ $\exists{}$ (u, u$_{1}$) $\in{}$ E(G$_{ce}$).
+}
+
+{\raggedright
+Generalizare:
+}
+
+{\raggedright
+Pentru c\u{a} b$_{i}$ \c{s}i b$_{i+1}$ sunt adiacente \^{\i}n G$_{cp}$ ele
+\^{\i}mpart un ''common prey'' \^{\i}p u$_{i}$. Apoi u$_{i-1}$ \c{s}i u$_{i}$
+\^{\i}mpart un ''common enemy'' \^{\i}n B$_{i}$  =$>$ u$_{i-1}$ \c{s}i u$_{i}$ șunt
+adiacente \^{\i}n G$_{ce.}$ A\c{s}adar, u \c{s}i v fac parte din aceea\c{s}i component\u{a}
+convex\u{a} din G$_{ce}$ =$>$ componentele conexe din B$_{i}$$^{+}$, i $\in{}$
+\{1,2,\ldots{},p\}, apartin unei componente din  A$_{j}$ $^{+}$, j $\in{}$
+\{1,2,\ldots{},k\}=$>$ B$_{i }$\c{s}i A$_{j}$ sunt bijective \c{s}i p=k.
+\linebreak
+}
+
+{\raggedright
+Analog pentru A$_{j \c{s}i }$B$_{i.}$
+}
+
+{\raggedright
+Presupunem c\u{a} $\exists{}$ dou\u{a} v\^{a}rfuri u \c{s}i v $\in{}$ A$_{1}$$^{-}$.
+Dac\u{a} u \c{s}i v \^{\i}mpart acela\c{s}i ''common enemy'' w $\in{}$ A$_{1}$,
+atunci ele  \^{\i}mpart \c{s}i acela\c{s}i ''common prey'', de unde ob\c{t}inem c\u{a} sunt
+adiacente \^{\i}n G$_{cp.}$
+}
+
+{\raggedright
+Pe de alt\u{a} parte avem a$_{1, }$a$_{t }$$\in{}$ A$_{1}$ \^{\i}n care
+exist\u{a} un arc [a$_{1,}$ c] \c{s}i un arc [s$_{t,}$ v]={\small $>$ }$\exists{}$ un
+drum de lungime minim\u{a} de la a$_{1}$ la a$_{t}$ \^{\i}n G$_{ce.}$
+}
+
+{\raggedright
+Pentru c\u{a} a$_{1}$ \c{s}i a$_{2}$ sunt adiacente \^{\i}n G$_{ce}$ ele \^{\i}mpart
+acela\c{s}i ''common enemy'' \^{\i}n u$_{1}$, apoi u \c{s}i u$_{1}$ \^{\i}mpart acela\c{s}i
+''common prey'' prin a$_{1}$ =$>$ u \c{s}i u$_{1 }$sunt adiacente \^{\i}n G$_{rp
+}$=$>$ $\exists{}$ (u, u$_{1}$) $\in{}$ E(G$_{ce}$).
+}
+
+{\raggedright
+Generalizare:
+}
+
+{\raggedright
+Pentru c\u{a} a$_{i}$ \c{s}i o$_{i+1}$ sunt adiacente \^{\i}n G$_{ce}$ ele
+\^{\i}mpart un ''common enemy'' \^{\i}n u$_{n}$. Apoi u$_{i-1}$ \c{s}i u$_{i}$ \^{\i}mpart
+un ''common prey'' \^{\i}n A$_{j}$  =$>$ u$_{i-1}$ \c{s}i u$_{i}$ sunt adiacente
+\^{\i}p G$_{cp.}$ A\c{s}adar, u \c{s}i v fac parte din aceea\c{s}i component\u{a}
+convex\u{a} din G$_{cp}$ =$>$ componentele conexe din A$_{e}$$^{-}$, i $\in{}$
+\{1,2,\ldots{},k\}, apar\c{t}in unei componente din  B$_{i}$ $^{+}$, i $\in{}$
+\{1,2,\ldots{},p\}=$>$ A$_{j }$ \c{s}i B$_{i}$ sunt bijective \c{s}i p=k.
+}
+
+{\raggedright
+Din cele dou\u{a} cazuri =$>$ c\u{a} G$_{cp}$ \c{s}i G$_{ce}$ au acela\c{s}i num\u{a}r
+de componente conexe.
+}
+
+{\raggedright
+\clearpage
+\clearpage
+\clearpage
+\clearpage
+\clearpage
+\uline{{\large Problema 2}}
+}
+
+\begin{enumerate}
+	a) D=(V,E) are proprietatea c\u{a} $\forall{}$ nod v $\in{}$ V(D), d$^{+}$(v) =
+d$^{-}$(v)=1.
+\end{enumerate}
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{y}}="y"
+!{(2,2) }*+{\bullet_{x}}="x"
+!{(4,0) }*+{\bullet_{z}}="z"
+"y": "x"
+"x": "z"
+\linebreak
+\linebreak
+\linebreak
+} } \]
+}
+
+
+{\raggedright
+Din aceast\u{a} proprietate deducem faptul c\u{a} pentru $\forall{}$ nod v
+$\in{}$ V(D), $\exists{}$ x,y $\in{}$ V(D) astfel \^{\i}nc\^{a}t arcele (x,v) \c{s}i
+(v,y) $\in{}$ E(D).
+}
+
+{\raggedright
+Tot din proprietatea d$^{+}$(v) = d$^{-}$(d)=1 deducem faptul c\u{a} \^{\i}n
+digraful cu cel pu\c{t}in 3 noduri se formeaz\u{a} un circuit.
+}
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{y}}="y"
+!{(2,2) }*+{\bullet_{x}}="x"
+!{(4,0) }*+{\bullet_{z}}="z"
+"y": "x"
+"x": "z"
+"z": "y"
+\linebreak
+\linebreak
+\linebreak
+} } \]
+}
+
+{\raggedright
+Presupunem c\u{a} pentru $\forall{}$ i$<$n (n=num\u{a}rul de v\^{a}rfuri),
+aleg\^{a}nd orice mul\c{t}ime S $\subset{}$ V, cu $\vert{}$S$\vert{}$=i, $\exists{}$
+un nod v din V(D) astfel \^{\i}nc\^{a}t $\vert{}$S $\cap{}$ v$^{+}$
+$\vert{}$$\equiv{}$ 1 mod 2.
+}
+
+{\raggedright
+P(1): pentru k=1, $\vert{}$S$\vert{}$=1, adic\u{a} con\c{t}ine un nod v, 
+$\exists{}$ un nod y $\in{}$ V(D) \c{s}i arcul (y,v) $\in{}$ E(D) astfel
+\^{\i}nc\^{a}t $\vert{}$y$^{+}$ $\cap{}$ S$\vert{}$ $\equiv{}$ 1 mod 2=$>$ S
+con\c{t}ine un singur v\^{a}rf =$>$ ''A''
+}
+
+{\raggedright
+Vom considera P(k) adev\u{a}rat\u{a} \c{s}i demonstr\u{a}m c\u{a} P(k+1)
+adev\u{a}rat\u{a}.
+}
+
+{\raggedright
+P(k): pentru $\forall{}$ mul\c{t}ime S $\subset{}$ V(D), $\vert{}$S$\vert{}$=k.
+$\exists{}$ un v\^{a}rf v $\in{}$ V(D) astfel \^{\i}nc\^{a}t $\vert{}$v$^{+}$
+$\cap{}$ S$\vert{}$ $\equiv{}$ 1 mod 2. Vom nota aceast\u{a} mul\c{t}ime S cu A.
+}
+
+{\raggedright
+P(k+1): $\forall{}$ S $\subset{}$ V, $\vert{}$S$\vert{}$ =k+1=$>$$\exists{}$ un
+v\^{a}rf  w $\in{}$ V(D) astfel \^{\i}nc\^{a}t $\vert{}$w$^{+}$ $\cap{}$
+S$\vert{}$ $\equiv{}$ 1 mod 2. Vom nota aceast\u{a} mul\c{t}ime S cu B.
+}
+
+{\raggedright
+Vom considera c\u{a} \{B\}=\{A\}$\cap{}$\{v\}, v $\in{}$ V(D), dar nu $\in{}$ A,
+adic\u{a} v $\in{}$ V(D)\textbackslash A.
+}
+
+{\raggedright
+$\forall{}$ nodul v $\in{}$ V(D)\textbackslash A, $\exists{}$ un nod i astfel
+\^{\i}nc\^{a}t (y,v) $\in{}$ E(D) =$>$ y$^{+}$=\{v\}, adic\u{a} nu $\exists{}$ un
+alt nod care s\u{a} plece din y=$>$ $\vert{}$ y$^{+}$$\vert{}$=1.
+}
+
+{\raggedright
+$\vert{}$ y$^{+}$$\cap{}$\{v\}$\vert{}$=$\vert{}$ y$^{+}$$\cap{}$\{A$\cup{}$
+v\}$\vert{}$ $\equiv{}$ 1 mod 2=$>$P(k+1) ''A''. Deci, conform principiului
+induc\c{t}iei matematice =$>$ \^{\i}n digraful D nu $\exists{}$ mul\c{t}ime par\u{a}.
+}
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+\begin{enumerate}
+	b) \end{enumerate}
+
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{x}}="x"
+!{(2,2) }*+{\bullet_{u}}="u"
+!{(4,0) }*+{\bullet_{y}}="y"
+!{(6,2) }*+{\bullet_{w}}="w"
+!{(8,0) }*+{\bullet_{z}}="z"
+"u": "x"
+"u": "y"
+"w": "y"
+"w": "z"
+\linebreak
+\linebreak
+\linebreak
+} } \]
+}
+
+{\raggedright
+x este ini\c{t}ial ''solo-prey'' pentru u;
+}
+
+{\raggedright
+z este ini\c{t}iat ''solo-prey'' pentru w;
+}
+
+{\raggedright
+y este ''commno-prey'' pentru u \c{s}i w;
+}
+
+{\raggedright
+Dup\u{a} ce facem modific\u{a}rile necesare ob\c{t}inem D $_{u ͦ w. }$
+}
+
+{\raggedright
+\LARGE
+\[ \fbox{ \xygraph{
+!{<0cm,0cm>;<1cm,0cm>:<0cm,1cm>::}
+!{(0,0) }*+{\bullet_{x}}="x"
+!{(2,2) }*+{\bullet_{u}}="u"
+!{(4,0) }*+{\bullet_{y}}="y"
+!{(6,2) }*+{\bullet_{w}}="w"
+!{(8,0) }*+{\bullet_{z}}="z"
+"u": "x"
+"u": "z"
+"w": "y"
+"w": "z"
+\linebreak
+\linebreak
+\linebreak
+} } \]
+}
+
+{\raggedright
+Acum y o s\u{a} fie ''solo-prey'' pentru w, iar z o s\u{a} fie ''common-prey''
+pentru u \c{s}i w.
+}
+
+{\raggedright
+Vom demonstra c\u{a} digraful ini\c{t}ial D are o mul\c{t}ime par\u{a} $<$ = $>$ D $_{u
+ͦ w }$ are o mu\c{t}țime par\u{a}.
+}
+
+{\raggedright
+$\vert{}$u$^{+}$$\vert{}$=$\vert{}$x$\vert{}$+$\vert{}$x$_{i}$$\vert{}$+$\vert{}$c$\vert{}$+$\vert{}$c$_{i}$$\vert{}$
+}
+
+{\raggedright
+$\vert{}$w$^{+}$$\vert{}$=$\vert{}$y$\vert{}$+$\vert{}$y$_{i}$$\vert{}$+$\vert{}$c$\vert{}$+$\vert{}$c$_{i}$$\vert{}$,
+unde $\vert{}$x$\vert{}$,$\vert{}$y$\vert{}$-toate ''solo-prey'' ale lui u,w care
+nu sunt \^{\i}n S
+}
+
+{\raggedright
+\hspace{15pt}\hspace{15pt}\hspace{15pt}      
+\linebreak
+\hspace{15pt}$\vert{}$x$_{i}$$\vert{}$,$\vert{}$y$_{i}$$\vert{}$-toate
+''solo-prey'' ale lui u,w care sunt \^{\i}n S
+}
+
+{\raggedright
+$\vert{}$c$\vert{}$-toate ''common-prey'' ale lui u \c{s}i w care nu sunt \^{\i}n S
+}
+\linebreak
+{\raggedright
+\hspace{15pt}\hspace{15pt}\hspace{15pt}  
+\hspace{15pt}$\vert{}$c$_{i}$$\vert{}$ toate ''common-prey'' ale lui u \c{s}i w care
+sunt \^{i}n S
+}
+\linebreak
+
+{\raggedright
+$\vert{}$x$_{i}$+c$_{i}$$\vert{}$ $\equiv{}$ 0 mod 2
+}
+
+{\raggedright
+$\vert{}$y$_{i}$+c$_{i}$$\vert{}$ $\equiv{}$ 0 mod 2 , unde }$x$_{i}$,$y$_{i}$,$c$_{i}$ au $ aceea\c{s}i $
+paritate
+\linebreak
+}
+
+{\raggedright
+$\vert{}$u$^{+}$$\vert{}$=$\vert{}$x$\vert{}$+$\vert{}$x$_{i}$$\vert{}$+$\vert{}$y$\vert{}$+$\vert{}$y$_{i}$$\vert{}$
+}
+
+{\raggedright
+$\vert{}$w$^{+}$$\vert{}$=$\vert{}$c$\vert{}$+$\vert{}$c$_{i}$$\vert{}$+$\vert{}$y$\vert{}$+$\vert{}$y$_{i}$$\vert{}$
+}
+
+{\raggedright
+Mul\c{t}imea de ''solo-prey'' pentru w devine mul\c{t}imea de ''comlon-prey'' pentru u
+\c{s}i w, iar ''common-prey'' devine ''solo-prey'' pentru w.
+}
+
+{\raggedright
+$\vert{}$u$^{+}$ $\cap{}$ S$\vert{}$=x$_{i}$+u$_{i}$ $\equiv{}$ 0 mod 2
+}
+
+{\raggedright
+Pentru c\u{a} $\exists{}$ o mul\c{t}ime par\u{a} \^{\i}n D $_{u ͦ w }$ =$>$
+$\exists{}$ o mul\c{t}ime par\u{a} \c{s}i \^{\i}n digraful ini\c{t}ial.
+}
+
+
+\begin{enumerate}
+	d) Fie matricea de adiacen\c{t}\u{a} A a lui D cu elemente din corpul GF(2).
+\end{enumerate}
+
+{\raggedright
+Presupunem c\u{a} exist\u{a} o mul\c{t}ime S par\u{a}. Fie nodul v $\in{}$ lui S.
+Adun\u{a}m toate coloanele corespunz\u{a}toare nodurilor din S pe coloana v.
+\linebreak
+\linebreak
+}
+\[
+A=
+\begin{bmatrix}
+    a_{11} & a_{12} & a_{13} & \dots  a_{1v} & \dots  & a_{1m} \\
+    a_{21} & a_{22} & a_{23} & \dots  a_{2v} & \dots  & a_{2m} \\
+    \vdots & \vdots & \vdots & \ddots a_{3v} & \dots  & \vdots \\
+    a_{n1} & a_{n2} & a_{n3} & \dots  a_{nv} & \dots  & a_{nm}
+\end{bmatrix}
+\]
+
+{\raggedright
+m=nr\_de\_linii
+}
+
+{\raggedright
+n=nr\_de\_coloane
+\linebreak
+}
+
+{\raggedright
+\linebreak
+for (int i=0; i$<$nr\_linii;i++)
+}
+
+{\raggedright
+\{
+}
+
+{\raggedright
+\hspace{15pt}for(int j=0;j$<$nr\_coloane;j++)
+}
+
+{\raggedright
+\{
+}
+
+{\raggedright
+\hspace{15pt}a[i][v]+=a[i][j];
+}
+
+{\raggedright
+\}
+}
+
+{\raggedright
+\}
+}
+
+{\raggedright
+Dac\u{a} ob\c{t}inem pe coloana v doar 0 (a[i][j]=0 pentru orice i=0,i$<$nr\_linii)
+}
+
+{\raggedright
+= $>$ det(A)=0 = $>$ mul\c{t}imea S este mul\c{t}ime par\u{a} de v\^{a}rfuri = $>$ c\u{a} digraful D are o mul\c{t}ime  par\u{a} de v\^{a}rfuri.
+}
+
+\end{document}

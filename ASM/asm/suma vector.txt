@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+unsigned a;
+
+
+int suma_vector(int *, int )
+{
+	_asm
+	{
+		mov eax,0
+		mov ebx,[ebp+8]
+		mov ecx,0
+
+   bucla:
+		cmp ecx,[ebp+12]
+		jae stop
+		
+		add eax,[ebx+ecx*4]
+		inc ecx
+		jmp bucla
+stop: 
+	}
+}
+
+int main()
+{
+	int v[5]={2,5,4,9,0};
+	int *p=v;
+	int s;
+	_asm
+	{
+		push 5
+	    push p
+		call suma_vector
+		add esp,8
+		mov s,eax
+	}
+	cout<<s;
+
+	return 0;
+}

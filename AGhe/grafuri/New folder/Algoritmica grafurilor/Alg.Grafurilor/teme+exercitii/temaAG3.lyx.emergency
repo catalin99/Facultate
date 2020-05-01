@@ -1,0 +1,276 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+TEMA 3 ALGORITMICA GRAFURILOR
+\end_layout
+
+\begin_layout Author
+Dorneanu Anca Tutuianu Corneliu grupa A7 ,an II
+\end_layout
+
+\begin_layout Date
+01/06/2015
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Problema 1
+\end_layout
+
+\begin_layout Subsection*
+a)
+\end_layout
+
+\begin_layout Standard
+Fie un digraf 
+\begin_inset Formula $G=(V,E)$
+\end_inset
+
+.
+ Daca 
+\begin_inset Formula $X\subseteq V$
+\end_inset
+
+ , notam cu 
+\begin_inset Formula $\delta^{+}(X)={\{xy\in E|x\in X,y\in V-X\}}$
+\end_inset
+
+ si cu 
+\begin_inset Formula $\delta^{-}(X)=δ^{+}(V-X)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Fie 
+\begin_inset Formula $l,u:E\rightarrow\mathbb{R}^{+}$
+\end_inset
+
+ce satisfac 
+\begin_inset Formula $l(e)\leq u(e)$
+\end_inset
+
+ 
+\begin_inset Formula $\forall$
+\end_inset
+
+ 
+\begin_inset Formula $e\in E$
+\end_inset
+
+.
+ Atunci fie exista o circulatie 
+\begin_inset Formula $f:E\rightarrow\mathbb{R}$
+\end_inset
+
+ cu 
+\begin_inset Formula $l(e)\leq f(e)\leq u(e)$
+\end_inset
+
+ 
+\begin_inset Formula $\forall$
+\end_inset
+
+ 
+\begin_inset Formula $e\in E$
+\end_inset
+
+ sau exista 
+\begin_inset Formula $X\subseteq V$
+\end_inset
+
+ astfel incat 
+\begin_inset Formula $\sum\limits _{e\in\delta^{+}(X)}u(e)<\sum\limits _{e\in\delta^{-}(X)}l(e)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Demonstratie:
+\end_layout
+
+\begin_layout Standard
+Definim slabiciunea setului 
+\begin_inset Formula $X$
+\end_inset
+
+ ca fiind 
+\begin_inset Formula $s(X)=$
+\end_inset
+
+
+\begin_inset Formula $\sum\limits _{e\in\delta^{+}(X)}u(e)-\sum\limits _{e\in\delta^{-}(X)}l(e)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este suficient sa demonstram ca exista un flux 
+\begin_inset Formula $f$
+\end_inset
+
+ cu presupunerea ca fiecare set are o slabiciune 
+\begin_inset Formula $\geq0$
+\end_inset
+
+ .Daca fiecare muchie 
+\begin_inset Formula $e$
+\end_inset
+
+ satisface 
+\begin_inset Formula $l(e)=u(e)$
+\end_inset
+
+, atunci definim 
+\begin_inset Formula $f=u=l$
+\end_inset
+
+.
+ Pentru fiecare 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ avem 
+\begin_inset Formula $\sum\limits _{e\in\delta^{+}(X)}f(e)-\sum\limits _{e\in\delta^{-}(X)}f(e)=s(\{v\})\geq0$
+\end_inset
+
+ si 
+\begin_inset Formula $\sum\limits _{e\in\delta^{-}(X)}f(e)-\sum\limits _{e\in\delta^{+}(X)}f(e)=s(V\backslash\{v\})\geq0$
+\end_inset
+
+ deci 
+\begin_inset Formula $f$
+\end_inset
+
+ este un flux.
+ Vom modifica acum 
+\begin_inset Formula $l,u$
+\end_inset
+
+ pentru cate o muchie, mentinand slabiciunea nenegativa peste tot pana cand
+ ajungem la 
+\begin_inset Formula $l=u$
+\end_inset
+
+ .Pentru a face asta, vom alege o muchie 
+\begin_inset Formula $e$
+\end_inset
+
+ cu
+\begin_inset Formula $l(e)\neq u(e)$
+\end_inset
+
+.
+ Alegem un set 
+\begin_inset Formula $X$
+\end_inset
+
+ cu o slabiciune minima astfel incat 
+\begin_inset Formula $e\in\delta^{+}(X)$
+\end_inset
+
+ si alegem un set 
+\begin_inset Formula $Y$
+\end_inset
+
+ cu o slabiciune minima astfel incat 
+\begin_inset Formula $e\in\delta^{-}(Y)$
+\end_inset
+
+.
+ Fie setul 
+\begin_inset Formula $S$
+\end_inset
+
+,set cu muchii avand un varf in 
+\begin_inset Formula $X\Y$
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

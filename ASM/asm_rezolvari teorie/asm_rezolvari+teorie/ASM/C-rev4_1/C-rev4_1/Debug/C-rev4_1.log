@@ -1,0 +1,12 @@
+﻿Build started 12.12.2014 15:20:27.
+     1>Project "F:\0Arl\Scoala\Visual\ASM\C-rev4_1\C-rev4_1\C-rev4_1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\C-rev4_1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C-rev4_1.cpp"
+         C-rev4_1.cpp
+     1>f:\0arl\scoala\visual\asm\c-rev4_1\c-rev4_1\c-rev4_1.cpp(52): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)' : cannot convert argument 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "F:\0Arl\Scoala\Visual\ASM\C-rev4_1\C-rev4_1\C-rev4_1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.65

@@ -1,0 +1,14 @@
+﻿Build started 22.11.2014 16:42:24.
+     1>Project "F:\0Arl\Scoala\Visual\ASM\SchimbMinCuMax_ArrayTrainingAdrese\SchimbMinCuMax_ArrayTrainingAdrese\SchimbMinCuMax_ArrayTrainingAdrese.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SchimbMinCuMax_ArrayTrainingAdrese.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SchimbMinCuMax_ArrayTrainingAdrese.cpp
+         SchimbMinCuMax_ArrayTrainingAdrese.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\0Arl\Scoala\Visual\ASM\SchimbMinCuMax_ArrayTrainingAdrese\Debug\SchimbMinCuMax_ArrayTrainingAdrese.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\0Arl\Scoala\Visual\ASM\SchimbMinCuMax_ArrayTrainingAdrese\Debug\SchimbMinCuMax_ArrayTrainingAdrese.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\0Arl\Scoala\Visual\ASM\SchimbMinCuMax_ArrayTrainingAdrese\Debug\SchimbMinCuMax_ArrayTrainingAdrese.lib" /MACHINE:X86 Debug\SchimbMinCuMax_ArrayTrainingAdrese.obj
+         Debug\stdafx.obj
+         SchimbMinCuMax_ArrayTrainingAdrese.vcxproj -> F:\0Arl\Scoala\Visual\ASM\SchimbMinCuMax_ArrayTrainingAdrese\Debug\SchimbMinCuMax_ArrayTrainingAdrese.exe
+     1>Done Building Project "F:\0Arl\Scoala\Visual\ASM\SchimbMinCuMax_ArrayTrainingAdrese\SchimbMinCuMax_ArrayTrainingAdrese\SchimbMinCuMax_ArrayTrainingAdrese.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
