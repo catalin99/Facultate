@@ -1,0 +1,22 @@
+Tema referatului: Interpolation by Inverse Distance Weighting, Tema 28
+
+Referate evaluate:
+-Andreea Bucataru A2 - Nota 9
+   <->Interpolation by Inverse Distance Weighting, Tema 28
+   -> Aș fi preferat să fie tradus în română
+   -> Nu este foarte detaliat, cuprinde detaliile esentiale, mai mult de introducere.
+   -> Am apreciat că are implementare (deși nu este inclusă în notare), rezultatul implementării este pus în referat și
+      arată destul de interesant.
+
+-Adelin Vasiliu E2 - Nota 9
+   <->Interpolation by Inverse Distance Weighting, Tema 28
+   -> Este destul de bine realizat, cuprinde detalii semnificative
+   -> Este în limba engleză, dar este la grupă de engleză, deci este ok
+   -> Un minus semnificativ este structura care este de tip prezentare, introducerile și frazele care se folosesc 
+      într-o prezentare nu ar trebui să apară într-un referat.
+
+-Delia Dedeagă A3 - Nota 9
+   <->Root finding - Muller's method, Tema 25
+   -> Cuprinde detaliile esențiale
+   -> Este bine ordonat, ideile se înțeleg foarte ușor.
+
