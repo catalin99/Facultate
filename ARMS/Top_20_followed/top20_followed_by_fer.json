@@ -1,0 +1,148 @@
+{
+    "total": 24,
+    "data": [
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "233171540",
+            "to_name": "lul1z",
+            "followed_at": "2020-05-26T10:08:22Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "53052202",
+            "to_name": "ricardoboltz",
+            "followed_at": "2020-05-24T02:05:11Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "77652704",
+            "to_name": "IngridFavret",
+            "followed_at": "2020-05-21T06:32:34Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "65940506",
+            "to_name": "chelok1ng",
+            "followed_at": "2020-05-11T08:02:37Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "110345741",
+            "to_name": "gabssf",
+            "followed_at": "2020-04-20T06:28:01Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "401618499",
+            "to_name": "isabellacz",
+            "followed_at": "2020-04-11T03:58:38Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "176535480",
+            "to_name": "emanuelebaarros",
+            "followed_at": "2020-02-20T23:26:00Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "141916462",
+            "to_name": "jhessytv",
+            "followed_at": "2019-08-18T02:39:06Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "106798269",
+            "to_name": "nanfps1",
+            "followed_at": "2019-05-23T08:43:02Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "52614128",
+            "to_name": "thedarkness",
+            "followed_at": "2019-05-22T03:08:04Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "165072546",
+            "to_name": "NoobeiEGravei",
+            "followed_at": "2019-05-21T11:41:23Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "258574797",
+            "to_name": "kryzafps",
+            "followed_at": "2019-04-15T22:51:11Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "36495270",
+            "to_name": "BALEROSTYLE",
+            "followed_at": "2018-12-31T02:29:47Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "174805181",
+            "to_name": "Dilera",
+            "followed_at": "2018-10-22T05:14:04Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "81795595",
+            "to_name": "1cePrime",
+            "followed_at": "2018-09-26T20:33:53Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "181077473",
+            "to_name": "gaules",
+            "followed_at": "2018-07-29T07:12:12Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "63602976",
+            "to_name": "SkipNhO",
+            "followed_at": "2017-12-23T05:38:33Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "144134724",
+            "to_name": "mamacitadoglobal",
+            "followed_at": "2017-03-12T21:27:42Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "66076836",
+            "to_name": "Stewie2K",
+            "followed_at": "2016-08-09T05:26:45Z"
+        },
+        {
+            "from_id": "71167031",
+            "from_name": "fer",
+            "to_id": "45902231",
+            "to_name": "BrisaSuaveF",
+            "followed_at": "2016-08-08T03:25:02Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE0NzA2MjY3MDI4ODQ1NzcwMDAifX0"
+    }
+}

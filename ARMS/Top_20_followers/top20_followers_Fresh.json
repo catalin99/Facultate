@@ -1,0 +1,148 @@
+{
+    "total": 2399568,
+    "data": [
+        {
+            "from_id": "536217465",
+            "from_name": "nether_steam",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:20:20Z"
+        },
+        {
+            "from_id": "536590909",
+            "from_name": "kokum_blog74",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:20:08Z"
+        },
+        {
+            "from_id": "536590661",
+            "from_name": "bot_freshy",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:20:05Z"
+        },
+        {
+            "from_id": "437352876",
+            "from_name": "addypad",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:20:04Z"
+        },
+        {
+            "from_id": "532445156",
+            "from_name": "croftyjc",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:57Z"
+        },
+        {
+            "from_id": "475160978",
+            "from_name": "aria_case",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:54Z"
+        },
+        {
+            "from_id": "192595163",
+            "from_name": "n1crose",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:53Z"
+        },
+        {
+            "from_id": "536171171",
+            "from_name": "aimanlegendarian",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:53Z"
+        },
+        {
+            "from_id": "536591502",
+            "from_name": "xmohali2009x",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:49Z"
+        },
+        {
+            "from_id": "536569290",
+            "from_name": "axolotlz78",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:47Z"
+        },
+        {
+            "from_id": "536551976",
+            "from_name": "ogbsteezzy",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:45Z"
+        },
+        {
+            "from_id": "489869316",
+            "from_name": "candy_canes245",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:44Z"
+        },
+        {
+            "from_id": "414987983",
+            "from_name": "leo_lufii",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:43Z"
+        },
+        {
+            "from_id": "491820761",
+            "from_name": "jackattack00007",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:40Z"
+        },
+        {
+            "from_id": "536590440",
+            "from_name": "fortnitegamer_66",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:35Z"
+        },
+        {
+            "from_id": "536591375",
+            "from_name": "mastergamerrr101",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:32Z"
+        },
+        {
+            "from_id": "451153681",
+            "from_name": "mad_mason3003",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:30Z"
+        },
+        {
+            "from_id": "270625905",
+            "from_name": "brainlag23",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:28Z"
+        },
+        {
+            "from_id": "536591485",
+            "from_name": "itzzzzriley",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:25Z"
+        },
+        {
+            "from_id": "430624654",
+            "from_name": "sammy13111",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-28T09:19:23Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTc1NjM4NDI4MjcyMDgifX0"
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "total": 520311,
+    "data": [
+        {
+            "from_id": "536591115",
+            "from_name": "drsarcasm_",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:18:56Z"
+        },
+        {
+            "from_id": "446695251",
+            "from_name": "imnaughty183",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:16:10Z"
+        },
+        {
+            "from_id": "464363891",
+            "from_name": "shred14",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:12:56Z"
+        },
+        {
+            "from_id": "200313126",
+            "from_name": "IrishNoIe6",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:11:22Z"
+        },
+        {
+            "from_id": "536590001",
+            "from_name": "gianluca080904",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:11:04Z"
+        },
+        {
+            "from_id": "88033788",
+            "from_name": "Nikevapor04",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:09:24Z"
+        },
+        {
+            "from_id": "110747146",
+            "from_name": "redskinspg88",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:08:24Z"
+        },
+        {
+            "from_id": "473733520",
+            "from_name": "tyler__ryan",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:02:29Z"
+        },
+        {
+            "from_id": "102272984",
+            "from_name": "crypticful",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:01:59Z"
+        },
+        {
+            "from_id": "536587801",
+            "from_name": "wavvy_knockout",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:01:48Z"
+        },
+        {
+            "from_id": "515409494",
+            "from_name": "swolff_5150",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T09:00:47Z"
+        },
+        {
+            "from_id": "410388198",
+            "from_name": "bonkersdeedy",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:59:25Z"
+        },
+        {
+            "from_id": "510904301",
+            "from_name": "ghostlyy456",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:59:18Z"
+        },
+        {
+            "from_id": "150964643",
+            "from_name": "theshowershark",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:58:12Z"
+        },
+        {
+            "from_id": "457611982",
+            "from_name": "adhemar32",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:57:51Z"
+        },
+        {
+            "from_id": "536587730",
+            "from_name": "diegoo2point0",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:57:17Z"
+        },
+        {
+            "from_id": "536587479",
+            "from_name": "venom1245335",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:56:50Z"
+        },
+        {
+            "from_id": "202302704",
+            "from_name": "hazemhazem12",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:54:34Z"
+        },
+        {
+            "from_id": "533441476",
+            "from_name": "damjan_182",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:54:20Z"
+        },
+        {
+            "from_id": "475607706",
+            "from_name": "josephvanaeken",
+            "to_id": "39724467",
+            "to_name": "Swagg",
+            "followed_at": "2020-05-28T08:52:32Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTU5NTI4NDM1NzQyMzQifX0"
+    }
+}

@@ -1,0 +1,327 @@
+{
+    "data": [
+        {
+            "id": "1719272753",
+            "user_id": "22859264",
+            "user_name": "DreamHackCS",
+            "game_id": "32399",
+            "type": "live",
+            "title": "LIVE: Fnatic vs Team Spirit - DreamHack Masters Spring - Europe - Group C",
+            "viewer_count": 40908,
+            "started_at": "2020-05-25T10:52:04Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dreamhackcs-{width}x{height}.jpg",
+            "tag_ids": [
+                "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38275769168",
+            "user_id": "213748641",
+            "user_name": "csgomc_ru",
+            "game_id": "32399",
+            "type": "live",
+            "title": "[RU] Fnatic vs Spirit (0-1) BO3 | DreamHack Masters Spring 2020  by @homer_on_tv & @sL4Mtv",
+            "viewer_count": 18180,
+            "started_at": "2020-05-25T11:34:15Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_csgomc_ru-{width}x{height}.jpg",
+            "tag_ids": [
+                "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95"
+            ]
+        },
+        {
+            "id": "38274960512",
+            "user_id": "50988750",
+            "user_name": "stylishnoob4",
+            "game_id": "511224",
+            "type": "live",
+            "title": "[DTN] spygea shaka stylishnoob 3br ",
+            "viewer_count": 17139,
+            "started_at": "2020-05-25T09:51:41Z",
+            "language": "ja",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stylishnoob4-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d"
+            ]
+        },
+        {
+            "id": "1719405697",
+            "user_id": "181077473",
+            "user_name": "gaules",
+            "game_id": "32399",
+            "type": "live",
+            "title": "Fnatic vs Spirit DreamHack Masters 2020 Gaurentena Dia 72 - Gaupoints em dobro na Quarentena",
+            "viewer_count": 17019,
+            "started_at": "2020-05-25T11:19:40Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gaules-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ]
+        },
+        {
+            "id": "38275487328",
+            "user_id": "139470326",
+            "user_name": "\ud55c\ub3d9\uc219",
+            "game_id": "21779",
+            "type": "live",
+            "title": "\ub864(\ud3fc\ub04c\uc5b4\uc62c\ub9ac\ub294Ing)",
+            "viewer_count": 16541,
+            "started_at": "2020-05-25T11:00:14Z",
+            "language": "ko",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_handongsuk-{width}x{height}.jpg",
+            "tag_ids": [
+                "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+            ]
+        },
+        {
+            "id": "38275909936",
+            "user_id": "26610234",
+            "user_name": "CohhCarnage",
+            "game_id": "31376",
+            "type": "live",
+            "title": "Terraria (Master Difficulty)! - THE ENDGAME! Empress of Light DOWN! - !Discord - !Corsair - !Store",
+            "viewer_count": 13594,
+            "started_at": "2020-05-25T11:51:04Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "eaba0ad7-c4e1-4878-b37f-01308dbb65c8",
+                "96b6073f-450d-4248-8ed4-988e28f3f759"
+            ]
+        },
+        {
+            "id": "38275515648",
+            "user_id": "103825127",
+            "user_name": "\ud48d\uc6d4\ub7c9",
+            "game_id": "516096",
+            "type": "live",
+            "title": "\ub85c\uadf8\ub77c\uc774\ud06c \uce74\ub4dc \ub371\ube4c\ub529 \uc2e0\uc791  \uac8c\uc784  \uc2ac\ub808\uc774 \ub354 \uc2a4\ud30c\uc774\uc5b4  Monster Train \ud48d\uc6d4\ub7c9",
+            "viewer_count": 12138,
+            "started_at": "2020-05-25T11:03:07Z",
+            "language": "ko",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hanryang1125-{width}x{height}.jpg",
+            "tag_ids": [
+                "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+            ]
+        },
+        {
+            "id": "38274468608",
+            "user_id": "111297998",
+            "user_name": "Llobeti4",
+            "game_id": "33214",
+            "type": "live",
+            "title": "LATES CON SUBS | PRIMER D\u00cdA CON MANDO DE XBOX \ud83c\udfae (se rompi\u00f3 el mio) | !mando | CODE Llobeti4 #ad",
+            "viewer_count": 12092,
+            "started_at": "2020-05-25T08:44:15Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_llobeti4-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+                "fd8f5e68-42d3-4544-a273-5fc92dabc568"
+            ]
+        },
+        {
+            "id": "1719586497",
+            "user_id": "175470952",
+            "user_name": "karavay46",
+            "game_id": "493244",
+            "type": "live",
+            "title": "\u0414\u0435\u0441\u0438\u0442 w/ \u041b\u0418\u041a\u0421,\u0410\u0420\u0418\u041d\u042f\u041d,\u042d\u0412\u0415\u041b\u041e\u041d,\u041a\u0420\u0418\u0421\u0412\u0415\u0419\u0412,\u041a\u0412\u0418\u041a\u0425\u0410\u041d\u0422\u0418\u041a",
+            "viewer_count": 11503,
+            "started_at": "2020-05-25T11:53:26Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_karavay46-{width}x{height}.jpg",
+            "tag_ids": [
+                "0569b171-2a2b-476e-a596-5bdfb45a1327"
+            ]
+        },
+        {
+            "id": "1719243233",
+            "user_id": "108268890",
+            "user_name": "Gorgc",
+            "game_id": "29595",
+            "type": "live",
+            "title": "Battlepass waiting room",
+            "viewer_count": 11379,
+            "started_at": "2020-05-25T10:45:08Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gorgc-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38276544736",
+            "user_id": "21841789",
+            "user_name": "Nmplol",
+            "game_id": "509658",
+            "type": "live",
+            "title": "Magic Monday ! !shavetheday #ad",
+            "viewer_count": 11198,
+            "started_at": "2020-05-25T12:59:16Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nmplol-{width}x{height}.jpg",
+            "tag_ids": [
+                "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "1719388161",
+            "user_id": "441129014",
+            "user_name": "tershoo1",
+            "game_id": "33214",
+            "type": "live",
+            "title": "SQUAD FT TK ET SYNKEN - Code Cr\u00e9ateur : Tershoo #ad",
+            "viewer_count": 10505,
+            "started_at": "2020-05-25T11:16:07Z",
+            "language": "fr",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tershoo1-{width}x{height}.jpg",
+            "tag_ids": [
+                "6f655045-9989-4ef7-8f85-1edcec42d648"
+            ]
+        },
+        {
+            "id": "38274610000",
+            "user_id": "30357893",
+            "user_name": "Werlyb",
+            "game_id": "21779",
+            "type": "live",
+            "title": "VAMOS A HACER EL COMEBACK EPICO #SOLOQCHALLENGE @werlyb en insta/twitter/youtube | !libro",
+            "viewer_count": 10425,
+            "started_at": "2020-05-25T09:03:07Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_werlyb-{width}x{height}.jpg",
+            "tag_ids": [
+                "80a8ef54-29ca-4c84-aca5-9b89581b30e1",
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                "b157e8d6-b7ba-49f4-836f-09886c072f1f",
+                "c2839af5-f1d2-46c4-8edc-1d0bfbd85070"
+            ]
+        },
+        {
+            "id": "38273516192",
+            "user_id": "66691674",
+            "user_name": "KingRichard",
+            "game_id": "512710",
+            "type": "live",
+            "title": "SUB GAMES !prime !sub",
+            "viewer_count": 9998,
+            "started_at": "2020-05-25T06:44:21Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kingrichard-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38275304224",
+            "user_id": "36481935",
+            "user_name": "ESL_DOTA2",
+            "game_id": "29595",
+            "type": "live",
+            "title": "LIVE: TNC Predator vs Reality Rift - ESL One Birmingham 2020 - Group Stage - SEA",
+            "viewer_count": 9836,
+            "started_at": "2020-05-25T10:36:44Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_dota2-{width}x{height}.jpg",
+            "tag_ids": [
+                "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "1719680593",
+            "user_id": "85397463",
+            "user_name": "NoWay4u_Sir",
+            "game_id": "21779",
+            "type": "live",
+            "title": "Heute wird ein guter Tag",
+            "viewer_count": 8891,
+            "started_at": "2020-05-25T12:08:08Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_noway4u_sir-{width}x{height}.jpg",
+            "tag_ids": [
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                "f3ae08ec-4bfe-48a0-b219-4e2414a19a84",
+                "7be27755-4983-491c-9247-04c035f06f40",
+                "51529054-5baf-493e-8961-2a43e4d0c6ac"
+            ]
+        },
+        {
+            "id": "38274191968",
+            "user_id": "57025612",
+            "user_name": "Thijs",
+            "game_id": "138585",
+            "type": "live",
+            "title": "Thijs - WINNING STREAM, Legend Climb | !merch on SUPER SALE",
+            "viewer_count": 8747,
+            "started_at": "2020-05-25T08:05:47Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thijs-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "476b39d1-6ed0-4561-b054-9ad82bf28a8e",
+                "d9f4aac9-0ca6-4181-828b-4594725bfa0c",
+                "8218a865-e965-4f63-b62b-7e7dffe4e30f"
+            ]
+        },
+        {
+            "id": "38276167104",
+            "user_id": "26779624",
+            "user_name": "relaxing234",
+            "game_id": "21779",
+            "type": "live",
+            "title": "\u3010 Stanley \u30115/25  \u6548\u4efftheshy\u73a9\u9060\u7a0b\u4e0a\u55ae  The cry\u83ef\u9e97\u767b\u5834  \u518d\u5169\u5834\u6253bo ^^   VVVVV   ",
+            "viewer_count": 8651,
+            "started_at": "2020-05-25T12:18:51Z",
+            "language": "zh",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_relaxing234-{width}x{height}.jpg",
+            "tag_ids": [
+                "74c92063-a389-4fd2-8460-b1bb82b04ec7"
+            ]
+        },
+        {
+            "id": "38276281088",
+            "user_id": "49207184",
+            "user_name": "fps_shaka",
+            "game_id": "511224",
+            "type": "live",
+            "title": "[DTN]3br",
+            "viewer_count": 8461,
+            "started_at": "2020-05-25T12:31:23Z",
+            "language": "ja",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fps_shaka-{width}x{height}.jpg",
+            "tag_ids": [
+                "8b73bc5b-5f74-4d49-aa55-e3237e9f3610",
+                "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d"
+            ]
+        },
+        {
+            "id": "38275482592",
+            "user_id": "31688366",
+            "user_name": "Symfuhny",
+            "game_id": "512710",
+            "type": "live",
+            "title": "[400+ Wins] not losing a single game !vid !loadout",
+            "viewer_count": 8108,
+            "started_at": "2020-05-25T10:59:50Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_symfuhny-{width}x{height}.jpg",
+            "tag_ids": [
+                "2a14b52e-d459-4c92-be11-5d86b898f6b6",
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam8wTURrd09DNHlOemt5TnpBM09UQXpOU3dpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In0sImEiOnsiQ3Vyc29yIjoiZXlKeklqbzRORFl4TGpFd09EQXdNVEF4T0RjekxDSmtJanBtWVd4elpTd2lkQ0k2ZEhKMVpYMD0ifX0"
+    }
+}

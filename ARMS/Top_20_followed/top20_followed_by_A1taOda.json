@@ -1,0 +1,106 @@
+{
+    "total": 14,
+    "data": [
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "30265384",
+            "to_name": "Duffman_USA",
+            "followed_at": "2020-02-20T04:39:45Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "75850302",
+            "to_name": "sQreendota2",
+            "followed_at": "2020-01-30T05:48:25Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "100814397",
+            "to_name": "Dota2RuHub",
+            "followed_at": "2019-10-25T17:27:13Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "38461708",
+            "to_name": "XaKoH",
+            "followed_at": "2019-08-27T09:59:18Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "35631192",
+            "to_name": "dota2ti_ru",
+            "followed_at": "2019-08-23T06:12:15Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "32184566",
+            "to_name": "rxnexus",
+            "followed_at": "2019-08-17T17:08:33Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "42266818",
+            "to_name": "LarianStudios",
+            "followed_at": "2019-08-14T06:11:36Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "75962614",
+            "to_name": "jamclub",
+            "followed_at": "2019-06-05T17:02:08Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "130879557",
+            "to_name": "aisumaisu",
+            "followed_at": "2019-05-16T10:52:46Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "155633222",
+            "to_name": "Goblak333",
+            "followed_at": "2018-11-30T15:58:26Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "36178755",
+            "to_name": "fabka",
+            "followed_at": "2018-10-30T13:45:33Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "213749122",
+            "to_name": "dota2mc_ru",
+            "followed_at": "2018-06-18T17:24:44Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "115729965",
+            "to_name": "chillout_man",
+            "followed_at": "2018-01-15T17:49:23Z"
+        },
+        {
+            "from_id": "51435464",
+            "from_name": "A1taOda",
+            "to_id": "71068671",
+            "to_name": "FailArmy",
+            "followed_at": "2017-10-25T02:18:46Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1MDg4OTc5MjY4NTQxMTkwMDAifX0"
+    }
+}

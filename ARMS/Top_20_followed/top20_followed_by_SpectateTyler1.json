@@ -1,0 +1,148 @@
+{
+    "total": 22,
+    "data": [
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "37175237",
+            "to_name": "TheOddOrange",
+            "followed_at": "2020-05-28T05:12:14Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "44334603",
+            "to_name": "LoLGeranimo",
+            "followed_at": "2020-05-28T04:23:54Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "118241089",
+            "to_name": "KarasMai",
+            "followed_at": "2020-05-28T04:23:04Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "107514872",
+            "to_name": "Rush",
+            "followed_at": "2020-05-28T04:20:24Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "15310631",
+            "to_name": "Greekgodx",
+            "followed_at": "2020-05-27T07:59:07Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "23615773",
+            "to_name": "VondillTV",
+            "followed_at": "2020-05-26T16:53:23Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "113659057",
+            "to_name": "MoistSalt",
+            "followed_at": "2020-05-25T04:25:48Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "5926288",
+            "to_name": "MindZeroTV",
+            "followed_at": "2020-05-25T02:32:13Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "37522020",
+            "to_name": "Grossie_Gore",
+            "followed_at": "2020-05-24T10:56:09Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "41952588",
+            "to_name": "thecuteboy",
+            "followed_at": "2020-05-24T07:22:04Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "473739345",
+            "to_name": "GryffinnLoL",
+            "followed_at": "2020-05-24T06:58:01Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "115659124",
+            "to_name": "Sanchovies",
+            "followed_at": "2020-05-22T22:03:19Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "121203480",
+            "to_name": "Yassuo",
+            "followed_at": "2020-05-21T00:06:35Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "37348021",
+            "to_name": "Joefisx20s",
+            "followed_at": "2020-05-17T04:02:15Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "26513896",
+            "to_name": "imls",
+            "followed_at": "2020-05-15T05:42:08Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "96858382",
+            "to_name": "erobb221",
+            "followed_at": "2020-05-11T02:51:15Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "14293484",
+            "to_name": "Voyboy",
+            "followed_at": "2020-05-01T11:35:39Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "43691",
+            "to_name": "Faker",
+            "followed_at": "2020-04-27T14:17:31Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "28036688",
+            "to_name": "Trick2g",
+            "followed_at": "2020-04-23T05:38:42Z"
+        },
+        {
+            "from_id": "459567713",
+            "from_name": "SpectateTyler1",
+            "to_id": "49342264",
+            "to_name": "youngrezzy",
+            "followed_at": "2020-04-19T03:32:31Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1ODcyNjcxNTE4MDcxNzcyOTUifX0"
+    }
+}

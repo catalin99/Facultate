@@ -1,0 +1,148 @@
+{
+    "total": 71952,
+    "data": [
+        {
+            "from_id": "91280322",
+            "from_name": "Ljerryk",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:19:12Z"
+        },
+        {
+            "from_id": "50274217",
+            "from_name": "tineppi",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:18:39Z"
+        },
+        {
+            "from_id": "37013078",
+            "from_name": "Zerownage",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:17:40Z"
+        },
+        {
+            "from_id": "189385154",
+            "from_name": "REDY",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:17:00Z"
+        },
+        {
+            "from_id": "66207933",
+            "from_name": "sayrisleeps",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:16:20Z"
+        },
+        {
+            "from_id": "30339340",
+            "from_name": "Failiture",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:15:14Z"
+        },
+        {
+            "from_id": "73515680",
+            "from_name": "RedArrow123",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:13:37Z"
+        },
+        {
+            "from_id": "97298822",
+            "from_name": "Squishyv2",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:13:32Z"
+        },
+        {
+            "from_id": "408277455",
+            "from_name": "luisxdgameplay",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:11:12Z"
+        },
+        {
+            "from_id": "39809120",
+            "from_name": "Lasdx",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:09:46Z"
+        },
+        {
+            "from_id": "60959677",
+            "from_name": "finnthehuman998",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:08:10Z"
+        },
+        {
+            "from_id": "226439054",
+            "from_name": "Abstrract",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:07:12Z"
+        },
+        {
+            "from_id": "178509633",
+            "from_name": "YungOyster",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:06:36Z"
+        },
+        {
+            "from_id": "25181787",
+            "from_name": "aestheticjmack",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:04:58Z"
+        },
+        {
+            "from_id": "43957231",
+            "from_name": "Mandoz97",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:02:18Z"
+        },
+        {
+            "from_id": "77929890",
+            "from_name": "Rorschacko",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:01:09Z"
+        },
+        {
+            "from_id": "76185835",
+            "from_name": "LexRoZa",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T09:01:06Z"
+        },
+        {
+            "from_id": "32515334",
+            "from_name": "pow7703j",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T08:59:30Z"
+        },
+        {
+            "from_id": "77276906",
+            "from_name": "Lucky_07",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T08:58:31Z"
+        },
+        {
+            "from_id": "173257927",
+            "from_name": "burchard",
+            "to_id": "459567713",
+            "to_name": "SpectateTyler1",
+            "followed_at": "2020-05-28T08:58:11Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTYyOTE0MTE2NTE1MzIifX0"
+    }
+}

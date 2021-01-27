@@ -1,0 +1,148 @@
+{
+    "total": 420,
+    "data": [
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "176337442",
+            "to_name": "GreenishMonkey",
+            "followed_at": "2020-05-25T20:13:43Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "30039402",
+            "to_name": "AvaGG",
+            "followed_at": "2020-05-20T06:16:07Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "193936316",
+            "to_name": "Viviana",
+            "followed_at": "2020-05-16T12:02:52Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "118223829",
+            "to_name": "BoschMerchant",
+            "followed_at": "2020-05-13T10:50:59Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "138088505",
+            "to_name": "Jack",
+            "followed_at": "2020-04-14T06:07:10Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "62470768",
+            "to_name": "GTAWiseGuy",
+            "followed_at": "2020-04-01T09:20:41Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "124568524",
+            "to_name": "Judd",
+            "followed_at": "2020-01-26T10:55:12Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "211234859",
+            "to_name": "Adapt",
+            "followed_at": "2020-01-25T19:41:39Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "231266309",
+            "to_name": "notKarbxn",
+            "followed_at": "2020-01-17T01:35:53Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "29829912",
+            "to_name": "DrLupo",
+            "followed_at": "2019-12-22T18:15:27Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "212276121",
+            "to_name": "ErickKhanTV",
+            "followed_at": "2019-11-16T17:15:54Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "197884504",
+            "to_name": "jimmytulip",
+            "followed_at": "2019-11-10T06:13:45Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "56625428",
+            "to_name": "SilentSentry",
+            "followed_at": "2019-08-20T22:25:07Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "37771090",
+            "to_name": "Kiwo",
+            "followed_at": "2019-07-25T19:37:56Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "126398835",
+            "to_name": "AlliedGame",
+            "followed_at": "2019-07-23T01:31:44Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "219304414",
+            "to_name": "Jetle",
+            "followed_at": "2019-07-11T08:41:56Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "77840050",
+            "to_name": "Meatwrist",
+            "followed_at": "2019-06-16T23:55:35Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "93589410",
+            "to_name": "Classify",
+            "followed_at": "2019-06-01T08:31:55Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "90035614",
+            "to_name": "bLuE622",
+            "followed_at": "2019-05-25T12:26:43Z"
+        },
+        {
+            "from_id": "47942990",
+            "from_name": "Coolio",
+            "to_id": "30482057",
+            "to_name": "CinnamonToastKen",
+            "followed_at": "2019-05-21T21:19:00Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1NTg0NzM1NDA0ODMyMDE5NTgifX0"
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "total": 264,
+    "data": [
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "97795247",
+            "to_name": "LGLOYAL",
+            "followed_at": "2020-05-15T01:09:05Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "132691423",
+            "to_name": "NicoleThePeach",
+            "followed_at": "2020-02-03T23:25:55Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "124845670",
+            "to_name": "8ayley",
+            "followed_at": "2020-01-06T12:07:17Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "207450855",
+            "to_name": "MitchRobinson",
+            "followed_at": "2020-01-04T10:27:06Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "218388240",
+            "to_name": "brodie",
+            "followed_at": "2020-01-03T12:36:06Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "181258781",
+            "to_name": "Khanada_",
+            "followed_at": "2019-12-22T17:28:24Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "129223463",
+            "to_name": "oasisonoverwatch",
+            "followed_at": "2019-12-21T15:51:15Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "257601182",
+            "to_name": "BinBotPanda",
+            "followed_at": "2019-12-07T12:17:09Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "44424631",
+            "to_name": "NickEh30",
+            "followed_at": "2019-11-30T16:47:24Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "224539819",
+            "to_name": "AussieAntics",
+            "followed_at": "2019-11-29T07:14:20Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "233300375",
+            "to_name": "Clix",
+            "followed_at": "2019-11-25T02:13:51Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "120244187",
+            "to_name": "Aydan",
+            "followed_at": "2019-11-25T02:13:48Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "82524912",
+            "to_name": "Bugha",
+            "followed_at": "2019-11-25T02:13:46Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "207232447",
+            "to_name": "KadeAU",
+            "followed_at": "2019-11-21T04:21:59Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "262213859",
+            "to_name": "livbev",
+            "followed_at": "2019-11-03T12:06:23Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "179896802",
+            "to_name": "Berticuss",
+            "followed_at": "2019-10-21T01:35:37Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "26862741",
+            "to_name": "Ballatw",
+            "followed_at": "2019-09-12T15:10:55Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "264656158",
+            "to_name": "bowlforfood",
+            "followed_at": "2019-09-09T17:28:56Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "454089473",
+            "to_name": "avivasofia",
+            "followed_at": "2019-09-01T01:42:34Z"
+        },
+        {
+            "from_id": "38594688",
+            "from_name": "Fresh",
+            "to_id": "66983298",
+            "to_name": "benjyfishy",
+            "followed_at": "2019-08-23T16:33:45Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1NjY1NzgwMjUzMjczODU0OTkifX0"
+    }
+}

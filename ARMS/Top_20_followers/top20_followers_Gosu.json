@@ -1,0 +1,148 @@
+{
+    "total": 1707551,
+    "data": [
+        {
+            "from_id": "126441590",
+            "from_name": "thehy3na",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T08:28:02Z"
+        },
+        {
+            "from_id": "23270047",
+            "from_name": "Timerift",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T08:26:38Z"
+        },
+        {
+            "from_id": "249125937",
+            "from_name": "xlinus642",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T08:24:23Z"
+        },
+        {
+            "from_id": "39672497",
+            "from_name": "radiance_voiw",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T07:56:18Z"
+        },
+        {
+            "from_id": "233670693",
+            "from_name": "scavanas",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T07:38:19Z"
+        },
+        {
+            "from_id": "213191102",
+            "from_name": "senpaiyash",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T07:25:24Z"
+        },
+        {
+            "from_id": "148867784",
+            "from_name": "Saesenthessis8",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T07:00:23Z"
+        },
+        {
+            "from_id": "530274210",
+            "from_name": "asydiccc",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:57:22Z"
+        },
+        {
+            "from_id": "94872484",
+            "from_name": "Umherirrend",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:49:57Z"
+        },
+        {
+            "from_id": "437341860",
+            "from_name": "danicol08",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:47:52Z"
+        },
+        {
+            "from_id": "486283897",
+            "from_name": "mendezqqqqq",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:35:03Z"
+        },
+        {
+            "from_id": "156471387",
+            "from_name": "astrid9414",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:31:50Z"
+        },
+        {
+            "from_id": "457477456",
+            "from_name": "tainguyent",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:29:54Z"
+        },
+        {
+            "from_id": "536561470",
+            "from_name": "jestmorales",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:25:58Z"
+        },
+        {
+            "from_id": "535751174",
+            "from_name": "FAPKenshin",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T06:12:07Z"
+        },
+        {
+            "from_id": "137213494",
+            "from_name": "Lachoni",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T05:50:25Z"
+        },
+        {
+            "from_id": "524656759",
+            "from_name": "andresrondon",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T05:33:23Z"
+        },
+        {
+            "from_id": "45284674",
+            "from_name": "xFajak",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T05:31:58Z"
+        },
+        {
+            "from_id": "520143885",
+            "from_name": "sneakystinkyratman",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T05:28:23Z"
+        },
+        {
+            "from_id": "218095818",
+            "from_name": "edifay",
+            "to_id": "41939266",
+            "to_name": "Gosu",
+            "followed_at": "2020-05-28T05:18:42Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NDMxMjI4OTE5OTg2ODYifX0"
+    }
+}

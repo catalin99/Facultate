@@ -1,0 +1,302 @@
+{
+    "data": [
+        {
+            "id": "38271607248",
+            "user_id": "57717183",
+            "user_name": "Mendo",
+            "game_id": "516575",
+            "type": "live",
+            "title": "NO DROPS EXCEPT FPS DROPS  - @Mendo",
+            "viewer_count": 3991,
+            "started_at": "2020-05-25T04:01:07Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mendo-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38275362800",
+            "user_id": "27121969",
+            "user_name": "ONSCREEN",
+            "game_id": "516575",
+            "type": "live",
+            "title": "Team UK Captain - Mastering Breach today \ud83d\udd38 Follow @onscreenlol for banter \ud83d\udd38 !aimlab !gfuel !discord !youtube !sub4free",
+            "viewer_count": 3045,
+            "started_at": "2020-05-25T10:44:31Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_onscreen-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38273191136",
+            "user_id": "43045369",
+            "user_name": "zorlaKOKA",
+            "game_id": "516575",
+            "type": "live",
+            "title": "[PT-ENG] dezatinoyt, godtigas, nyakk, GH0STBUMPS, malhavacas, Chilapt, Chadon, c4m03s, yoshirohappy, h4rdmec, Filiam, shumi, Nelsonsilva",
+            "viewer_count": 2108,
+            "started_at": "2020-05-25T06:09:50Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zorlakoka-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ]
+        },
+        {
+            "id": "1718924977",
+            "user_id": "55898523",
+            "user_name": "TrilluXe",
+            "game_id": "516575",
+            "type": "live",
+            "title": "G2 Nations Cup Pracc! \ud83d\ude04 !neuesvideo  ",
+            "viewer_count": 1969,
+            "started_at": "2020-05-25T09:25:51Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_trilluxe-{width}x{height}.jpg",
+            "tag_ids": [
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+            ]
+        },
+        {
+            "id": "1719143505",
+            "user_id": "70298660",
+            "user_name": "Skyyart",
+            "game_id": "516575",
+            "type": "live",
+            "title": "SKYYART\u26a1Ranked Valorant Smurf D1 to Immo 1 et \u00e0 18h30 LoL SoS fer 4 :D, main : Immo1 Soloq",
+            "viewer_count": 1796,
+            "started_at": "2020-05-25T10:22:10Z",
+            "language": "fr",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_skyyart-{width}x{height}.jpg",
+            "tag_ids": [
+                "6f655045-9989-4ef7-8f85-1edcec42d648",
+                "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+                "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                "e1a43486-eee5-4f36-9ee6-76e72af00180",
+                "8486f56b-8677-44f7-8004-000295391524",
+                "ac763b17-7bea-4632-9eb4-d106689ff409"
+            ]
+        },
+        {
+            "id": "38274195936",
+            "user_id": "62595539",
+            "user_name": "TheRealzBlueWater",
+            "game_id": "516575",
+            "type": "live",
+            "title": "\u2714\ufe0fSPAM EMOTES  \ud83c\udf81!GIVEAWAY \ud83c\udf89!RAFFLE \ud83d\udd25TWITCH PRIME SUB = BIG BWAIN\ud83e\udde0 \ud83d\udca6BLUEWATER\ud83d\udca6 Say hi! \u261c(\uff9f\u30ee\uff9f\u261c) \ud83d\udd11LAST DAYS OF BETA!!!!\ud83d\udd11",
+            "viewer_count": 1724,
+            "started_at": "2020-05-25T08:06:18Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_therealzbluewater-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "87461f91-8a5c-4233-92fd-38f321b8970d"
+            ]
+        },
+        {
+            "id": "1718943361",
+            "user_id": "16064695",
+            "user_name": "Dhalucard",
+            "game_id": "516575",
+            "type": "live",
+            "title": "[GER] VALORANT - Der G2 Cup steht an (26.05) // Jetzt bissel \"Just 4 Fun\"",
+            "viewer_count": 1664,
+            "started_at": "2020-05-25T09:31:10Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dhalucard-{width}x{height}.jpg",
+            "tag_ids": [
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+            ]
+        },
+        {
+            "id": "1719344897",
+            "user_id": "97557908",
+            "user_name": "Miranda",
+            "game_id": "516575",
+            "type": "live",
+            "title": "\u2705 Valorandaaaa\u011f\u011f\u011f\u011f\u011f \u2705(40 SN DELAY) Miranda orlayn!! \ud83d\udc9crank:Plat2 I !instagram, !youtube",
+            "viewer_count": 1650,
+            "started_at": "2020-05-25T11:07:17Z",
+            "language": "tr",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_miranda-{width}x{height}.jpg",
+            "tag_ids": [
+                "f08d5873-f0c7-4912-94ba-a41933b4c141"
+            ]
+        },
+        {
+            "id": "1708759505",
+            "user_id": "198506129",
+            "user_name": "SolaryFortnite",
+            "game_id": "516575",
+            "type": "live",
+            "title": "DRG ( rank : Immortel 3) Road to Valorant  | !drgsettings",
+            "viewer_count": 1523,
+            "started_at": "2020-05-24T04:18:17Z",
+            "language": "fr",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_solaryfortnite-{width}x{height}.jpg",
+            "tag_ids": [
+                "6f655045-9989-4ef7-8f85-1edcec42d648"
+            ]
+        },
+        {
+            "id": "1719376593",
+            "user_id": "25116812",
+            "user_name": "sacy",
+            "game_id": "516575",
+            "type": "live",
+            "title": "sacy - imortal 3 rumo ao ferro",
+            "viewer_count": 1232,
+            "started_at": "2020-05-25T11:13:35Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sacy-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ]
+        },
+        {
+            "id": "1719511249",
+            "user_id": "26857029",
+            "user_name": "hastad",
+            "game_id": "516575",
+            "type": "live",
+            "title": "HASTAD BR SERVER - VALORANT - IMORTAL 2",
+            "viewer_count": 1136,
+            "started_at": "2020-05-25T11:39:40Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hastad-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ]
+        },
+        {
+            "id": "1715463585",
+            "user_id": "75891532",
+            "user_name": "mch_AGG",
+            "game_id": "516575",
+            "type": "live",
+            "title": "ROAD TO VALORANT EP.5 HYPE 2X(4XS) - !FUSION !FORCEDROP !YOUTUBE !RERUN",
+            "viewer_count": 843,
+            "started_at": "2020-05-24T20:52:50Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mch_agg-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ]
+        },
+        {
+            "id": "1718832929",
+            "user_id": "27186524",
+            "user_name": "Mazarin1k",
+            "game_id": "516575",
+            "type": "live",
+            "title": "Rankedy for fun \ud83d\udc49 ve\u010der trenink s tymem \ud83d\udc49 Sv\u00e1tek m\u00e1 Viola",
+            "viewer_count": 838,
+            "started_at": "2020-05-25T09:00:19Z",
+            "language": "cs",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mazarin1k-{width}x{height}.jpg",
+            "tag_ids": [
+                "a6cddaba-f0ce-4526-9087-6de2f603a24d"
+            ]
+        },
+        {
+            "id": "38274307536",
+            "user_id": "157901405",
+            "user_name": "staxvlrt",
+            "game_id": "516575",
+            "type": "live",
+            "title": "LVUP \uc778\ube44\ud14c\uc774\uc154\ub110 \uac19\uc774 \ubcf4\uae30",
+            "viewer_count": 800,
+            "started_at": "2020-05-25T08:21:39Z",
+            "language": "ko",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_staxvlrt-{width}x{height}.jpg",
+            "tag_ids": [
+                "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+            ]
+        },
+        {
+            "id": "1718413857",
+            "user_id": "49335974",
+            "user_name": "LotharHS",
+            "game_id": "516575",
+            "type": "live",
+            "title": "Ostatnie dni bety do 28go do 18:00! Start gry 2go!  !tiktok !youtube hajlajty",
+            "viewer_count": 762,
+            "started_at": "2020-05-25T06:35:10Z",
+            "language": "pl",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lotharhs-{width}x{height}.jpg",
+            "tag_ids": [
+                "f9d04efa-6e25-49bf-bf0a-da3e2addaf1b"
+            ]
+        },
+        {
+            "id": "1718814577",
+            "user_id": "24943033",
+            "user_name": "nookyyy",
+            "game_id": "516575",
+            "type": "live",
+            "title": "Grinden & trainieren f\u00fcr den G2 European Brawl #2 morgen !!! !prime VALORANT Highlights #4 -> !neuesvideo",
+            "viewer_count": 738,
+            "started_at": "2020-05-25T08:55:05Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nookyyy-{width}x{height}.jpg",
+            "tag_ids": [
+                "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+            ]
+        },
+        {
+            "id": "38275784656",
+            "user_id": "84752541",
+            "user_name": "HighDistortion",
+            "game_id": "516575",
+            "type": "live",
+            "title": "Dont know what to play",
+            "viewer_count": 736,
+            "started_at": "2020-05-25T11:36:11Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_highdistortion-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                "64d9afa6-139a-48d5-ab4e-51d0a92b22de",
+                "c2839af5-f1d2-46c4-8edc-1d0bfbd85070"
+            ]
+        },
+        {
+            "id": "38276707680",
+            "user_id": "473388215",
+            "user_name": "24_Flash",
+            "game_id": "516575",
+            "type": "live",
+            "title": "[Subs have 100% chance to get key] Streaming 24/7 [Drops Enabled] \ud83d\udd25 (Replay)!watchtime",
+            "viewer_count": 732,
+            "started_at": "2020-05-25T13:13:43Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_24_flash-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38276453888",
+            "user_id": "38539112",
+            "user_name": "FPSThailand",
+            "game_id": "516575",
+            "type": "live",
+            "title": "113 - \u0e0b\u0e49\u0e2d\u0e21\u0e19\u0e30\u0e04\u0e49\u0e32\u0e1a\u0e1a\u0e1a\u0e1a\u0e1a \u0e1e\u0e23\u0e38\u0e48\u0e07\u0e19\u0e35\u0e49\u0e41\u0e02\u0e48\u0e07",
+            "viewer_count": 721,
+            "started_at": "2020-05-25T12:50:08Z",
+            "language": "th",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fpsthailand-{width}x{height}.jpg",
+            "tag_ids": [
+                "f19c7524-c18d-41af-9f39-034c8d0b0fee"
+            ]
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam96T1RreExqa3lOREU0TlRRNE16a3pNVFVzSW1RaU9tWmhiSE5sTENKMElqcDBjblZsZlE9PSJ9LCJhIjp7IkN1cnNvciI6ImV5SnpJam8zTWpFdU9EZzROalV6TVRRM056WTVPU3dpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In19"
+    }
+}

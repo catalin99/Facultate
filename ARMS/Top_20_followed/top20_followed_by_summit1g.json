@@ -1,0 +1,148 @@
+{
+    "total": 236,
+    "data": [
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "439999670",
+            "to_name": "OG_Freshavocado",
+            "followed_at": "2020-05-16T10:40:20Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "516274043",
+            "to_name": "boltamputated",
+            "followed_at": "2020-05-05T07:49:03Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "105533253",
+            "to_name": "broxh_",
+            "followed_at": "2020-04-23T19:52:40Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "57717183",
+            "to_name": "Mendo",
+            "followed_at": "2020-04-05T21:47:58Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "174809651",
+            "to_name": "landonorris",
+            "followed_at": "2020-03-27T18:37:39Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "29829912",
+            "to_name": "DrLupo",
+            "followed_at": "2020-03-25T19:39:52Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "22058560",
+            "to_name": "s_w_a_y_y",
+            "followed_at": "2020-03-20T22:40:25Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "137875140",
+            "to_name": "Getlowe",
+            "followed_at": "2020-02-29T22:21:04Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "201268782",
+            "to_name": "thedapperrapper",
+            "followed_at": "2020-02-11T06:03:44Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "12943173",
+            "to_name": "pokelawls",
+            "followed_at": "2020-01-28T01:40:49Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "10397006",
+            "to_name": "JERICHO",
+            "followed_at": "2020-01-08T00:57:34Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "37853510",
+            "to_name": "Hitchariide",
+            "followed_at": "2020-01-08T00:39:04Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "95873995",
+            "to_name": "Ramee",
+            "followed_at": "2019-12-14T21:21:38Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "4331474",
+            "to_name": "Naded",
+            "followed_at": "2019-12-07T10:33:55Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "10996328",
+            "to_name": "LxthuL",
+            "followed_at": "2019-12-06T09:57:06Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "81463115",
+            "to_name": "Kotton",
+            "followed_at": "2019-09-29T20:58:44Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "74508733",
+            "to_name": "DottyHack",
+            "followed_at": "2019-09-26T21:41:53Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "106013742",
+            "to_name": "Pestily",
+            "followed_at": "2019-09-16T06:44:35Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "39205266",
+            "to_name": "Laski",
+            "followed_at": "2019-09-07T09:31:51Z"
+        },
+        {
+            "from_id": "26490481",
+            "from_name": "summit1g",
+            "to_id": "163836275",
+            "to_name": "Lord_Kebun",
+            "followed_at": "2019-08-28T07:22:24Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1NjY5NzY5NDQxNjU4NDU0MzAifX0"
+    }
+}

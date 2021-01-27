@@ -1,0 +1,148 @@
+{
+    "total": 807231,
+    "data": [
+        {
+            "from_id": "90846558",
+            "from_name": "Golddudee",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:19:06Z"
+        },
+        {
+            "from_id": "454689632",
+            "from_name": "axelanderson",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:18:20Z"
+        },
+        {
+            "from_id": "83205928",
+            "from_name": "secretlystashed",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:17:42Z"
+        },
+        {
+            "from_id": "530866341",
+            "from_name": "ratofolis2",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:17:09Z"
+        },
+        {
+            "from_id": "77716027",
+            "from_name": "Joey_Ali_96",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:15:57Z"
+        },
+        {
+            "from_id": "101251489",
+            "from_name": "sm0shiidoodles",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:15:46Z"
+        },
+        {
+            "from_id": "521810803",
+            "from_name": "gustavojony",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:13:41Z"
+        },
+        {
+            "from_id": "532291011",
+            "from_name": "staggersz",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:10:58Z"
+        },
+        {
+            "from_id": "491551820",
+            "from_name": "YoungLuga",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:08:52Z"
+        },
+        {
+            "from_id": "219141612",
+            "from_name": "broxdecker",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:08:09Z"
+        },
+        {
+            "from_id": "526854480",
+            "from_name": "garabandal",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:08:00Z"
+        },
+        {
+            "from_id": "536587130",
+            "from_name": "Necrocabra",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:05:39Z"
+        },
+        {
+            "from_id": "232037570",
+            "from_name": "dustmaker22",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:04:16Z"
+        },
+        {
+            "from_id": "467027058",
+            "from_name": "POSSIBLYSKY",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:03:56Z"
+        },
+        {
+            "from_id": "231571784",
+            "from_name": "sebastianpenalesph",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:01:45Z"
+        },
+        {
+            "from_id": "162956682",
+            "from_name": "Bowtie_Ninja",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T09:00:30Z"
+        },
+        {
+            "from_id": "131536685",
+            "from_name": "TheMochaOtaku",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T08:59:44Z"
+        },
+        {
+            "from_id": "535716701",
+            "from_name": "flavioportugal_9",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T08:58:25Z"
+        },
+        {
+            "from_id": "67233148",
+            "from_name": "einhander85",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T08:58:22Z"
+        },
+        {
+            "from_id": "100670930",
+            "from_name": "gh0stjedi",
+            "to_id": "30104304",
+            "to_name": "Maximilian_DOOD",
+            "followed_at": "2020-05-28T08:58:14Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTYyOTQ2NjkyOTA2MTAifX0"
+    }
+}

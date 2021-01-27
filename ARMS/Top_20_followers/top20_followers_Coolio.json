@@ -1,0 +1,148 @@
+{
+    "total": 37815,
+    "data": [
+        {
+            "from_id": "166869024",
+            "from_name": "MinimalxEffect",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T08:38:36Z"
+        },
+        {
+            "from_id": "438493750",
+            "from_name": "patrickstar114",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T07:52:12Z"
+        },
+        {
+            "from_id": "104288893",
+            "from_name": "HarryDirks",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T07:29:13Z"
+        },
+        {
+            "from_id": "101619132",
+            "from_name": "Wefoer",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T07:28:46Z"
+        },
+        {
+            "from_id": "154102028",
+            "from_name": "bigpapa579",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T06:55:28Z"
+        },
+        {
+            "from_id": "163417494",
+            "from_name": "BrieTheAlien",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T06:54:42Z"
+        },
+        {
+            "from_id": "101915061",
+            "from_name": "Cadenjerry",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T06:13:13Z"
+        },
+        {
+            "from_id": "37855068",
+            "from_name": "scaterman",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T06:12:42Z"
+        },
+        {
+            "from_id": "116819778",
+            "from_name": "spanky42",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T06:06:37Z"
+        },
+        {
+            "from_id": "28052751",
+            "from_name": "Next_Futuresc",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T06:03:32Z"
+        },
+        {
+            "from_id": "503446512",
+            "from_name": "xoxo_colin",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T05:49:36Z"
+        },
+        {
+            "from_id": "421193210",
+            "from_name": "DarkBeauty95",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T05:33:46Z"
+        },
+        {
+            "from_id": "148254984",
+            "from_name": "invishn",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:26:46Z"
+        },
+        {
+            "from_id": "234580810",
+            "from_name": "beastyyyboi",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:16:32Z"
+        },
+        {
+            "from_id": "229535713",
+            "from_name": "wiggleyournubs",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:11:54Z"
+        },
+        {
+            "from_id": "27642592",
+            "from_name": "Ichaeto",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:09:09Z"
+        },
+        {
+            "from_id": "472623125",
+            "from_name": "blueberry_cheesecake",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:07:00Z"
+        },
+        {
+            "from_id": "199385378",
+            "from_name": "silkfox2",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:06:32Z"
+        },
+        {
+            "from_id": "205113155",
+            "from_name": "DrKoHi",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:05:06Z"
+        },
+        {
+            "from_id": "533896866",
+            "from_name": "stefffb29",
+            "to_id": "47942990",
+            "to_name": "Coolio",
+            "followed_at": "2020-05-28T04:04:52Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2Mzg2OTI0ODA2NTA4OTIifX0"
+    }
+}

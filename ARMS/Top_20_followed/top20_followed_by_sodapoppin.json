@@ -1,0 +1,148 @@
+{
+    "total": 627,
+    "data": [
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "142954462",
+            "to_name": "nmplol2",
+            "followed_at": "2020-05-19T19:04:51Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "458916766",
+            "to_name": "RoacheVR",
+            "followed_at": "2020-05-14T07:36:46Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "93801342",
+            "to_name": "Fyzicul",
+            "followed_at": "2020-05-06T17:42:22Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "60853163",
+            "to_name": "Bob7",
+            "followed_at": "2020-05-04T20:04:43Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "510556281",
+            "to_name": "JadezVR",
+            "followed_at": "2020-04-23T03:05:23Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "120734723",
+            "to_name": "kaite",
+            "followed_at": "2020-04-23T01:04:09Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "97570759",
+            "to_name": "Suto",
+            "followed_at": "2020-04-22T21:03:48Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "30080751",
+            "to_name": "Dyrus",
+            "followed_at": "2020-04-22T21:03:07Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "204046683",
+            "to_name": "LittleAlii",
+            "followed_at": "2020-04-20T21:57:15Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "117973283",
+            "to_name": "littlealli",
+            "followed_at": "2020-04-20T21:42:10Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "207813352",
+            "to_name": "HasanAbi",
+            "followed_at": "2020-04-20T18:24:15Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "473493698",
+            "to_name": "FlynnOk",
+            "followed_at": "2020-04-09T09:59:45Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "169188075",
+            "to_name": "neeko",
+            "followed_at": "2020-04-02T05:10:18Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "25458544",
+            "to_name": "Sequisha",
+            "followed_at": "2020-03-31T10:05:22Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "11897156",
+            "to_name": "Roflgator",
+            "followed_at": "2020-03-31T09:16:09Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "191477618",
+            "to_name": "jvna",
+            "followed_at": "2020-03-29T10:20:09Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "182069350",
+            "to_name": "GoneDoc",
+            "followed_at": "2020-03-28T08:13:04Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "101141995",
+            "to_name": "Crusader3455",
+            "followed_at": "2020-03-27T01:32:37Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "44021076",
+            "to_name": "zega26",
+            "followed_at": "2020-03-22T06:34:33Z"
+        },
+        {
+            "from_id": "26301881",
+            "from_name": "sodapoppin",
+            "to_id": "26903378",
+            "to_name": "heyimbee",
+            "followed_at": "2020-03-12T05:44:45Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1ODM5OTE4ODU1NDU5NTczODIifX0"
+    }
+}

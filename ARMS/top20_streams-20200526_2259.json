@@ -1,0 +1,318 @@
+{
+    "data": [
+        {
+            "id": "38301401968",
+            "user_id": "39276140",
+            "user_name": "Rubius",
+            "game_id": "27471",
+            "type": "live",
+            "title": "Jurassic Karmaland y luego Detroit Become Tostadora",
+            "viewer_count": 98535,
+            "started_at": "2020-05-26T18:57:52Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rubius-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+            ]
+        },
+        {
+            "id": "1728643681",
+            "user_id": "22859264",
+            "user_name": "DreamHackCS",
+            "game_id": "32399",
+            "type": "live",
+            "title": "LIVE: Fnatic vs GODSENT - DreamHack Masters Spring - Europe - Group C",
+            "viewer_count": 57065,
+            "started_at": "2020-05-26T10:53:48Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dreamhackcs-{width}x{height}.jpg",
+            "tag_ids": [
+                "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38301456432",
+            "user_id": "48878319",
+            "user_name": "TheGrefg",
+            "game_id": "27471",
+            "type": "live",
+            "title": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb2 CALVALAND \ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb2 CARRERA DE DIAMANTES CONTRA AMPETER (directo especial baja latencia) \ud83d\udc8e",
+            "viewer_count": 53336,
+            "started_at": "2020-05-26T19:00:25Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thegrefg-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+            ]
+        },
+        {
+            "id": "1732260337",
+            "user_id": "71588578",
+            "user_name": "TheRealKnossi",
+            "game_id": "498566",
+            "type": "live",
+            "title": "Der elit\u00e4re B\u00fccherclub hat sein Meeting! ",
+            "viewer_count": 53334,
+            "started_at": "2020-05-26T18:29:43Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_therealknossi-{width}x{height}.jpg",
+            "tag_ids": [
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+            ]
+        },
+        {
+            "id": "38297846992",
+            "user_id": "26261471",
+            "user_name": "Asmongold",
+            "game_id": "18122",
+            "type": "live",
+            "title": "SHADOWLANDS NEWS--THUNDERFURY TODAY FOR SURE--OPENING BOXES--GETTING MOUNTS--COLLECTING USELESS ITEMS",
+            "viewer_count": 48440,
+            "started_at": "2020-05-26T15:10:55Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_asmongold-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "1731835025",
+            "user_id": "40063341",
+            "user_name": "Domingo",
+            "game_id": "509658",
+            "type": "live",
+            "title": "POPCORN \ud83c\udf7f avec Sard & Mastu (Jbzz en invit\u00e9 et Test de Toxicit\u00e9 du Sardo)",
+            "viewer_count": 44901,
+            "started_at": "2020-05-26T17:51:53Z",
+            "language": "fr",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_domingo-{width}x{height}.jpg",
+            "tag_ids": [
+                "6f655045-9989-4ef7-8f85-1edcec42d648"
+            ]
+        },
+        {
+            "id": "1731455409",
+            "user_id": "39426641",
+            "user_name": "Evelone192",
+            "game_id": "509658",
+            "type": "live",
+            "title": "\u041b\u0423\u0427\u0428\u0418\u0419 \u041c\u0410\u0424\u0418\u041e\u0417\u041d\u0418\u041a \u041d\u0415 \u042f ",
+            "viewer_count": 43445,
+            "started_at": "2020-05-26T17:13:36Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evelone192-{width}x{height}.jpg",
+            "tag_ids": [
+                "0569b171-2a2b-476e-a596-5bdfb45a1327"
+            ]
+        },
+        {
+            "id": "38299613216",
+            "user_id": "17337557",
+            "user_name": "DrDisrespect",
+            "game_id": "512710",
+            "type": "live",
+            "title": "$50,000 Warzone Tournament 1pm PT | @DrDisrespect",
+            "viewer_count": 40750,
+            "started_at": "2020-05-26T17:13:15Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_drdisrespect-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "1733075761",
+            "user_id": "45044816",
+            "user_name": "MontanaBlack88",
+            "game_id": "512710",
+            "type": "live",
+            "title": "Numero Uno",
+            "viewer_count": 32383,
+            "started_at": "2020-05-26T19:36:45Z",
+            "language": "de",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_montanablack88-{width}x{height}.jpg",
+            "tag_ids": [
+                "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+            ]
+        },
+        {
+            "id": "1728815169",
+            "user_id": "181077473",
+            "user_name": "gaules",
+            "game_id": "32399",
+            "type": "live",
+            "title": "Fnatic vs GODSENT DreamHack Masters 2020 - Gaurentena Dia 73 - Gaupoints em dobro na Quarentena",
+            "viewer_count": 30514,
+            "started_at": "2020-05-26T11:27:20Z",
+            "language": "pt",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gaules-{width}x{height}.jpg",
+            "tag_ids": [
+                "39ee8140-901a-4762-bfca-8260dea1310f"
+            ]
+        },
+        {
+            "id": "38298547728",
+            "user_id": "23161357",
+            "user_name": "LIRIK",
+            "game_id": "510578",
+            "type": "live",
+            "title": "Aftermath story ",
+            "viewer_count": 29715,
+            "started_at": "2020-05-26T16:03:13Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38299671488",
+            "user_id": "83232866",
+            "user_name": "ibai",
+            "game_id": "32982",
+            "type": "live",
+            "title": "\ud83d\ude43\ud83d\ude43 Pesadilla en la cocina + GTA Roleplay | Unai, Anthony y Chan en busca de su imperio \ud83d\ude43\ud83d\ude43\n",
+            "viewer_count": 27490,
+            "started_at": "2020-05-26T17:16:57Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ibai-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+            ]
+        },
+        {
+            "id": "38300911680",
+            "user_id": "77649106",
+            "user_name": "Ampeterby7",
+            "game_id": "27471",
+            "type": "live",
+            "title": "CARRERA DE DIAMANTES CONTRA GREFG - Calvaland",
+            "viewer_count": 27185,
+            "started_at": "2020-05-26T18:30:10Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ampeterby7-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                "fd8f5e68-42d3-4544-a273-5fc92dabc568"
+            ]
+        },
+        {
+            "id": "1729529473",
+            "user_id": "44335356",
+            "user_name": "ESL_Dota2b",
+            "game_id": "29595",
+            "type": "live",
+            "title": "LIVE: OG vs Winstrike - ESL One Birmingham 2020 - Group Stage - EU & CIS",
+            "viewer_count": 25000,
+            "started_at": "2020-05-26T13:17:50Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_dota2b-{width}x{height}.jpg",
+            "tag_ids": [
+                "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38298188480",
+            "user_id": "52091823",
+            "user_name": "Castro_1021",
+            "game_id": "512804",
+            "type": "live",
+            "title": "PACKING 99 RONALDO:   @Castro1021   ",
+            "viewer_count": 22950,
+            "started_at": "2020-05-26T15:37:34Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_castro_1021-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "1730089041",
+            "user_id": "44880944",
+            "user_name": "ElmiilloR",
+            "game_id": "21779",
+            "type": "live",
+            "title": "#5 500LP | 2 d\u00edas #SoloQChallenge2020 soloqchallenge.gg | @elmiillor on socials",
+            "viewer_count": 22163,
+            "started_at": "2020-05-26T14:34:18Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_elmiillor-{width}x{height}.jpg",
+            "tag_ids": [
+                "51529054-5baf-493e-8961-2a43e4d0c6ac",
+                "e8344a1b-cdbb-42f3-860c-1bc0d9d86dc7",
+                "48e53ed8-3a3e-4bac-874c-3ee311db33b2",
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+            ]
+        },
+        {
+            "id": "38301739360",
+            "user_id": "60056333",
+            "user_name": "Tfue",
+            "game_id": "512710",
+            "type": "live",
+            "title": "$50,000 Tournament w/ Cod Pros",
+            "viewer_count": 22083,
+            "started_at": "2020-05-26T19:14:58Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tfue-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "1728572113",
+            "user_id": "213749122",
+            "user_name": "dota2mc_ru",
+            "game_id": "29595",
+            "type": "live",
+            "title": "[RU] OG vs Winstrike | BO3 | 1-1 | ESL One Birmingham EU/CIS  ",
+            "viewer_count": 22076,
+            "started_at": "2020-05-26T10:38:34Z",
+            "language": "ru",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dota2mc_ru-{width}x{height}.jpg",
+            "tag_ids": [
+                "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                "a005b174-b20e-46b1-8679-4589fef81c8e",
+                "b13ce7d5-d513-49ff-a957-76f193df42aa",
+                "13c95a9e-a17d-4225-b199-d08cb8e66f40",
+                "2a14b52e-d459-4c92-be11-5d86b898f6b6"
+            ]
+        },
+        {
+            "id": "38302055680",
+            "user_id": "71092938",
+            "user_name": "xQcOW",
+            "game_id": "509658",
+            "type": "live",
+            "title": "ACTUAL INSANE GAMING ASTRONAUT. COMPUTING ORC, JUICING COMMANDER",
+            "viewer_count": 21594,
+            "started_at": "2020-05-26T19:32:22Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xqcow-{width}x{height}.jpg",
+            "tag_ids": [
+                "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+            ]
+        },
+        {
+            "id": "38301329840",
+            "user_id": "512977322",
+            "user_name": "SLAKUN10",
+            "game_id": "32982",
+            "type": "live",
+            "title": "Cuarto d\u00eda en la ciudad, elkevin probando nuevos trabajos",
+            "viewer_count": 20749,
+            "started_at": "2020-05-26T18:54:03Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_slakun10-{width}x{height}.jpg",
+            "tag_ids": [
+                "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+            ]
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam81T0RVek5TNDJOemd3T1RjM01qVTNOeXdpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In0sImEiOnsiQ3Vyc29yIjoiZXlKeklqb3lNRGMwT1M0NE5EUTFNVGs1TURnNExDSmtJanBtWVd4elpTd2lkQ0k2ZEhKMVpYMD0ifX0"
+    }
+}

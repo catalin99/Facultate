@@ -1,0 +1,148 @@
+{
+    "total": 265,
+    "data": [
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "30105209",
+            "to_name": "puncayshun",
+            "followed_at": "2020-05-26T04:02:47Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "69031635",
+            "to_name": "Speedrun",
+            "followed_at": "2020-05-25T17:39:05Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "35780889",
+            "to_name": "Simply",
+            "followed_at": "2020-05-21T20:28:50Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "109069634",
+            "to_name": "rsgloryandgold",
+            "followed_at": "2020-05-20T02:38:57Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "141122650",
+            "to_name": "gusjohnson",
+            "followed_at": "2020-05-19T20:21:27Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "101368940",
+            "to_name": "Summoningsalt",
+            "followed_at": "2020-05-19T13:26:21Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "84432477",
+            "to_name": "SwaggerSouls",
+            "followed_at": "2020-05-18T04:35:19Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "179860029",
+            "to_name": "Jawsh",
+            "followed_at": "2020-05-18T03:14:46Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "48367280",
+            "to_name": "Dwhatever",
+            "followed_at": "2020-05-12T11:14:36Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "81298008",
+            "to_name": "Ambish",
+            "followed_at": "2020-05-09T21:41:17Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "31468943",
+            "to_name": "SimpleFlips",
+            "followed_at": "2020-05-08T08:52:08Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "47303560",
+            "to_name": "jonathanantoine",
+            "followed_at": "2020-05-03T13:22:12Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "117083340",
+            "to_name": "TPAIN",
+            "followed_at": "2020-05-02T12:42:52Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "185048086",
+            "to_name": "WilburSoot",
+            "followed_at": "2020-05-02T12:03:26Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "132969119",
+            "to_name": "akki941",
+            "followed_at": "2020-05-01T12:30:00Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "31582036",
+            "to_name": "Wilko",
+            "followed_at": "2020-04-30T14:04:20Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "105533253",
+            "to_name": "broxh_",
+            "followed_at": "2020-04-29T01:07:22Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "56962861",
+            "to_name": "DSKoopa",
+            "followed_at": "2020-04-28T00:49:20Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "252736634",
+            "to_name": "Zedd",
+            "followed_at": "2020-04-27T00:30:55Z"
+        },
+        {
+            "from_id": "94753024",
+            "from_name": "Mizkif",
+            "to_id": "66839428",
+            "to_name": "Sobiez",
+            "followed_at": "2020-04-26T05:39:07Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1ODc4Nzk1NDc3ODQxMTA2MjUifX0"
+    }
+}

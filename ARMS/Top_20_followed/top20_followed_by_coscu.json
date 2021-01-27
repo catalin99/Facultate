@@ -1,0 +1,148 @@
+{
+    "total": 671,
+    "data": [
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "228341122",
+            "to_name": "kunzeratv",
+            "followed_at": "2020-05-27T05:47:20Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "64323296",
+            "to_name": "Livvvid",
+            "followed_at": "2020-05-27T02:56:20Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "123782776",
+            "to_name": "tarzaned",
+            "followed_at": "2020-05-26T18:00:22Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "187940611",
+            "to_name": "SantiRios9",
+            "followed_at": "2020-05-25T01:19:52Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "500429430",
+            "to_name": "luckraok",
+            "followed_at": "2020-05-24T07:05:36Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "144199601",
+            "to_name": "eliminated__",
+            "followed_at": "2020-05-23T22:36:01Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "515659681",
+            "to_name": "NicoLechat10",
+            "followed_at": "2020-05-14T23:00:56Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "421838340",
+            "to_name": "sashagrey",
+            "followed_at": "2020-05-14T22:38:58Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "188576942",
+            "to_name": "joaqocolombo",
+            "followed_at": "2020-05-14T20:58:27Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "100534455",
+            "to_name": "Pinx3l",
+            "followed_at": "2020-05-13T07:06:25Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "52168532",
+            "to_name": "ZeKoXx",
+            "followed_at": "2020-05-12T01:53:08Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "46021793",
+            "to_name": "jizakude",
+            "followed_at": "2020-05-12T01:23:31Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "489255759",
+            "to_name": "tomasit00",
+            "followed_at": "2020-05-12T01:18:47Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "192329556",
+            "to_name": "urieluno_",
+            "followed_at": "2020-05-12T01:09:29Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "447933149",
+            "to_name": "TINOhz",
+            "followed_at": "2020-05-12T01:05:09Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "508281333",
+            "to_name": "ca_juano",
+            "followed_at": "2020-05-12T01:03:13Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "142951699",
+            "to_name": "tomyyr",
+            "followed_at": "2020-05-12T00:58:55Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "221336247",
+            "to_name": "elrubio01",
+            "followed_at": "2020-05-12T00:54:36Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "521231271",
+            "to_name": "elgoyoo",
+            "followed_at": "2020-05-10T03:46:31Z"
+        },
+        {
+            "from_id": "36473331",
+            "from_name": "coscu",
+            "to_id": "102404582",
+            "to_name": "silersito23",
+            "followed_at": "2020-05-10T03:37:30Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1ODkwODE4NTA4NjQ4Mzk4MzcifX0"
+    }
+}

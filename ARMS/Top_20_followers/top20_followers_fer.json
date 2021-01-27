@@ -1,0 +1,148 @@
+{
+    "total": 363864,
+    "data": [
+        {
+            "from_id": "211894574",
+            "from_name": "carlosoliveira5855",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:15:14Z"
+        },
+        {
+            "from_id": "516394775",
+            "from_name": "yanshowsa",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:14:41Z"
+        },
+        {
+            "from_id": "482038858",
+            "from_name": "thiagobiavatt",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:09:54Z"
+        },
+        {
+            "from_id": "250008671",
+            "from_name": "rgbkz",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:06:50Z"
+        },
+        {
+            "from_id": "232882596",
+            "from_name": "lolic13f",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:06:11Z"
+        },
+        {
+            "from_id": "530450051",
+            "from_name": "farmador_de_keys",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:04:03Z"
+        },
+        {
+            "from_id": "524615358",
+            "from_name": "rodolfobr93",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:59Z"
+        },
+        {
+            "from_id": "46716759",
+            "from_name": "wolfphere",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:53Z"
+        },
+        {
+            "from_id": "153429354",
+            "from_name": "guuhmilanesi",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:41Z"
+        },
+        {
+            "from_id": "192083770",
+            "from_name": "aauura",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:40Z"
+        },
+        {
+            "from_id": "56869573",
+            "from_name": "edmoluizfilho",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:16Z"
+        },
+        {
+            "from_id": "145433298",
+            "from_name": "mb_crowley",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:06Z"
+        },
+        {
+            "from_id": "456620504",
+            "from_name": "xcsmxx",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:03:00Z"
+        },
+        {
+            "from_id": "75576635",
+            "from_name": "sildiam",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:59Z"
+        },
+        {
+            "from_id": "457003096",
+            "from_name": "mcosta3",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:50Z"
+        },
+        {
+            "from_id": "422099075",
+            "from_name": "patarra08",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:43Z"
+        },
+        {
+            "from_id": "129074435",
+            "from_name": "fusi0n11",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:40Z"
+        },
+        {
+            "from_id": "430925107",
+            "from_name": "aynami_",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:17Z"
+        },
+        {
+            "from_id": "468092175",
+            "from_name": "tlmtheprodigy",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:01Z"
+        },
+        {
+            "from_id": "514604896",
+            "from_name": "frikkzgodz",
+            "to_id": "71167031",
+            "to_name": "fer",
+            "followed_at": "2020-05-28T09:02:01Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTY1MjExNjI2NjI5MzkifX0"
+    }
+}

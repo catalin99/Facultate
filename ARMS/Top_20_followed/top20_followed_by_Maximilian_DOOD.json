@@ -1,0 +1,148 @@
+{
+    "total": 96,
+    "data": [
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "43096342",
+            "to_name": "XiBassiX",
+            "followed_at": "2020-05-17T10:05:32Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "13016632",
+            "to_name": "RayRay19wun",
+            "followed_at": "2020-01-25T23:11:31Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "44019353",
+            "to_name": "nickyfgc",
+            "followed_at": "2019-12-31T23:30:33Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "12691278",
+            "to_name": "IFCYipeS",
+            "followed_at": "2019-12-28T21:46:15Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "31986378",
+            "to_name": "HurtboxTV",
+            "followed_at": "2019-12-10T05:23:49Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "442552530",
+            "to_name": "KAISERWAVE",
+            "followed_at": "2019-11-14T03:36:11Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "1527327",
+            "to_name": "Sajam",
+            "followed_at": "2019-10-29T22:21:24Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "17118622",
+            "to_name": "banehollow3789",
+            "followed_at": "2019-10-22T04:23:49Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "24807987",
+            "to_name": "game_versus",
+            "followed_at": "2019-07-26T11:35:02Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "3713327",
+            "to_name": "Bum1six3",
+            "followed_at": "2019-07-17T01:35:18Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "12743164",
+            "to_name": "DashXero",
+            "followed_at": "2019-07-02T02:28:14Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "62509474",
+            "to_name": "REO_MK",
+            "followed_at": "2019-03-30T12:08:47Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "68485910",
+            "to_name": "AustinCreed",
+            "followed_at": "2019-03-01T11:17:13Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "30734610",
+            "to_name": "tatsunical",
+            "followed_at": "2019-02-12T02:03:13Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "14891712",
+            "to_name": "CarcinogenSDA",
+            "followed_at": "2019-01-27T10:05:38Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "24565008",
+            "to_name": "SonicFox",
+            "followed_at": "2019-01-16T02:50:31Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "8957332",
+            "to_name": "SandyRavage",
+            "followed_at": "2018-12-29T08:04:17Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "142132586",
+            "to_name": "WoolieVersus",
+            "followed_at": "2018-11-25T04:06:06Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "27481628",
+            "to_name": "FgtvLive",
+            "followed_at": "2018-11-16T17:41:28Z"
+        },
+        {
+            "from_id": "30104304",
+            "from_name": "Maximilian_DOOD",
+            "to_id": "136075396",
+            "to_name": "linkorz_",
+            "followed_at": "2018-11-13T20:13:22Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1NDIxNDAwMDIzMzczNjY0MjcifX0"
+    }
+}

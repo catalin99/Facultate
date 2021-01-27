@@ -1,0 +1,64 @@
+{
+    "total": 8,
+    "data": [
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "42776357",
+            "to_name": "PlayHearthstone",
+            "followed_at": "2020-03-25T17:13:44Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "56649026",
+            "to_name": "Quin69",
+            "followed_at": "2020-03-12T01:14:49Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "55297839",
+            "to_name": "Firebat",
+            "followed_at": "2020-03-05T02:28:17Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "26261471",
+            "to_name": "Asmongold",
+            "followed_at": "2019-08-27T03:43:57Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "44811367",
+            "to_name": "Zeddy",
+            "followed_at": "2018-12-11T22:32:33Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "54872524",
+            "to_name": "underflowR",
+            "followed_at": "2017-11-18T06:33:02Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "8677389",
+            "to_name": "GenjiArmorXII",
+            "followed_at": "2016-10-18T08:27:56Z"
+        },
+        {
+            "from_id": "29795919",
+            "from_name": "nl_Kripp",
+            "to_id": "29795936",
+            "to_name": "nl_Krippi",
+            "followed_at": "2012-04-19T19:00:07Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjEzMzQ4NjIwMDc3OTUxNTUwMDAifX0"
+    }
+}

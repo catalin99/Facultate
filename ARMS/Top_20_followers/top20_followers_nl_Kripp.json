@@ -1,0 +1,148 @@
+{
+    "total": 1372555,
+    "data": [
+        {
+            "from_id": "138473484",
+            "from_name": "Dziango",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T09:09:26Z"
+        },
+        {
+            "from_id": "518013038",
+            "from_name": "tjrrus122",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T09:00:50Z"
+        },
+        {
+            "from_id": "536587859",
+            "from_name": "avaggcf",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:58:56Z"
+        },
+        {
+            "from_id": "536587923",
+            "from_name": "grahtill92",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:58:03Z"
+        },
+        {
+            "from_id": "500189654",
+            "from_name": "hookeymon",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:57:37Z"
+        },
+        {
+            "from_id": "33014205",
+            "from_name": "Mr___Sunshine",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:55:23Z"
+        },
+        {
+            "from_id": "250040532",
+            "from_name": "ghost_scou1",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:52:36Z"
+        },
+        {
+            "from_id": "72846843",
+            "from_name": "kanahuro",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:51:48Z"
+        },
+        {
+            "from_id": "43090899",
+            "from_name": "GGOneMoreGame",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:51:39Z"
+        },
+        {
+            "from_id": "503166328",
+            "from_name": "PiggyPaps",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:51:09Z"
+        },
+        {
+            "from_id": "118017701",
+            "from_name": "The_Numbat",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:50:48Z"
+        },
+        {
+            "from_id": "278480207",
+            "from_name": "ahmt_efe01",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:49:13Z"
+        },
+        {
+            "from_id": "72013070",
+            "from_name": "bemyplayer2",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:48:20Z"
+        },
+        {
+            "from_id": "441316780",
+            "from_name": "martian_refridgerator",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:47:07Z"
+        },
+        {
+            "from_id": "33195645",
+            "from_name": "youni22",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:46:49Z"
+        },
+        {
+            "from_id": "460363523",
+            "from_name": "Brolyius",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:43:27Z"
+        },
+        {
+            "from_id": "37435133",
+            "from_name": "ninjaXtream",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:40:22Z"
+        },
+        {
+            "from_id": "94398897",
+            "from_name": "Chicknosaurus_Rx",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:37:17Z"
+        },
+        {
+            "from_id": "77456597",
+            "from_name": "thezwischenzug",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:33:29Z"
+        },
+        {
+            "from_id": "257453229",
+            "from_name": "fr7_blackfur",
+            "to_id": "29795919",
+            "to_name": "nl_Kripp",
+            "followed_at": "2020-05-28T08:29:12Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTQ1NTIyNTY1MTEzMzMifX0"
+    }
+}

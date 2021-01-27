@@ -1,0 +1,148 @@
+{
+    "total": 20,
+    "data": [
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "55782451",
+            "to_name": "Sideshow",
+            "followed_at": "2020-04-12T09:20:19Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "69012069",
+            "to_name": "m0xyy",
+            "followed_at": "2020-03-02T02:21:28Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "90075599",
+            "to_name": "SamitoFPS",
+            "followed_at": "2020-02-10T20:49:33Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "31953024",
+            "to_name": "ItsTryHard",
+            "followed_at": "2020-01-13T11:39:12Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "51929371",
+            "to_name": "mL7support",
+            "followed_at": "2020-01-05T08:22:14Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "31582795",
+            "to_name": "Kephrii",
+            "followed_at": "2019-11-06T06:45:11Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "135246610",
+            "to_name": "ChipSa",
+            "followed_at": "2019-10-12T19:50:59Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "131986952",
+            "to_name": "FroggerOW",
+            "followed_at": "2019-07-27T11:36:37Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "41314239",
+            "to_name": "dafran",
+            "followed_at": "2019-05-20T09:54:19Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "170665523",
+            "to_name": "smurf5",
+            "followed_at": "2019-03-17T07:28:23Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "137512364",
+            "to_name": "OverwatchLeague",
+            "followed_at": "2019-02-15T00:38:42Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "54581600",
+            "to_name": "taimoutv",
+            "followed_at": "2018-12-16T08:40:23Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "19070311",
+            "to_name": "A_Seagull",
+            "followed_at": "2018-11-18T02:13:32Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "44079069",
+            "to_name": "BEATesports",
+            "followed_at": "2018-02-04T21:05:10Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "156567621",
+            "to_name": "OverwatchContenders",
+            "followed_at": "2017-09-03T21:27:57Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "151819490",
+            "to_name": "Keeoh",
+            "followed_at": "2017-06-23T04:09:53Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "32976177",
+            "to_name": "kirithebird",
+            "followed_at": "2017-05-02T02:27:38Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "45611785",
+            "to_name": "D_Two",
+            "followed_at": "2014-03-16T01:35:51Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "41183888",
+            "to_name": "Discario",
+            "followed_at": "2014-02-16T06:18:39Z"
+        },
+        {
+            "from_id": "4329841",
+            "from_name": "harbleu",
+            "to_id": "1228106",
+            "to_name": "chaddaddy",
+            "followed_at": "2009-03-01T03:24:43Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjEyMzU4Nzc4ODMyOTA1MTgwMDAifX0"
+    }
+}

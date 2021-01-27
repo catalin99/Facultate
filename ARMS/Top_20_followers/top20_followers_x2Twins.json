@@ -1,0 +1,148 @@
+{
+    "total": 758551,
+    "data": [
+        {
+            "from_id": "276969523",
+            "from_name": "pepus_cz",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:34Z"
+        },
+        {
+            "from_id": "530732027",
+            "from_name": "zdorito5",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:34Z"
+        },
+        {
+            "from_id": "527679667",
+            "from_name": "ratilla013",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:31Z"
+        },
+        {
+            "from_id": "501059947",
+            "from_name": "josh_33334",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:27Z"
+        },
+        {
+            "from_id": "525804302",
+            "from_name": "billy129067",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:26Z"
+        },
+        {
+            "from_id": "533917113",
+            "from_name": "torg_alpha",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:25Z"
+        },
+        {
+            "from_id": "503244167",
+            "from_name": "matteo5625",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:23Z"
+        },
+        {
+            "from_id": "535974779",
+            "from_name": "mrtiko123566",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:22Z"
+        },
+        {
+            "from_id": "232984596",
+            "from_name": "abdojo17",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:22Z"
+        },
+        {
+            "from_id": "503610368",
+            "from_name": "mertkara27",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:21Z"
+        },
+        {
+            "from_id": "450878694",
+            "from_name": "corvqy",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:21Z"
+        },
+        {
+            "from_id": "536006202",
+            "from_name": "the_silly_samon",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:20Z"
+        },
+        {
+            "from_id": "534146476",
+            "from_name": "droppolk",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:20Z"
+        },
+        {
+            "from_id": "536405980",
+            "from_name": "ttv_finboland",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:13Z"
+        },
+        {
+            "from_id": "402222703",
+            "from_name": "deliveredsquare",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:10Z"
+        },
+        {
+            "from_id": "504134497",
+            "from_name": "fire_sniper_b132",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:10Z"
+        },
+        {
+            "from_id": "267583622",
+            "from_name": "bill2snowman",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:09Z"
+        },
+        {
+            "from_id": "530911348",
+            "from_name": "amiralirs86",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:05Z"
+        },
+        {
+            "from_id": "535897664",
+            "from_name": "mr_dlayed",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:03Z"
+        },
+        {
+            "from_id": "202094917",
+            "from_name": "ttv_itzluma",
+            "to_id": "189290002",
+            "to_name": "x2Twins",
+            "followed_at": "2020-05-28T09:19:03Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1OTA2NTc1NDMxNzI4NDk5MTEifX0"
+    }
+}

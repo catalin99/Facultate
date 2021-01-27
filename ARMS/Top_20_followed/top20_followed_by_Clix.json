@@ -1,0 +1,148 @@
+{
+    "total": 304,
+    "data": [
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "38594688",
+            "to_name": "Fresh",
+            "followed_at": "2020-05-25T07:55:57Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "195007466",
+            "to_name": "ThomeFN",
+            "followed_at": "2020-05-25T06:55:03Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "450775736",
+            "to_name": "stevewillsendit",
+            "followed_at": "2020-05-25T02:25:28Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "448765053",
+            "to_name": "FurioussFN",
+            "followed_at": "2020-05-25T00:22:09Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "432841639",
+            "to_name": "psychoislive",
+            "followed_at": "2020-05-19T01:58:52Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "238361285",
+            "to_name": "ItsYungBullz",
+            "followed_at": "2020-05-16T07:25:21Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "91957114",
+            "to_name": "gucciiyo",
+            "followed_at": "2020-05-14T20:39:13Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "479702406",
+            "to_name": "trisskers",
+            "followed_at": "2020-05-14T05:41:51Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "142073418",
+            "to_name": "dereknlmb",
+            "followed_at": "2020-05-10T01:06:23Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "480451648",
+            "to_name": "BSTYuli",
+            "followed_at": "2020-05-01T20:54:07Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "212744599",
+            "to_name": "Co1azo",
+            "followed_at": "2020-04-24T05:55:34Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "405008403",
+            "to_name": "UnknownxArmy",
+            "followed_at": "2020-04-18T17:31:29Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "218771156",
+            "to_name": "uhzur",
+            "followed_at": "2020-04-18T06:38:19Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "279924490",
+            "to_name": "uhslayte",
+            "followed_at": "2020-04-17T19:43:36Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "195305446",
+            "to_name": "KingSnags",
+            "followed_at": "2020-04-14T21:44:56Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "194863688",
+            "to_name": "herrioo",
+            "followed_at": "2020-04-11T19:37:31Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "181869336",
+            "to_name": "nickkaustin",
+            "followed_at": "2020-04-02T03:56:13Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "25085210",
+            "to_name": "b_vannessa",
+            "followed_at": "2020-03-31T20:58:29Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "66272442",
+            "to_name": "Nikolarn",
+            "followed_at": "2020-03-31T20:51:41Z"
+        },
+        {
+            "from_id": "233300375",
+            "from_name": "Clix",
+            "to_id": "218798916",
+            "to_name": "ImSpeedyGonzalez",
+            "followed_at": "2020-03-26T04:44:28Z"
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6IjE1ODUxOTc4Njg5MDc4MjUyNTQifX0"
+    }
+}
