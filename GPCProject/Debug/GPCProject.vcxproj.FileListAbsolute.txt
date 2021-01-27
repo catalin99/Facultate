@@ -1,0 +1,4 @@
+C:\Faculty\GPCProject\Debug\GPCProject.exe
+C:\Faculty\GPCProject\Debug\GPCProject.pdb
+W:\Faculty\GPCProject\Debug\GPCProject.exe
+W:\Faculty\GPCProject\Debug\GPCProject.pdb
